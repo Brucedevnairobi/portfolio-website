@@ -16,7 +16,7 @@ import { SiRedux } from "react-icons/si";
 
 export default function Home() {
   return (
-    <div className="w-full md:max-w-screen-2xl mx-auto bg-primary">
+    <div className="w-full md:max-w-screen-2xl mx-auto">
       <nav className="pt-6">
         <NavBar />
       </nav>
@@ -56,7 +56,7 @@ export default function Home() {
             </section>
             <button className="flex items-center mx-auto flex-row">
               <span className="text-center beacon-dot block h-3 w-3 bg-green-500 rounded-full"></span>
-              <h1 className="text-slate-500 px-4">Slots Available</h1>
+              <h1 className="text-slate-500 px-2">Slots Available</h1>
             </button>
           
         </main>
