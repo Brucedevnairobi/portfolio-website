@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+import NavBar from "@/components/NavBar";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
@@ -14,7 +16,11 @@ import { SiRedux } from "react-icons/si";
 
 export default function Home() {
   return (
-    <div className="w-full md:max-w-screen-2xl mx-auto bg-slate-90">
+    <div className="w-full md:max-w-screen-2xl mx-auto bg-primary">
+      <nav className="pt-6">
+        <NavBar />
+      </nav>
+
       <div className="flex flex-row items-center pt-40 justify-between">
         <main className=" sm:mx-auto">
           <h1 className="sm:text-4xl md:text-6xl text-slate-500">
@@ -32,10 +38,27 @@ export default function Home() {
             <br /> code quality and scalable architectural solutions.
             <br /> Forever chasing that elusive zero-bug state.
           </p>
-          {/*
-      Book a Call Button.
-      Subscription-Based Developer
-      */}
+          <section className="flex flex-row space-x-16 mt-8">
+            <button className="text-sm text-white p-2 px-4 rounded-3xl bg-slate-900">
+              <Link
+                className=""
+                href="https://calendly.com/bruce14simiyu"
+                target="blank"
+              >
+                Book a Call
+              </Link>
+            </button>
+            <section className="flex flex-col">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-sm">
+                <Link href="./daas">Subscription-Based Developer</Link>
+              </button>
+            </section>
+            </section>
+            <button className="flex items-center mx-auto flex-row">
+              <span className="text-center beacon-dot block h-3 w-3 bg-green-500 rounded-full"></span>
+              <h1 className="text-slate-500 px-4">Slots Available</h1>
+            </button>
+          
         </main>
         <div className="sm:hidden md:flex flex-col items-center md:translate-y-52 md:mr-40">
           <Image
@@ -208,85 +231,110 @@ export default function Home() {
       <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16">
         Latest <span className="font-bold">Projects</span>
       </h1>
-      <p className="pl-16 pt-8 text-slate-500">I`m always working on something. Here are some of my latest projects.</p>
+      <p className="pl-16 pt-8 text-slate-500">
+        I`m always working on something. Here are some of my latest projects.
+      </p>
       <section className="px-16 pt-8 gap-2 sm:grid sm:grid-cols-2 md:grid-cols-3 md:gap-16">
         <div>
-        <div className="cursor-pointer rounded-xl shadow-lg">
-          <Image
-            src="/chat-with-log.png"
-            width={100}
-            height={100}
-            alt="chatwithlogimage"
-            className=" sm:w-[300px] md:w-[360px] rounded-xl"
-          />
-        </div>
-        <div className="flex flex-row items-center space-x-4 pt-4">
-        <h6 className="flex text-xs">30th March, &apos;24</h6>
-        <div className="flex flex-row space-x-2">
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">Next</button>
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">TypeScript</button>
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">Tailwind</button>
-        </div>
-        </div>
-        </div>
-        <div>
-        <div className="cursor-pointer rounded-xl shadow-lg">
-          <Image
-            src="/aws-amplify.png"
-            width={100}
-            height={100}
-            alt="chatwithlogimage"
-            className=" sm:w-[300px] md:w-[360px] rounded-xl"
-          />
-        </div>
-        <div className="flex flex-row items-center space-x-4 pt-4">
-        <h6 className="flex text-xs">18th April, &apos;24</h6>
-        <div className="flex flex-row space-x-2">
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">React(ts)</button>
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">EC2</button>
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">Tailwind</button>
-        </div>
-        </div>
+          <div className="cursor-pointer rounded-xl shadow-lg">
+            <Image
+              src="/chat-with-log.png"
+              width={100}
+              height={100}
+              alt="chatwithlogimage"
+              className=" sm:w-[300px] md:w-[360px] rounded-xl"
+            />
+          </div>
+          <div className="flex flex-row items-center space-x-4 pt-4">
+            <h6 className="flex text-xs">30th March, &apos;24</h6>
+            <div className="flex flex-row space-x-2">
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                Next
+              </button>
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                TypeScript
+              </button>
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                Tailwind
+              </button>
+            </div>
+          </div>
         </div>
         <div>
-        <div className="cursor-pointer rounded-xl shadow-lg">
-          <Image
-            src="/invest.png"
-            width={100}
-            height={100}
-            alt="chatwithlogimage"
-            className=" sm:w-[300px] md:w-[360px] rounded-xl"
-          />
-        </div>
-        <div className="flex flex-row items-center space-x-4 pt-4">
-        <h6 className="flex text-xs">19th July, &apos;24</h6>
-        <div className="flex flex-row space-x-2">
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">TypeScript</button>
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">CI/CD</button>
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">Python</button>
-        </div>
-        </div>
+          <div className="cursor-pointer rounded-xl shadow-lg">
+            <Image
+              src="/aws-amplify.png"
+              width={100}
+              height={100}
+              alt="chatwithlogimage"
+              className=" sm:w-[300px] md:w-[360px] rounded-xl"
+            />
+          </div>
+          <div className="flex flex-row items-center space-x-4 pt-4">
+            <h6 className="flex text-xs">18th April, &apos;24</h6>
+            <div className="flex flex-row space-x-2">
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                React(ts)
+              </button>
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                EC2
+              </button>
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                Tailwind
+              </button>
+            </div>
+          </div>
         </div>
         <div>
-        <div className="cursor-pointer rounded-xl shadow-lg">
-          <Image
-            src="/crypto-trading.png"
-            width={100}
-            height={100}
-            alt="chatwithlogimage"
-            className=" sm:w-[300px] md:w-[360px] rounded-xl"
-          />
+          <div className="cursor-pointer rounded-xl shadow-lg">
+            <Image
+              src="/invest.png"
+              width={100}
+              height={100}
+              alt="chatwithlogimage"
+              className=" sm:w-[300px] md:w-[360px] rounded-xl"
+            />
+          </div>
+          <div className="flex flex-row items-center space-x-4 pt-4">
+            <h6 className="flex text-xs">19th July, &apos;24</h6>
+            <div className="flex flex-row space-x-2">
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                TypeScript
+              </button>
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                CI/CD
+              </button>
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                Python
+              </button>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-row items-center space-x-4 pt-4">
-        <h6 className="flex text-xs">26th June, &apos;24</h6>
-        <div className="flex flex-row space-x-2">
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">TypeScript</button>
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">CI/CD</button>
-        <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">Tailwind</button>
+        <div>
+          <div className="cursor-pointer rounded-xl shadow-lg">
+            <Image
+              src="/crypto-trading.png"
+              width={100}
+              height={100}
+              alt="chatwithlogimage"
+              className=" sm:w-[300px] md:w-[360px] rounded-xl"
+            />
+          </div>
+          <div className="flex flex-row items-center space-x-4 pt-4">
+            <h6 className="flex text-xs">26th June, &apos;24</h6>
+            <div className="flex flex-row space-x-2">
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                TypeScript
+              </button>
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                CI/CD
+              </button>
+              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+                Tailwind
+              </button>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
-       
       </section>
       <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16">
         Latest <span className="font-bold">Articles</span>
@@ -308,7 +356,9 @@ export default function Home() {
           </p>
         </div>
         <div className="md:w-80 h-36 border-[1px]  hover:cursor-pointer rounded-xl p-4 shadow-lg sm:w-full">
-          <h3 className="text-xl font-bold text-slate-700">Start Development</h3>
+          <h3 className="text-xl font-bold text-slate-700">
+            Start Development
+          </h3>
           <p className="text-sm text-slate-500">
             After our chat, I’ll dive into your project. Expect regular updates
             and opportunities to give your input—your feedback is crucial!

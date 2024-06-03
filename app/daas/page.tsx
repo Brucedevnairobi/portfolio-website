@@ -1,8 +1,9 @@
 import React from "react";
-
+import NavBar from "@/components/NavBar";
 const page = () => {
   return (
     <div>
+       <nav className="pt-6"><NavBar /></nav>
       <h1 className="text-6xl font-bold text-center pt-32 text-slate-700">
         Developer as a Service
       </h1>

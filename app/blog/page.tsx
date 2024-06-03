@@ -1,8 +1,9 @@
 import React from "react";
-
+import NavBar from "@/components/NavBar";
 const page = () => {
   return (
     <div>
+       <nav className="pt-6"><NavBar /></nav>
       <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16">
         Latest <span className="font-bold">Articles</span>
       </h1>
