@@ -39,7 +39,7 @@ export default function Home() {
             <br /> code quality and scalable architectural solutions.
             <br /> Forever chasing that elusive zero-bug state.
           </p>
-          <section className="flex flex-row space-x-16 mt-8 sm:justify-center">
+          <section className="flex flex-row space-x-16 mt-8 sm:pl-16">
             <button className="text-sm text-white p-2 px-4 rounded-3xl bg-slate-900">
               <Link
                 className=""
@@ -147,7 +147,7 @@ export default function Home() {
         End-to-End
         <span className="font-bold"> Development</span>
       </h3>
-      <section className="pt-8 flex flex-col md:flex-row md:justify-between">
+      <section className="pt-8 flex flex-col md:flex-row md:space-x-40 md:items-center">
         <h1 className="sm:text-sm md:text-md w-[600px] text-slate-500 pl-16">
           Bridging the gap between innovation and functionality, my experience
           offers an integrated suite of services for full-stack development,
@@ -160,18 +160,18 @@ export default function Home() {
           with a bias towards frontend development and cloud computing,
           including but not limited to;
         </h1>
-        <div className=" flex sm:flex-col md:flex-col md:pr-40 sm:items-center sm:pt-8">
-          <section className="flex flex-row gap-x-20">
+        <div className=" sm:mx-auto sm:pt-8">
+          <section className="flex flex-row gap-x-28">
             <SiNextdotjs className="text-slate-500 w-12 h-12" />
             <SiTypescript className="text-slate-500 w-12 h-12" />
             <FaReact className="text-slate-500 w-12 h-12" />
           </section>
-          <section className="flex flex-row gap-x-20 pt-4">
+          <section className="flex flex-row gap-x-28 pt-4">
             <SiPostgresql className="text-slate-500 w-12 h-12" />
             <SiPython className="text-slate-500 w-12 h-12" />
             <FaAws className="text-slate-500 w-12 h-12" />
           </section>
-          <section className="flex flex-row gap-x-20 pt-4">
+          <section className="flex flex-row gap-x-28 pt-4">
             <SiJest className="text-slate-500 w-12 h-12" />
             <SiTailwindcss className="text-slate-500 w-12 h-12" />
             <SiRedux className="text-slate-500 w-12 h-12" />
@@ -307,13 +307,13 @@ export default function Home() {
           </div>
         </div>
         <div>
-          <div className="cursor-pointer rounded-xl shadow-lg">
+          <div className="cursor-pointer rounded-4xl shadow-lg">
             <Image
               src="/crypto-trading.png"
               width={100}
               height={100}
               alt="chatwithlogimage"
-              className=" sm:w-[300px] md:w-[360px] rounded-2xl"
+              className=" sm:w-[300px] md:w-[360px] rounded-4xl"
             />
           </div>
           <div className="flex flex-row items-center space-x-4 pt-4">
@@ -347,7 +347,9 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-row items-center space-x-6 pt-4">
-            <h6 className="sm:hidden md:flex text-slate-500 text-xs">Feb 14, &apos;24</h6>
+            <h6 className="sm:hidden md:flex text-slate-500 text-xs">
+              Feb 14, &apos;24
+            </h6>
             <div className="flex space-x-2 md:float-right">
               <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
                 Next
@@ -372,7 +374,9 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-row items-center space-x-6 pt-4">
-            <h6 className="sm:hidden md:flex text-slate-500 flex text-xs">April 18, &apos;24</h6>
+            <h6 className="sm:hidden md:flex text-slate-500 flex text-xs">
+              April 18, &apos;24
+            </h6>
             <div className="flex md:float-right space-x-2">
               <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
                 React(ts)
