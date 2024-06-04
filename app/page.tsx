@@ -17,7 +17,7 @@ import { SiRedux } from "react-icons/si";
 
 export default function Home() {
   return (
-    <div className="w-full md:max-w-screen-2xl mx-auto">
+    <div className="w-full md:max-w-screen-2xl mx-auto overflow-hidden">
       <nav className="pt-6">
         <NavBar />
       </nav>
