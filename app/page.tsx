@@ -17,12 +17,12 @@ import { SiRedux } from "react-icons/si";
 
 export default function Home() {
   return (
-    <div className="w-full md:max-w-screen-2xl">
+    <div className="w-full md:max-w-screen-2xl mx-auto">
       <nav className="pt-6">
         <NavBar />
       </nav>
 
-      <div className="flex flex-row items-center pt-40 justify-between">
+      <div className="flex flex-row items-center pt-40 justify-between ">
         <main className=" sm:mx-auto p-8">
           <h1 className="max-sm:text-4xl sm:pl-16 md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />

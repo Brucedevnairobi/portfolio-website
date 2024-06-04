@@ -5,7 +5,7 @@ import Link from "next/link";
 const NavBar = () => {
   return (
     <div>
-      <nav className=" text-slate-400 tracking-tighter  font-medium">
+      <nav className=" text-slate-400 tracking-tighter font-200">
         <ul className="hidden md:flex md:items-center md:justify-center gap-8">
           {NavLinks.map((link, index) => (
             <li key={index}>
