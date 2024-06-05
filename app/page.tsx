@@ -17,14 +17,14 @@ import { SiRedux } from "react-icons/si";
 
 export default function Home() {
   return (
-    <div className="w-full md:max-w-screen-2xl mx-auto overflow-hidden">
+    <div className="relative w-full md:max-w-screen-2xl mx-auto overflow-hidden">
       <nav className="pt-6">
         <NavBar />
       </nav>
 
       <div className="flex flex-row items-center pt-40 justify-between ">
         <main className=" sm:mx-auto p-8">
-          <h1 className="max-sm:text-4xl sm:pl-16 md:text-6xl tracking-tighter text-slate-500">
+          <h1 className="max-sm:text-4xl sm:px-16 md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />
             <span className="font-bold text-slate-700">Software Craftsman</span>
           </h1>
@@ -56,13 +56,13 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="max-sm:hidden md:flex flex-col items-center md:translate-y-52 md:mr-40">
+        <div className="max-sm:hidden md:flex flex-col items-center md:translate-y-52 mx-auto">
           <Image
             src="/profile.jpg"
             width={260}
             height={200}
             alt="Profile Picture"
-            className="rounded-xl shadow-lg"
+            className="rounded-3xl shadow-lg"
           />
           <h1 className="text-xl font-bold pt-4 text-slate-700">
             Bruce Simiyu
@@ -118,14 +118,14 @@ export default function Home() {
         for you to get started. Here’s how it works:
       </p>
       <section className="sm:items-center md:items-start sm:justify-center md:flex-row flex flex-wrap">
-        <div className="w-80 h-36 border-[1px] border-teal-200 hover:cursor-pointer rounded-xl p-4 shadow-lg mx-auto">
+        <div className="w-80 h-36 border-[1px] border-slate-900 hover:cursor-pointer rounded-xl p-4 shadow-lg mx-auto">
           <h3 className="text-xl font-bold text-slate-700">Select a Plan</h3>
           <p className="text-sm text-slate-600">
             Not sure which plan is right for you? Book a call and I’ll help you
             choose the best plan for your project.
           </p>
         </div>
-        <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-teal-200 rounded-xl p-4 shadow-lg mx-auto">
+        <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto">
           <h3 className="text-xl font-bold text-slate-700">Onboarding Email</h3>
           <p className="text-sm text-slate-600">
             You will receive a welcome email with all the details you need to
@@ -133,7 +133,7 @@ export default function Home() {
             project.
           </p>
         </div>
-        <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-teal-200 rounded-xl p-4 shadow-lg mx-auto">
+        <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto">
           <h3 className="text-xl font-bold text-slate-700">
             Start Development
           </h3>
@@ -143,7 +143,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <h3 className="text-3xl font-semibold text-slate-700 pt-12 pl-16">
+      <h3 className="text-3xl font-semibold text-slate-700 pt-12 px-16">
         End-to-End
         <span className="font-bold"> Development</span>
       </h3>
@@ -160,18 +160,18 @@ export default function Home() {
           with a bias towards frontend development and cloud computing,
           including but not limited to;
         </h1>
-        <div className="max-sm:mx-auto max-sm:pt-8 max-md:justify-center md:pr-16">
-          <section className="flex flex-row gap-x-28">
+        <div className="max-sm:mx-auto max-sm:pt-8 max-md:justify-center">
+          <section className="flex flex-row gap-x-32">
             <SiNextdotjs className="text-slate-500 w-12 h-12" />
             <SiTypescript className="text-slate-500 w-12 h-12" />
             <FaReact className="text-slate-500 w-12 h-12" />
           </section>
-          <section className="flex flex-row gap-x-28 pt-4">
+          <section className="flex flex-row gap-x-32 pt-4">
             <SiPostgresql className="text-slate-500 w-12 h-12" />
             <SiPython className="text-slate-500 w-12 h-12" />
             <FaAws className="text-slate-500 w-12 h-12" />
           </section>
-          <section className="flex flex-row gap-x-28 pt-4">
+          <section className="flex flex-row gap-x-32 pt-4">
             <SiJest className="text-slate-500 w-12 h-12" />
             <SiTailwindcss className="text-slate-500 w-12 h-12" />
             <SiRedux className="text-slate-500 w-12 h-12" />
