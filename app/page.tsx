@@ -22,13 +22,13 @@ export default function Home() {
         <NavBar />
       </nav>
 
-      <div className="flex flex-row items-center pt-40 justify-between ">
-        <main className=" sm:mx-auto p-8">
+      <div className="flex flex-row items-center pt-8">
+        <main className="sm:mx-auto p-8">
           <h1 className="max-sm:text-4xl sm:px-16 md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />
             <span className="font-bold text-slate-700">Software Craftsman</span>
           </h1>
-          <p className="leading-2 tracking-tighter sm:text-md sm:pl-16 md:text-md pt-4 text-slate-500">
+          <p className="leading-12 tracking-tighter sm:text-md sm:px-16 md:text-md pt-4 text-slate-500">
             Strategic, multi-disciplinary, creative software developer with a{" "}
             <br /> strong belief in highly crafted digital experiences, an eye
             for innovation, <br /> and an obsession for pixel perfection.
@@ -40,7 +40,7 @@ export default function Home() {
             <br /> Forever chasing that elusive zero-bug state.
           </p>
           <section className="flex flex-row space-x-16 mt-8 sm:pl-16">
-            <button className="text-sm text-white p-2 px-4 rounded-3xl bg-slate-900">
+            <button className="text-sm text-white p-2 px- rounded-3xl bg-slate-900">
               <Link
                 className=""
                 href="https://calendly.com/bruce14simiyu"
@@ -56,7 +56,7 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="max-sm:hidden md:flex flex-col items-center md:translate-y-52 mx-auto">
+        <div className="sm:hidden md:flex flex-col items-center md:translate-y-52 mx-auto">
           <Image
             src="/profile.jpg"
             width={260}
@@ -94,7 +94,7 @@ export default function Home() {
         <Image src="/jwf.webp" width={100} height={100} alt="jwf" />
         <Image src="/ms.webp" width={100} height={100} alt="ms" />
       </div>
-      <h1 className="max-sm:text-3xl md:text-6xl text-slate-700 text-center pt-8 font-semibold tracking-tighter">
+      <h1 className="max-sm:text-3xl md:text-6xl text-slate-700 text-center pt-8 font-bold tracking-tighter">
         Developer as a Service
       </h1>
       <p className="flex max-sm:text-center text-slate-500 mx-auto pt-8 sm:p-8 max-sm:px-8 md:px-60 text-sm">
@@ -109,15 +109,15 @@ export default function Home() {
         deliver the right skills at the right time while aligning costs with
         your evolving needs.
       </p>
-      <h3 className="text-3xl font-semibold text-slate-700 pt-8 pl-16">
+      <h3 className="text-3xl font-semibold text-slate-700 pt-8 px-16 ">
         Seamless <span className="font-bold">Onboarding</span>
       </h3>
-      <p className="text-slate-500 pl-16">
+      <p className="text-slate-500 px-16">
         I’ve streamlined the onboarding process to make it as easy as possible{" "}
         <br />
         for you to get started. Here’s how it works:
       </p>
-      <section className="sm:items-center md:items-start sm:justify-center md:flex-row flex flex-wrap">
+      <section className="sm:items-center md:items-start sm:justify-center md:flex-row flex px-16">
         <div className="w-80 h-36 border-[1px] border-slate-900 hover:cursor-pointer rounded-xl p-4 shadow-lg mx-auto">
           <h3 className="text-xl font-bold text-slate-700">Select a Plan</h3>
           <p className="text-sm text-slate-600">
@@ -143,11 +143,11 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <h3 className="text-3xl font-semibold text-slate-700 pt-12 px-16">
+      <h3 className="text-3xl font-semibold text-slate-700 pt-12 md:px-16 sm:mx-auto">
         End-to-End
         <span className="font-bold"> Development</span>
       </h3>
-      <section className="pt-8 flex flex-col md:flex-row md:space-x-28 md:items-center ">
+      <section className="pt-8 flex flex-col md:flex-row md:space-x-28 md:items-center md:pr-16 ">
         <h1 className="sm:text-sm md:text-md max-sm:text-center text-slate-500 px-16">
           Bridging the gap between innovation and functionality, my experience
           offers an integrated suite of services for full-stack development,
@@ -160,18 +160,18 @@ export default function Home() {
           with a bias towards frontend development and cloud computing,
           including but not limited to;
         </h1>
-        <div className="max-sm:mx-auto max-sm:pt-8 max-md:justify-center">
-          <section className="flex flex-row gap-x-32">
+        <div className="sm:mx-auto sm:pt-8 ">
+          <section className="flex flex-row gap-x-24">
             <SiNextdotjs className="text-slate-500 w-12 h-12" />
             <SiTypescript className="text-slate-500 w-12 h-12" />
             <FaReact className="text-slate-500 w-12 h-12" />
           </section>
-          <section className="flex flex-row gap-x-32 pt-4">
+          <section className="flex flex-row gap-x-24 pt-4">
             <SiPostgresql className="text-slate-500 w-12 h-12" />
             <SiPython className="text-slate-500 w-12 h-12" />
             <FaAws className="text-slate-500 w-12 h-12" />
           </section>
-          <section className="flex flex-row gap-x-32 pt-4">
+          <section className="flex flex-row gap-x-24 pt-4">
             <SiJest className="text-slate-500 w-12 h-12" />
             <SiTailwindcss className="text-slate-500 w-12 h-12" />
             <SiRedux className="text-slate-500 w-12 h-12" />
