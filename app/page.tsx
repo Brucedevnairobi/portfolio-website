@@ -56,7 +56,7 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="max-sm:hidden max-md:flex flex-col  md:translate-y-52 md:pr-16">
+        <div className="max-sm:hidden max-md:flex flex-col  md:translate-y-52 min-md:pr-16">
           <Image
             src="/profile.jpg"
             width={260}
