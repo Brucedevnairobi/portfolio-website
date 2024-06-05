@@ -56,7 +56,7 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="max-sm:hidden max-md:flex flex-col items-center md:translate-y-52">
+        <div className="max-sm:hidden max-md:flex flex-col  md:translate-y-52 md:pr-16">
           <Image
             src="/profile.jpg"
             width={260}
@@ -64,14 +64,14 @@ export default function Home() {
             alt="Profile Picture"
             className="rounded-3xl shadow-lg"
           />
-          <h1 className="text-xl font-bold pt-4 text-slate-700">
+          <h1 className="text-center text-xl font-bold pt-4 text-slate-700">
             Bruce Simiyu
           </h1>
-          <p className="text-sm text-slate-500 pb-2">
+          <p className="text-center text-sm text-slate-500 pb-2">
             Software Engineer | Technical Writer
           </p>
 
-          <div className="flex space-x-2 pt-2 text-slate-600">
+          <div className="flex items-center justify-center space-x-2 pt-2 text-slate-600">
             <BsLinkedin />
             <BsTwitterX />
             <BsGithub />
@@ -80,7 +80,7 @@ export default function Home() {
             href="http://"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm pt-2 text-indigo-500"
+            className="text-sm flex justify-center pt-2 text-indigo-500"
           >
             Download Resume
           </a>
