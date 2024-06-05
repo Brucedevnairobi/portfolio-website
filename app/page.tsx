@@ -117,7 +117,7 @@ export default function Home() {
         <br />
         for you to get started. Here’s how it works:
       </p>
-      <section className="sm:items-center md:items-start sm:justify-center md:flex-row flex px-16">
+      <section className="sm:items-center md:items-start sm:justify-center sm:flex-col md:flex-row flex px-16">
         <div className="w-80 h-36 border-[1px] border-slate-900 hover:cursor-pointer rounded-xl p-4 shadow-lg mx-auto">
           <h3 className="text-xl font-bold text-slate-700">Select a Plan</h3>
           <p className="text-sm text-slate-600">
