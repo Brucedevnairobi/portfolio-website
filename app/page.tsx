@@ -145,7 +145,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <h3 className="text-3xl font-semibold text-slate-700 pt-12 md:px-16 sm:mx-auto">
+      <h3 className="text-3xl font-semibold text-slate-700 pt-12 md:px-16 mx-auto">
         End-to-End
         <span className="font-bold"> Development</span>
       </h3>
@@ -162,7 +162,7 @@ export default function Home() {
           with a bias towards frontend development and cloud computing,
           including but not limited to;
         </h1>
-        <div className="sm:mx-auto sm:pt-8 ">
+        <div className="mx-auto pt-8 ">
           <section className="flex flex-row gap-x-24">
             <SiNextdotjs className="text-slate-500 w-12 h-12" />
             <SiTypescript className="text-slate-500 w-12 h-12" />
