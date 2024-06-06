@@ -22,13 +22,13 @@ export default function Home() {
         <NavBar />
       </nav>
 
-      <div className="flex flex-row items-center pt-8">
-        <main className="sm:mx-auto p-8">
-          <h1 className="text-3xl px-16 md:text-6xl tracking-tighter text-slate-500">
+      <div className="flex flex-row pt-8 gap-60">
+        <main className="ml-16">
+          <h1 className="text-3xl md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />
             <span className="font-bold text-slate-700">Software Craftsman</span>
           </h1>
-          <p className="leading-12 tracking-tighter text-md px-16 md:text-md pt-4 text-slate-500">
+          <p className="leading-12 tracking-tighter text-sm md:text-md pt-4 text-slate-500">
             Strategic, multi-disciplinary, creative software developer with a{" "}
             <br /> strong belief in highly crafted digital experiences, an eye
             for innovation, <br /> and an obsession for pixel perfection.
@@ -39,10 +39,10 @@ export default function Home() {
             <br /> code quality and scalable architectural solutions.
             <br /> Forever chasing that elusive zero-bug state.
           </p>
-          <section className="flex flex-row space-x-12 mt-8 sm:pl-16">
-            <button className="text-sm text-white p-2 mx-16 rounded-3xl bg-slate-900">
+          <section className="flex flex-row  gap-4 mt-8">
+            <button className="text-white p-2 rounded-3xl bg-slate-900">
               <Link
-                className=""
+                className="text-xs"
                 href="https://calendly.com/bruce14simiyu"
                 target="blank"
               >
@@ -50,24 +50,26 @@ export default function Home() {
               </Link>
             </button>
             <section className="flex flex-col">
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-sm">
-                <Link href="./daas">Subscription-Based Developer</Link>
+              <button className="bg-slate-300 rounded-3xl p-2">
+                <Link href="./daas" className="text-xs">
+                  Subscription-Based Developer
+                </Link>
               </button>
             </section>
           </section>
         </main>
-        <div className="hidden md:flex flex-col md:translate-y-52 md:mr-16">
+        <div className="hidden md:flex flex-col md:translate-y-52">
           <Image
             src="/profile.jpg"
             width={260}
-            height={200}
+            height={260}
             alt="Profile Picture"
             className="rounded-3xl shadow-lg"
           />
-          <h1 className="text-center text-xl font-bold pt-4 text-slate-700">
+          <h1 className="text-center text-sm font-bold pt-4 text-slate-700">
             Bruce Simiyu
           </h1>
-          <p className="text-center text-sm text-slate-500 pb-2">
+          <p className="mx-auto text-xs flex text-slate-500 pb-2">
             Software Engineer | Technical Writer
           </p>
 
