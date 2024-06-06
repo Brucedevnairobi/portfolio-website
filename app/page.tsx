@@ -18,17 +18,17 @@ import { SiRedux } from "react-icons/si";
 export default function Home() {
   return (
     <div className="relative w-full md:max-w-screen-2xl mx-auto overflow-hidden">
-      <nav className="pt-6">
+      <nav className="pt-10">
         <NavBar />
       </nav>
 
       <div className="flex flex-row items-center pt-8">
         <main className="sm:mx-auto p-8">
-          <h1 className="max-sm:text-4xl sm:px-16 md:text-6xl tracking-tighter text-slate-500">
+          <h1 className="text-3xl px-16 md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />
             <span className="font-bold text-slate-700">Software Craftsman</span>
           </h1>
-          <p className="leading-12 tracking-tighter sm:text-md sm:px-16 md:text-md pt-4 text-slate-500">
+          <p className="leading-12 tracking-tighter text-md px-16 md:text-md pt-4 text-slate-500">
             Strategic, multi-disciplinary, creative software developer with a{" "}
             <br /> strong belief in highly crafted digital experiences, an eye
             for innovation, <br /> and an obsession for pixel perfection.
@@ -39,8 +39,8 @@ export default function Home() {
             <br /> code quality and scalable architectural solutions.
             <br /> Forever chasing that elusive zero-bug state.
           </p>
-          <section className="flex flex-row space-x-16 mt-8 sm:pl-16">
-            <button className="text-sm text-white p-2 px- rounded-3xl bg-slate-900">
+          <section className="flex flex-row space-x-12 mt-8 sm:pl-16">
+            <button className="text-sm text-white p-2 mx-16 rounded-3xl bg-slate-900">
               <Link
                 className=""
                 href="https://calendly.com/bruce14simiyu"
@@ -56,7 +56,7 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="max-sm:hidden max-md:flex flex-col  md:translate-y-52 min-md:pr-16">
+        <div className="hidden md:flex flex-col md:translate-y-52 md:mr-16">
           <Image
             src="/profile.jpg"
             width={260}
