@@ -112,14 +112,14 @@ export default function Home() {
         deliver the right skills at the right time while aligning costs with
         your evolving needs.
       </p>
-      <h3 className="text-2xl md:text-3xl leading-6 tracking-tighter font-semibold text-slate-700 mt-8 mb-2 mx-16">
+      <h3 className="text-2xl md:text-3xl leading-6 tracking-tighter font-semibold text-slate-700 mt-8 mx-12">
         Seamless <span className="font-bold">Onboarding</span>
       </h3>
-      <p className="text-slate-500 mx-16 leading-6 tracking-tighter text-xs md:text-sm mb-2">
+      <p className="text-slate-500 mx-12 leading-6 tracking-tighter text-xs md:text-sm mb-2">
         I’ve streamlined the onboarding process to make it as easy as possible
         for you to get started. Here’s how it works:
       </p>
-      <section className="items-center flex-col md:flex-row flex mx-16">
+      <section className="items-center flex-col md:flex-row flex">
         <div className="w-80 h-36 border-[1px] border-slate-900 hover:cursor-pointer rounded-2xl p-4 mb-4 shadow-lg mx-auto">
           <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
             Select a Plan
@@ -187,7 +187,7 @@ export default function Home() {
       <h1 className="text-3xl md:text-6xl mt-32 text-slate-700 mx-12">
         What People Are <span className="font-bold">Saying</span>
       </h1>
-      <p className="text-slate-500 text-xs md:text-sm mt-2 mx-12">
+      <p className="text-slate-500 text-xs md:text-sm mx-12">
         My clients say- If I do it, then its done well
       </p>
       <section className=" my-4 mx-12 flex flex-col md:flex-row md:gap-4 gap-2">
@@ -236,10 +236,10 @@ export default function Home() {
           <p className="text-slate-600 text-xs">CEO @ Seven Eleven</p>
         </div>
       </section>
-      <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 px-12">
+      <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 mx-12">
         Latest <span className="font-bold">Projects</span>
       </h1>
-      <p className="mx-12 mt-2 text-xs md:text-sm text-slate-500">
+      <p className="mx-12 text-xs md:text-sm text-slate-500">
         I`m always working on something. Here are some of my latest projects.
       </p>
       <section className="mx-12 mt-8 gap-2 grid grid-cols-1 md:grid-cols-3 md:gap-16">
