@@ -23,7 +23,7 @@ export default function Home() {
       </nav>
 
       <div className="flex flex-row pt-4 gap-60">
-        <main className="ml-16 md:mt-36">
+        <main className="mx-12 md:mt-36">
           <h1 className="text-3xl md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />
             <span className="font-bold text-slate-700">Software Craftsman</span>
@@ -100,7 +100,7 @@ export default function Home() {
       <h1 className="text-3xl md:text-6xl text-slate-700 text-center mt-8 font-bold tracking-tighter">
         Developer as a Service
       </h1>
-      <p className="flex sm:text-center text-slate-500 mx-auto mt-4 leading-6 tracking-tighter md:mx-60 text-md px-4 text-center">
+      <p className="flex text-slate-500 mt-4 leading-6 tracking-tighter md:mx-60 text-md mx-10 text-center">
         As a Subscription-Based Developer, I offer businesses the versatility of
         accessing my wide-ranging expertise across multiple technology stacks
         and domains on a project basis. This allows you to leverage top
@@ -115,7 +115,7 @@ export default function Home() {
       <h3 className="text-2xl md:text-3xl leading-6 tracking-tighter font-semibold text-slate-700 mt-8 mb-2 mx-16">
         Seamless <span className="font-bold">Onboarding</span>
       </h3>
-      <p className="text-slate-500 mx-16 leading-6 tracking-tighter mb-2">
+      <p className="text-slate-500 mx-16 leading-6 tracking-tighter text-xs md:text-sm mb-2">
         I’ve streamlined the onboarding process to make it as easy as possible
         for you to get started. Here’s how it works:
       </p>
@@ -149,12 +149,12 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <h3 className="text-3xl font-semibold text-slate-700 pt-10 px-16 mx-auto">
+      <h3 className="text-3xl font-semibold text-slate-700 pt-10 mx-12">
         End-to-End
         <span className="font-bold"> Development</span>
       </h3>
-      <section className="flex flex-col md:flex-row md:space-x-32 md:items-center md:mx-16">
-        <h1 className="text-sm md:text-md max-sm:text-center text-slate-500">
+      <section className="flex flex-col md:flex-row md:space-x-32 md:items-center mx-12">
+        <h1 className="text-sm md:text-md text-slate-500">
           Bridging the gap between innovation and functionality, my experience
           offers an integrated suite of services for full-stack development,
           cloud computing, and technical writing. <br />
@@ -184,14 +184,14 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <h1 className="text-3xl md:text-6xl pt-32 text-slate-700 text-center md:mx-16">
+      <h1 className="text-3xl md:text-6xl mt-32 text-slate-700 mx-12">
         What People Are <span className="font-bold">Saying</span>
       </h1>
-      <p className="text-slate-500 text-sm mt-2 mx-16">
+      <p className="text-slate-500 text-xs md:text-sm mt-2 mx-12">
         My clients say- If I do it, then its done well
       </p>
-      <section className="py-4 max-sm:px-12 sm:grid sm:grid-cols-2 md:flex md:gap-4 sm:gap-2 md:mx-16">
-        <div className="my-2 border-[1px] md:w-1/3 border-slate-400 cursor-pointer rounded-xl p-4 shadow-lg bg-white">
+      <section className=" my-4 mx-12 flex flex-col md:flex-row md:gap-4 gap-2">
+        <div className="border-[1px] md:w-1/3 border-slate-400 cursor-pointer rounded-xl p-4 shadow-lg bg-white">
           <p className="text-medium text-slate-500 leading-6 tracking-tighter">
             &quot;Bruce expertly manages our vast product database, uploading
             around 3 million listings every four months to our Shopify store
@@ -201,7 +201,9 @@ export default function Home() {
             management strategies. We highly recommend Bruce for anyone needing
             top-notch, scalable technical solutions.&quot;
           </p>
-          <h3 className="text-md mt-2 font-bold text-slate-700">Kelvin Gatheru</h3>
+          <h3 className="text-md mt-2 font-bold text-slate-700">
+            Kelvin Gatheru
+          </h3>
           <p className="text-slate-600 text-xs">CEO @ Eighteen Twenty Four</p>
         </div>
         <div className="md:w-1/3 max-sm:my-4 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-4 shadow-lg bg-white">
@@ -213,7 +215,9 @@ export default function Home() {
             on-demand, enhancing our operational efficiency. We are extremely
             satisfied with his proactive and knowledgeable service.&quot;
           </p>
-          <h3 className="text-md mt-2 font-bold text-slate-700">Kephas Mwangi</h3>
+          <h3 className="text-md mt-2 font-bold text-slate-700">
+            Kephas Mwangi
+          </h3>
           <p className="text-slate-600 text-xs">CEO @ Zero Eleven</p>
         </div>
         <div className="md:w-1/3 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-4 shadow-lg bg-white">
@@ -226,17 +230,19 @@ export default function Home() {
             thrilled with the results and the flexible, cost-effective service
             he provides.&quot;
           </p>
-          <h3 className="text-md mt-2 font-bold text-slate-700">Lawrence Magondu</h3>
+          <h3 className="text-md mt-2 font-bold text-slate-700">
+            Lawrence Magondu
+          </h3>
           <p className="text-slate-600 text-xs">CEO @ Seven Eleven</p>
         </div>
       </section>
-      <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16">
+      <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 px-12">
         Latest <span className="font-bold">Projects</span>
       </h1>
-      <p className="px-16 pt-2 text-slate-500">
+      <p className="mx-12 mt-2 text-xs md:text-sm text-slate-500">
         I`m always working on something. Here are some of my latest projects.
       </p>
-      <section className="px-16 pt-8 gap-2 sm:grid sm:grid-cols-2 md:grid-cols-3 md:gap-16 sm:gap-12">
+      <section className="mx-12 mt-8 gap-2 grid grid-cols-1 md:grid-cols-3 md:gap-16">
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
