@@ -242,7 +242,7 @@ export default function Home() {
       <p className="mx-12 text-xs md:text-sm text-slate-500">
         I`m always working on something. Here are some of my latest projects.
       </p>
-      <section className="mx-12 mt-8 gap-2 grid grid-cols-1 md:grid-cols-3 md:gap-16">
+      <section className="mx-12 mt-8 gap-2 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16 gap-12 mb-20">
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
