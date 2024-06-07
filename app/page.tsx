@@ -22,8 +22,8 @@ export default function Home() {
         <NavBar />
       </nav>
 
-      <div className="flex flex-row pt-8 gap-60">
-        <main className="ml-16">
+      <div className="flex flex-row pt-4 gap-60">
+        <main className="ml-16 md:mt-36">
           <h1 className="text-3xl md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />
             <span className="font-bold text-slate-700">Software Craftsman</span>
@@ -40,15 +40,16 @@ export default function Home() {
             <br /> Forever chasing that elusive zero-bug state.
           </p>
           <section className="flex flex-row  gap-4 mt-8">
-            <button className="text-white p-2 rounded-3xl bg-slate-900">
-              <Link
-                className="text-xs"
-                href="https://calendly.com/bruce14simiyu"
-                target="blank"
-              >
-                Book a Call
-              </Link>
-            </button>
+            <section className="flex flex-col">
+              <button className="bg-slate-300 rounded-3xl p-2">
+                <Link
+                  href="https://calendly.com/bruce14simiyu"
+                  className="text-xs"
+                >
+                  Book a Call
+                </Link>
+              </button>
+            </section>
             <section className="flex flex-col">
               <button className="bg-slate-300 rounded-3xl p-2">
                 <Link href="./daas" className="text-xs">
@@ -88,18 +89,18 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <h1 className="sm:text-xl md:text-xl font-bold text-center pt-60 text-slate-700">
+      <h1 className="text-2xl md:text-3xl font-bold text-center pt-60 text-slate-700">
         Trusted by world leading brands
       </h1>
-      <div className="flex flex-row w-full pt-8 items-center justify-center gap-x-20">
+      <div className="flex flex-row w-full pt-8 items-center justify-center gap-x-10 md:gap-x-20">
         <Image src="/bw.webp" width={100} height={100} alt="bw" />
         <Image src="/jwf.webp" width={100} height={100} alt="jwf" />
         <Image src="/ms.webp" width={100} height={100} alt="ms" />
       </div>
-      <h1 className="max-sm:text-3xl md:text-6xl text-slate-700 text-center pt-8 font-bold tracking-tighter">
+      <h1 className="text-3xl md:text-6xl text-slate-700 text-center mt-8 font-bold tracking-tighter">
         Developer as a Service
       </h1>
-      <p className="flex max-sm:text-center text-slate-500 mx-auto pt-8 sm:p-8 max-sm:px-8 md:px-60 text-sm">
+      <p className="flex sm:text-center text-slate-500 mx-auto mt-4 leading-6 tracking-tighter md:mx-60 text-md px-4 text-center">
         As a Subscription-Based Developer, I offer businesses the versatility of
         accessing my wide-ranging expertise across multiple technology stacks
         and domains on a project basis. This allows you to leverage top
@@ -111,46 +112,49 @@ export default function Home() {
         deliver the right skills at the right time while aligning costs with
         your evolving needs.
       </p>
-      <h3 className="text-3xl font-semibold text-slate-700 pt-8 px-16 ">
+      <h3 className="text-2xl md:text-3xl leading-6 tracking-tighter font-semibold text-slate-700 mt-8 mb-2 mx-16">
         Seamless <span className="font-bold">Onboarding</span>
       </h3>
-      <p className="text-slate-500 px-16">
-        I’ve streamlined the onboarding process to make it as easy as possible{" "}
-        <br />
+      <p className="text-slate-500 mx-16 leading-6 tracking-tighter mb-2">
+        I’ve streamlined the onboarding process to make it as easy as possible
         for you to get started. Here’s how it works:
       </p>
-      <section className="items-center md:items-start flex-col md:flex-row flex px-16">
-        <div className="w-80 h-36 border-[1px] border-slate-900 hover:cursor-pointer rounded-xl p-4 shadow-lg mx-auto">
-          <h3 className="text-xl font-bold text-slate-700">Select a Plan</h3>
-          <p className="text-sm text-slate-600">
+      <section className="items-center flex-col md:flex-row flex mx-16">
+        <div className="w-80 h-36 border-[1px] border-slate-900 hover:cursor-pointer rounded-2xl p-4 mb-4 shadow-lg mx-auto">
+          <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
+            Select a Plan
+          </h3>
+          <p className="text-sm text-slate-600 leading-6 tracking-tighter">
             Not sure which plan is right for you? Book a call and I’ll help you
             choose the best plan for your project.
           </p>
         </div>
-        <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto">
-          <h3 className="text-xl font-bold text-slate-700">Onboarding Email</h3>
-          <p className="text-sm text-slate-600">
+        <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto mb-4">
+          <h3 className="text-xl tracking-tighter leading-6 font-bold text-slate-700">
+            Onboarding Email
+          </h3>
+          <p className="text-sm tracking-tighter leading-6 text-slate-600">
             You will receive a welcome email with all the details you need to
             get started. We’ll also schedule a kick-off call to discuss your
             project.
           </p>
         </div>
-        <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto">
-          <h3 className="text-xl font-bold text-slate-700">
+        <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto mb-4">
+          <h3 className="text-xl font-bold text-slate-700 tracking-tighter leading-6">
             Start Development
           </h3>
-          <p className="text-sm text-slate-600">
+          <p className="text-sm tracking-tighter leading-6 text-slate-600">
             After our chat, I’ll dive into your project. Expect regular updates
             and opportunities to give your input—your feedback is crucial!
           </p>
         </div>
       </section>
-      <h3 className="text-3xl font-semibold text-slate-700 pt-12 md:px-16 mx-auto">
+      <h3 className="text-3xl font-semibold text-slate-700 pt-10 px-16 mx-auto">
         End-to-End
         <span className="font-bold"> Development</span>
       </h3>
-      <section className="pt-8 flex flex-col md:flex-row md:space-x-28 md:items-center md:pr-16 ">
-        <h1 className="sm:text-sm md:text-md max-sm:text-center text-slate-500 px-16">
+      <section className="flex flex-col md:flex-row md:space-x-32 md:items-center md:mx-16">
+        <h1 className="text-sm md:text-md max-sm:text-center text-slate-500">
           Bridging the gap between innovation and functionality, my experience
           offers an integrated suite of services for full-stack development,
           cloud computing, and technical writing. <br />
@@ -162,7 +166,7 @@ export default function Home() {
           with a bias towards frontend development and cloud computing,
           including but not limited to;
         </h1>
-        <div className="mx-auto pt-8 ">
+        <div className="mx-auto pt-4 ">
           <section className="flex flex-row gap-x-24">
             <SiNextdotjs className="text-slate-500 w-12 h-12" />
             <SiTypescript className="text-slate-500 w-12 h-12" />
@@ -180,15 +184,15 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 max-sm:text-center md:pl-16">
+      <h1 className="text-3xl md:text-6xl pt-32 text-slate-700 text-center md:mx-16">
         What People Are <span className="font-bold">Saying</span>
       </h1>
-      <p className="text-slate-500 pt-4 pl-16">
+      <p className="text-slate-500 text-sm mt-2 mx-16">
         My clients say- If I do it, then its done well
       </p>
       <section className="py-4 max-sm:px-12 sm:grid sm:grid-cols-2 md:flex md:gap-4 sm:gap-2 md:mx-16">
-        <div className="max-sm:my-4 border-[1px] md:w-1/3 border-slate-400 cursor-pointer rounded-xl p-4 max-sm:p-4 shadow-lg bg-white">
-          <p className="text-medium text-slate-500">
+        <div className="my-2 border-[1px] md:w-1/3 border-slate-400 cursor-pointer rounded-xl p-4 shadow-lg bg-white">
+          <p className="text-medium text-slate-500 leading-6 tracking-tighter">
             &quot;Bruce expertly manages our vast product database, uploading
             around 3 million listings every four months to our Shopify store
             with remarkable precision and efficiency. His flexible
@@ -197,11 +201,11 @@ export default function Home() {
             management strategies. We highly recommend Bruce for anyone needing
             top-notch, scalable technical solutions.&quot;
           </p>
-          <h3 className="text-md font-bold text-slate-700">Kelvin Gatheru</h3>
-          <p className="text-slate-600">CEO @ Eighteen Twenty Four</p>
+          <h3 className="text-md mt-2 font-bold text-slate-700">Kelvin Gatheru</h3>
+          <p className="text-slate-600 text-xs">CEO @ Eighteen Twenty Four</p>
         </div>
-        <div className="md:w-1/3 max-sm:my-4 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-8 sm:p-4 shadow-lg bg-white">
-          <p className="text-medium text-slate-500">
+        <div className="md:w-1/3 max-sm:my-4 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-4 shadow-lg bg-white">
+          <p className="text-medium text-slate-500 tracking-tighter leading-6">
             &quot;Bruce has been instrumental in addressing our monthly IT
             inquiries and recently implemented a custom automated integration
             system for our booking platform and CRM. His expertise as a
@@ -209,11 +213,11 @@ export default function Home() {
             on-demand, enhancing our operational efficiency. We are extremely
             satisfied with his proactive and knowledgeable service.&quot;
           </p>
-          <h3 className="text-md font-bold text-slate-700">Kephas Mwangi</h3>
-          <p className="text-slate-600">CEO @ Zero Eleven</p>
+          <h3 className="text-md mt-2 font-bold text-slate-700">Kephas Mwangi</h3>
+          <p className="text-slate-600 text-xs">CEO @ Zero Eleven</p>
         </div>
-        <div className="md:w-1/3 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-8 sm:p-4 shadow-lg bg-white">
-          <p className="text-medium text-slate-500">
+        <div className="md:w-1/3 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-4 shadow-lg bg-white">
+          <p className="text-medium text-slate-500 tracking-tighter leading-6">
             &quot;Setting up our new website was seamless thanks to Bruce. He
             adapted quickly to our needs, offering patient and insightful
             guidance throughout the process. His Subscription-Based Developer
@@ -222,8 +226,8 @@ export default function Home() {
             thrilled with the results and the flexible, cost-effective service
             he provides.&quot;
           </p>
-          <h3 className="text-md font-bold text-slate-700">Lawrence Magondu</h3>
-          <p className="text-slate-600">CEO @ Seven Eleven</p>
+          <h3 className="text-md mt-2 font-bold text-slate-700">Lawrence Magondu</h3>
+          <p className="text-slate-600 text-xs">CEO @ Seven Eleven</p>
         </div>
       </section>
       <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16">
@@ -348,21 +352,22 @@ export default function Home() {
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row items-center space-x-6 pt-4">
-            <h6 className="sm:hidden md:flex text-slate-500 text-xs">
+          <div className="flex flex-row flex-start space-x-6 pb-4">
+            <h6 className="hidden justify-center md:flex text-slate-500 text-xs">
               Feb 14, &apos;24
             </h6>
-            <div className="flex space-x-2 md:float-right">
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+            <div className=" space-x-2 px-6 flex md:float-right bg-red-600 mt-4">
+              <button className="bg-slate-300 rounded-xl p-2 px-3 text-slate-900 text-xs">
                 Next
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-xl p-2 text-slate-900  px-3 text-xs">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-xl text-slate-900 p-2 px-3 text-xs">
                 Tailwind
               </button>
             </div>
+            <h6>A modern </h6>
           </div>
         </div>
         <div>
