@@ -374,7 +374,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs ">
+          <h6 className="text-slate-500 leading-4 text-xs mb-4">
             GitHub Actions, a powerful CI/CD tool, seamlessly integrates with
             Vite applications, streamlining the development process and
             enhancing collaboration among teams.
@@ -403,7 +403,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs ">
+          <h6 className="text-slate-500 leading-4 text-xs mb-4">
             Here is a deep-dive breakdown illustration showing why Tailwind CSS
             is a key developer asset for large projects and visually-stunning
             UIs.
@@ -432,7 +432,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs ">
+          <h6 className="text-slate-500 leading-4 text-xs mb-4">
             For frontend tooling, Vite can be said to have made create-react-app
             obsolete. Hot Module Replacement and performance make it an asset
             for the front end. To explore more about Vite check out this article
