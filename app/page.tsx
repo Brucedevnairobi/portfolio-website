@@ -361,7 +361,7 @@ export default function Home() {
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row flex-start space-x-6 mb-4">
+          <div className="flex justify-end space-x-6 mb-4">
             <div className=" space-x-2 mx-right mt-4">
               <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs">
                 Next
@@ -390,7 +390,7 @@ export default function Home() {
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row items-center space-x-6 mb-4">
+          <div className="flex justify-end space-x-6 mb-4">
             <div className="md:flex md:items-end space-x-2 mt-4">
               <button className="bg-slate-300 rounded-3xl p-2 text-xs">
                 React(ts)
@@ -419,15 +419,15 @@ export default function Home() {
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row items-center space-x-6 mb-4">
-            <div className="flex md:float-right space-x-2 mt-4">
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+          <div className="flex justify-end space-x-6 mb-4">
+            <div className="flex flex-end space-x-2 mt-4">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
                 CI/CD
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
                 Python
               </button>
             </div>
