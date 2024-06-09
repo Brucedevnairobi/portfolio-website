@@ -3,7 +3,7 @@ import NavBar from "@/components/NavBar";
 const page = () => {
   return (
     <div className=" ">
-       <nav className="pt-6"><NavBar /></nav>
+       <nav className="mt-10"><NavBar /></nav>
       <h1 className="pt-32 pl-32 text-6xl text-slate-700">
         Get In Touch <span className="font-bold text-slate-500">Today</span>
       </h1>

@@ -18,7 +18,7 @@ import { SiRedux } from "react-icons/si";
 export default function Home() {
   return (
     <div className="relative w-full md:max-w-screen-2xl mx-auto overflow-hidden">
-      <nav className="pt-10">
+      <nav className="mt-10">
         <NavBar />
       </nav>
 
@@ -242,7 +242,7 @@ export default function Home() {
       <p className="mx-12 text-xs md:text-sm text-slate-500">
         I`m always working on something. Here are some of my latest projects.
       </p>
-      <section className="mx-12 mt-8 gap-2 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16 gap-12 mb-20">
+      <section className="mx-12 mt-8 gap-2 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16 mb-20">
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
@@ -347,7 +347,10 @@ export default function Home() {
       <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16">
         Latest <span className="font-bold">Articles</span>
       </h1>
-      <section className="px-16 pt-8 gap-2 sm:grid sm:grid-cols-2 md:grid-cols-3 md:gap-16 sm:gap-12 pb-20">
+      <p className="mx-16 text-xs md:text-sm text-slate-500">
+        Learning and writing tech staff. Interact with my blog
+      </p>
+      <section className="mx-16 mt-8 gap-2 sm:grid sm:grid-cols-2 md:grid-cols-3 md:gap-16 sm:gap-12 pb-20">
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
@@ -358,23 +361,24 @@ export default function Home() {
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row flex-start space-x-6 pb-4">
-            <h6 className="hidden justify-center md:flex text-slate-500 text-xs">
-              Feb 14, &apos;24
-            </h6>
-            <div className=" space-x-2 px-6 flex md:float-right bg-red-600 mt-4">
-              <button className="bg-slate-300 rounded-xl p-2 px-3 text-slate-900 text-xs">
+          <div className="flex flex-row flex-start space-x-6 mb-4">
+            <div className=" space-x-2 mx-right mt-4">
+              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs">
                 Next
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 text-slate-900  px-3 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-xl text-slate-900 p-2 px-3 text-xs">
+              <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs">
                 Tailwind
               </button>
             </div>
-            <h6>A modern </h6>
           </div>
+          <h6 className="text-slate-500 leading-4 text-xs ">
+            GitHub Actions, a powerful CI/CD tool, seamlessly integrates with
+            Vite applications, streamlining the development process and
+            enhancing collaboration among teams.
+          </h6>
         </div>
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
@@ -386,22 +390,24 @@ export default function Home() {
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row items-center space-x-6 pt-4">
-            <h6 className="sm:hidden md:flex text-slate-500 flex text-xs">
-              April 18, &apos;24
-            </h6>
-            <div className="flex md:float-right space-x-2">
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+          <div className="flex flex-row items-center space-x-6 mb-4">
+            <div className="md:flex md:items-end space-x-2 mt-4">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
                 React(ts)
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
                 EC2
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
                 Tailwind
               </button>
             </div>
           </div>
+          <h6 className="text-slate-500 leading-4 text-xs ">
+            Here is a deep-dive breakdown illustration showing why Tailwind CSS
+            is a key developer asset for large projects and visually-stunning
+            UIs.
+          </h6>
         </div>
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
@@ -413,11 +419,8 @@ export default function Home() {
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row items-center space-x-6 pt-4">
-            <h6 className="sm:hidden md:flex text-xs text-slate-500">
-              July 11, &apos;24
-            </h6>
-            <div className="flex md:float-right space-x-2">
+          <div className="flex flex-row items-center space-x-6 mb-4">
+            <div className="flex md:float-right space-x-2 mt-4">
               <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
                 TypeScript
               </button>
@@ -429,6 +432,11 @@ export default function Home() {
               </button>
             </div>
           </div>
+          <h6 className="text-slate-500 leading-4 text-xs ">
+            For frontend tooling, Vite can be said to have made create-react-app
+            obsolete. Hot Module Replacement and performance make it an asset
+            for the front end. To explore more about Vite check out this article
+          </h6>
         </div>
       </section>
     </div>

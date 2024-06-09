@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 const page = () => {
   return (
     <div className="w-full mx-auto px-4 pb-16">
-       <nav className="pt-6"><NavBar /></nav>
+       <nav className="mt-10"><NavBar /></nav>
        <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16">
         Latest <span className="font-bold">Projects</span>
       </h1>
