@@ -43,8 +43,9 @@ export default function Home() {
             <section className="flex flex-col">
               <button className="bg-slate-300 rounded-3xl p-2">
                 <Link
+                target='blank'
                   href="https://calendly.com/bruce14simiyu"
-                  className="text-xs"
+                  className="text-xs leading-6 tracking-tighter"
                 >
                   Book a Call
                 </Link>
@@ -52,7 +53,7 @@ export default function Home() {
             </section>
             <section className="flex flex-col">
               <button className="bg-slate-300 rounded-3xl p-2">
-                <Link href="./daas" className="text-xs">
+                <Link href="./daas" className="text-xs leading-6 tracking-tighter">
                   Subscription-Based Developer
                 </Link>
               </button>
@@ -67,14 +68,14 @@ export default function Home() {
             alt="Profile Picture"
             className="rounded-3xl shadow-lg"
           />
-          <h1 className="text-center text-sm font-bold pt-4 text-slate-700">
+          <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter">
             Bruce Simiyu
           </h1>
-          <p className="mx-auto text-xs flex text-slate-500 pb-2">
+          <p className="mx-auto text-xs flex text-slate-500 pb-2 leading-6 tracking-tighter">
             Software Engineer | Technical Writer
           </p>
 
-          <div className="flex items-center justify-center space-x-2 pt-2 text-slate-600">
+          <div className="flex items-center justify-center space-x-2 pt-2 text-slate-600 leading-6 tracking-tighter">
             <BsLinkedin />
             <BsTwitterX />
             <BsGithub />
@@ -83,13 +84,13 @@ export default function Home() {
             href="http://"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm flex justify-center pt-2 text-indigo-500"
+            className="text-sm flex justify-center pt-2 text-indigo-500 leading-6 tracking-tighter"
           >
             Download Resume
           </a>
         </div>
       </div>
-      <h1 className="text-2xl md:text-3xl font-bold text-center pt-60 text-slate-700">
+      <h1 className="text-2xl md:text-3xl font-bold text-center pt-60 text-slate-700 leading-6 tracking-tighter">
         Trusted by world leading brands
       </h1>
       <div className="flex flex-row w-full pt-8 items-center justify-center gap-x-10 md:gap-x-20">
@@ -184,10 +185,10 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <h1 className="text-3xl md:text-6xl mt-32 text-slate-700 mx-12">
+      <h1 className="text-3xl md:text-6xl mt-32 leading-6 tracking-tighter text-slate-700 mx-12">
         What People Are <span className="font-bold">Saying</span>
       </h1>
-      <p className="text-slate-500 text-xs md:text-sm mx-12">
+      <p className="text-slate-500 text-xs leading-6 tracking-tighter md:text-sm mx-12">
         My clients say- If I do it, then its done well
       </p>
       <section className=" my-4 mx-12 flex flex-col md:flex-row md:gap-4 gap-2">
@@ -236,14 +237,14 @@ export default function Home() {
           <p className="text-slate-600 text-xs">CEO @ Seven Eleven</p>
         </div>
       </section>
-      <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 mx-12">
+      <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
         Latest <span className="font-bold">Projects</span>
       </h1>
-      <p className="mx-12 text-xs md:text-sm text-slate-500">
+      <p className="mx-12 text-xs md:text-sm text-slate-500 leading-6 tracking-tighter">
         I`m always working on something. Here are some of my latest projects.
       </p>
       <section className="mx-12 mt-8 gap-2 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16 mb-20">
-        <div>
+      <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/chat-with-log.png"
@@ -253,45 +254,53 @@ export default function Home() {
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row items-center space-x-4 pt-4">
-            <h6 className="sm:hidden flex text-xs">30th March, &apos;24</h6>
-            <div className="flex flex-row space-x-2">
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+          <div className="flex justify-end space-x-6 mb-4">
+            <div className=" space-x-2 mx-right mt-4">
+              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs">
                 Next
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs">
                 Tailwind
               </button>
             </div>
           </div>
+          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+            GitHub Actions, a powerful CI/CD tool, seamlessly integrates with
+            Vite applications, streamlining the development process and
+            enhancing collaboration among teams.
+          </h6>
         </div>
         <div>
-          <div className="cursor-pointer rounded-xl shadow-lg ">
+          <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/aws-amplify.png"
-              alt="chatwithlogimage"
               width={300}
               height={300}
+              alt="chatwithlogimage"
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row items-center space-x-4 pt-4">
-            <h6 className="sm:hidden flex text-xs">18th April, &apos;24</h6>
-            <div className="flex flex-row space-x-2">
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+          <div className="flex justify-end space-x-6 mb-4">
+            <div className="md:flex md:items-end space-x-2 mt-4">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
                 React(ts)
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
                 EC2
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
                 Tailwind
               </button>
             </div>
           </div>
+          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+            Here is a deep-dive breakdown illustration showing why Tailwind CSS
+            is a key developer asset for large projects and visually-stunning
+            UIs.
+          </h6>
         </div>
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
@@ -303,51 +312,59 @@ export default function Home() {
               className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row items-center space-x-4 pt-4">
-            <h6 className="sm:hidden flex text-xs">19th July, &apos;24</h6>
-            <div className="flex flex-row space-x-2">
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+          <div className="flex justify-end space-x-6 mb-4">
+            <div className="flex flex-end space-x-2 mt-4">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
                 CI/CD
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
                 Python
               </button>
             </div>
           </div>
+          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+            For frontend tooling, Vite can be said to have made create-react-app
+            obsolete. Hot Module Replacement and performance make it an asset
+            for the front end. To explore more about Vite check out this article
+          </h6>
         </div>
         <div>
-          <div className="cursor-pointer rounded-md shadow-lg">
+          <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/crypto-trading.png"
               width={300}
               height={300}
               alt="chatwithlogimage"
-              className=" w-[360px] rounded-2xl"
+              className="w-[360px] rounded-xl"
             />
           </div>
-          <div className="flex flex-row items-center space-x-4 pt-4">
-            <h6 className="sm:hidden flex text-xs">26th June, &apos;24</h6>
-            <div className="flex flex-row space-x-2">
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+          <div className="flex justify-end space-x-6 mb-4">
+            <div className="flex flex-end space-x-2 mt-4">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
                 CI/CD
               </button>
-              <button className="bg-slate-300 rounded-xl p-2 px-4 text-xs">
-                Tailwind
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+                Python
               </button>
             </div>
           </div>
+          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+            For frontend tooling, Vite can be said to have made create-react-app
+            obsolete. Hot Module Replacement and performance make it an asset
+            for the front end. To explore more about Vite check out this article
+          </h6>
         </div>
       </section>
-      <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16">
+      <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16 tracking-tighter leading-6">
         Latest <span className="font-bold">Articles</span>
       </h1>
-      <p className="mx-16 text-xs md:text-sm text-slate-500">
+      <p className="mx-16 text-xs md:text-sm text-slate-500 leading-6 tracking-tighter">
         Learning and writing tech staff. Interact with my blog
       </p>
       <section className="mx-16 mt-8 gap-2 sm:grid sm:grid-cols-2 md:grid-cols-3 md:gap-16 sm:gap-12 pb-20">

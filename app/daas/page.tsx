@@ -4,10 +4,10 @@ const page = () => {
   return (
     <div>
        <nav className="mt-10"><NavBar /></nav>
-      <h1 className="text-6xl font-bold text-center pt-32 text-slate-700">
+      <h1 className="text-4xl md:text-6xl tracking-tighter leading-6 font-bold text-center pt-32 text-slate-700">
         Developer as a Service
       </h1>
-      <p className="text-lg text-gray-500 text-center py-4 md:w-[800px] mx-auto">
+      <p className="text-lg leading-6 tracking-tighter text-gray-500 text-center my-4 md:w-[800px] mx-auto">
         Enjoy the versatility of accessing expert developer talent on a project
         basis, without the long-term obligations of permanent hiring. My Subscription-Based Developer
         offering provides scalable and adaptable resources tailored to the
