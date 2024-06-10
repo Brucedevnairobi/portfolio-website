@@ -11,7 +11,7 @@ const NavBar = () => {
             <li key={index}>
               <Link
                 href={link.route}
-                className="hover:text-gray-400 hover:font-bold focus:text-gray-700 focus:underline focus:font-bold"
+                className="hover:text-gray-400 hover:font-bold focus:text-gray-700 focus:underline focus:font-bold leading-6 tracking-tighter"
               >
                 {link.label}
               </Link>
