@@ -14,6 +14,7 @@ import { FaAws } from "react-icons/fa6";
 import { SiJest } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
+import { ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -43,7 +44,7 @@ export default function Home() {
             <section className="flex flex-col">
               <button className="bg-black rounded-3xl p-2">
                 <Link
-                target='blank'
+                  target="blank"
                   href="https://calendly.com/bruce14simiyu"
                   className="text-xs leading-6 tracking-tighter text-slate-200"
                 >
@@ -53,7 +54,10 @@ export default function Home() {
             </section>
             <section className="flex flex-col">
               <button className="bg-slate-300 rounded-3xl p-2">
-                <Link href="./daas" className="text-xs leading-6 tracking-tighter">
+                <Link
+                  href="./daas"
+                  className="text-xs leading-6 tracking-tighter"
+                >
                   Subscription-Based Developer
                 </Link>
               </button>
@@ -76,15 +80,27 @@ export default function Home() {
           </p>
 
           <div className="flex items-center justify-center space-x-2 pt-2 text-slate-600 leading-6 tracking-tighter">
-            <BsLinkedin />
-            <BsTwitterX />
-            <BsGithub />
+            <Link
+              href="https://www.linkedin.com/in/o-bruce-simiyu-2947a0240/"
+              target="blank"
+            >
+              {" "}
+              <BsLinkedin />
+            </Link>
+            <Link href="https://x.com/BRUCESIMIYU2" target="blank">
+              {" "}
+              <BsTwitterX />
+            </Link>
+            <Link href="https://github.com/Brucedevnairobi" target="blank">
+              {" "}
+              <BsGithub />
+            </Link>
           </div>
           <a
             href="http://"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm flex justify-center pt-2 text-slate-400 leading-6 tracking-tighter"
+            className="text-xs flex justify-center items-center mt-2 gap-2 text-slate-400 leading-6 tracking-tighter"
           >
             Download Resume
           </a>
@@ -205,7 +221,9 @@ export default function Home() {
           <h3 className="text-md mt-2 font-bold text-slate-700 leading-6 tracking-tighter">
             Kelvin Gatheru
           </h3>
-          <p className="text-slate-600 text-xs leading-6 tracking-tighter">CEO @ Eighteen Twenty Four</p>
+          <p className="text-slate-600 text-xs leading-6 tracking-tighter">
+            CEO @ Eighteen Twenty Four
+          </p>
         </div>
         <div className="md:w-1/3 max-sm:my-4 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-4 shadow-lg bg-white">
           <p className="text-medium text-slate-500 tracking-tighter leading-6">
@@ -219,7 +237,9 @@ export default function Home() {
           <h3 className="text-md mt-2 font-bold text-slate-700 leading-6 tracking-tighter">
             Kephas Mwangi
           </h3>
-          <p className="text-slate-600 text-xs leading-6 tracking-tighter">CEO @ Zero Eleven</p>
+          <p className="text-slate-600 text-xs leading-6 tracking-tighter">
+            CEO @ Zero Eleven
+          </p>
         </div>
         <div className="md:w-1/3 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-4 shadow-lg bg-white">
           <p className="text-medium text-slate-500 tracking-tighter leading-6">
@@ -234,7 +254,9 @@ export default function Home() {
           <h3 className="text-md mt-2 font-bold text-slate-700 leading-6 tracking-tighter">
             Lawrence Magondu
           </h3>
-          <p className="text-slate-600 text-xs leading-6 tracking-tighter">CEO @ Seven Eleven</p>
+          <p className="text-slate-600 text-xs leading-6 tracking-tighter">
+            CEO @ Seven Eleven
+          </p>
         </div>
       </section>
       <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
@@ -244,7 +266,7 @@ export default function Home() {
         I`m always working on something. Here are some of my latest projects.
       </p>
       <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16  mb-20">
-      <div>
+        <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/chat-with-log.png"
@@ -256,18 +278,18 @@ export default function Home() {
           </div>
           <div className="flex justify-end space-x-6 mb-4">
             <div className=" space-x-2 mx-right mt-4">
-              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
                 Next
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs">
+              <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs leading-3 tracking-tighter">
                 Tailwind
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
             GitHub Actions, a powerful CI/CD tool, seamlessly integrates with
             Vite applications, streamlining the development process and
             enhancing collaboration among teams.
@@ -285,18 +307,18 @@ export default function Home() {
           </div>
           <div className="flex justify-end space-x-6 mb-4">
             <div className="md:flex md:items-end space-x-2 mt-4">
-              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
                 React(ts)
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
                 EC2
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
                 Tailwind
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
             Here is a deep-dive breakdown illustration showing why Tailwind CSS
             is a key developer asset for large projects and visually-stunning
             UIs.
@@ -314,18 +336,18 @@ export default function Home() {
           </div>
           <div className="flex justify-end space-x-6 mb-4">
             <div className="flex flex-end space-x-2 mt-4">
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                 CI/CD
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                 Python
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
             For frontend tooling, Vite can be said to have made create-react-app
             obsolete. Hot Module Replacement and performance make it an asset
             for the front end. To explore more about Vite check out this article
@@ -343,18 +365,18 @@ export default function Home() {
           </div>
           <div className="flex justify-end space-x-6 mb-4">
             <div className="flex flex-end space-x-2 mt-4">
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                 CI/CD
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter ">
                 Python
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
             For frontend tooling, Vite can be said to have made create-react-app
             obsolete. Hot Module Replacement and performance make it an asset
             for the front end. To explore more about Vite check out this article
@@ -380,18 +402,18 @@ export default function Home() {
           </div>
           <div className="flex justify-end space-x-6 mb-4">
             <div className=" space-x-2 mx-right mt-4">
-              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
                 Next
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs">
+              <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs leading-3 tracking-tighter">
                 Tailwind
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
             GitHub Actions, a powerful CI/CD tool, seamlessly integrates with
             Vite applications, streamlining the development process and
             enhancing collaboration among teams.
@@ -409,18 +431,18 @@ export default function Home() {
           </div>
           <div className="flex justify-end space-x-6 mb-4">
             <div className="md:flex md:items-end space-x-2 mt-4">
-              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
                 React(ts)
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
                 EC2
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 text-xs">
+              <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
                 Tailwind
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
             Here is a deep-dive breakdown illustration showing why Tailwind CSS
             is a key developer asset for large projects and visually-stunning
             UIs.
@@ -438,18 +460,18 @@ export default function Home() {
           </div>
           <div className="flex justify-end space-x-6 mb-4">
             <div className="flex flex-end space-x-2 mt-4">
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 leading-3 tracking-tighter rounded-3xl p-2 px-4 text-xs">
                 TypeScript
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 leading-3 tracking-tighter rounded-3xl p-2 px-4 text-xs">
                 CI/CD
               </button>
-              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs">
+              <button className="bg-slate-300 rounded-3xl leading-3 tracking-tighter p-2 px-4 text-xs">
                 Python
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 text-xs mb-4">
+          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs md:text-sm mb-4">
             For frontend tooling, Vite can be said to have made create-react-app
             obsolete. Hot Module Replacement and performance make it an asset
             for the front end. To explore more about Vite check out this article

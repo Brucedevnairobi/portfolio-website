@@ -3,11 +3,18 @@ import NavBar from "@/components/NavBar";
 const page = () => {
   return (
     <div className=" ">
-       <nav className="mt-10"><NavBar /></nav>
-      <h1 className="pt-32 pl-32 text-6xl text-slate-700">
+      <nav className="mt-10">
+        <NavBar />
+      </nav>
+      <h1 className="pt-32 mx-12 text-4xl md:text-6xl text-slate-700 leading-6 tracking-tighter">
         Get In Touch <span className="font-bold text-slate-500">Today</span>
       </h1>
-      <p className="pl-32">Im eager to meet you and explore what we can create together. Lets connect... </p>
+      <p className="mx-12 text-slate-500 leading-6 tracking-tighter">
+        Shoot me a message via  <a href="https://mail.google.com/mail" target="blank">
+          mail
+        </a>or this form
+        ...{" "}
+      </p>
     </div>
   );
 };
