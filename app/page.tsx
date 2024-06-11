@@ -41,11 +41,11 @@ export default function Home() {
           </p>
           <section className="flex flex-row  gap-4 mt-8">
             <section className="flex flex-col">
-              <button className="bg-slate-300 rounded-3xl p-2">
+              <button className="bg-black rounded-3xl p-2">
                 <Link
                 target='blank'
                   href="https://calendly.com/bruce14simiyu"
-                  className="text-xs leading-6 tracking-tighter"
+                  className="text-xs leading-6 tracking-tighter text-slate-200"
                 >
                   Book a Call
                 </Link>
@@ -84,7 +84,7 @@ export default function Home() {
             href="http://"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm flex justify-center pt-2 text-indigo-500 leading-6 tracking-tighter"
+            className="text-sm flex justify-center pt-2 text-slate-400 leading-6 tracking-tighter"
           >
             Download Resume
           </a>
@@ -150,12 +150,12 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <h3 className="text-3xl font-semibold text-slate-700 pt-10 mx-12">
+      <h3 className="text-3xl font-semibold text-slate-700 pt-10 mx-12 leading-6 tracking-tighter">
         End-to-End
         <span className="font-bold"> Development</span>
       </h3>
       <section className="flex flex-col md:flex-row md:space-x-32 md:items-center mx-12">
-        <h1 className="text-sm md:text-md text-slate-500">
+        <h1 className="text-sm md:text-md text-slate-500 leading-6 tracking-tighter">
           Bridging the gap between innovation and functionality, my experience
           offers an integrated suite of services for full-stack development,
           cloud computing, and technical writing. <br />
@@ -202,10 +202,10 @@ export default function Home() {
             management strategies. We highly recommend Bruce for anyone needing
             top-notch, scalable technical solutions.&quot;
           </p>
-          <h3 className="text-md mt-2 font-bold text-slate-700">
+          <h3 className="text-md mt-2 font-bold text-slate-700 leading-6 tracking-tighter">
             Kelvin Gatheru
           </h3>
-          <p className="text-slate-600 text-xs">CEO @ Eighteen Twenty Four</p>
+          <p className="text-slate-600 text-xs leading-6 tracking-tighter">CEO @ Eighteen Twenty Four</p>
         </div>
         <div className="md:w-1/3 max-sm:my-4 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-4 shadow-lg bg-white">
           <p className="text-medium text-slate-500 tracking-tighter leading-6">
@@ -216,10 +216,10 @@ export default function Home() {
             on-demand, enhancing our operational efficiency. We are extremely
             satisfied with his proactive and knowledgeable service.&quot;
           </p>
-          <h3 className="text-md mt-2 font-bold text-slate-700">
+          <h3 className="text-md mt-2 font-bold text-slate-700 leading-6 tracking-tighter">
             Kephas Mwangi
           </h3>
-          <p className="text-slate-600 text-xs">CEO @ Zero Eleven</p>
+          <p className="text-slate-600 text-xs leading-6 tracking-tighter">CEO @ Zero Eleven</p>
         </div>
         <div className="md:w-1/3 border-[1px] border-slate-400 cursor-pointer  rounded-xl p-4 shadow-lg bg-white">
           <p className="text-medium text-slate-500 tracking-tighter leading-6">
@@ -231,10 +231,10 @@ export default function Home() {
             thrilled with the results and the flexible, cost-effective service
             he provides.&quot;
           </p>
-          <h3 className="text-md mt-2 font-bold text-slate-700">
+          <h3 className="text-md mt-2 font-bold text-slate-700 leading-6 tracking-tighter">
             Lawrence Magondu
           </h3>
-          <p className="text-slate-600 text-xs">CEO @ Seven Eleven</p>
+          <p className="text-slate-600 text-xs leading-6 tracking-tighter">CEO @ Seven Eleven</p>
         </div>
       </section>
       <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
@@ -426,7 +426,7 @@ export default function Home() {
             UIs.
           </h6>
         </div>
-        <div>
+        <div className="">
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/invest.png"
