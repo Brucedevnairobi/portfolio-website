@@ -12,7 +12,7 @@ const page = () => {
       <p className="mx-12 text-slate-500 leading-6 tracking-tighter">
         Shoot me a message via  <a href="https://mail.google.com/mail" target="blank">
           mail
-        </a>or this form
+        </a> or this form
         ...{" "}
       </p>
     </div>
