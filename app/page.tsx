@@ -266,7 +266,10 @@ export default function Home() {
         I`m always working on something. Here are some of my latest projects.
       </p>
       <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16  mb-20">
-        <div>
+        <Link
+          href="https://github.com/Brucedevnairobi/Nikestore"
+          target="blank"
+        >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/chat-with-log.png"
@@ -294,7 +297,7 @@ export default function Home() {
             Vite applications, streamlining the development process and
             enhancing collaboration among teams.
           </h6>
-        </div>
+        </Link>
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
@@ -324,7 +327,10 @@ export default function Home() {
             UIs.
           </h6>
         </div>
-        <div>
+        <Link
+          href="https://github.com/Brucedevnairobi/portfolio-website"
+          target="blank"
+        >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/invest.png"
@@ -352,8 +358,11 @@ export default function Home() {
             obsolete. Hot Module Replacement and performance make it an asset
             for the front end. To explore more about Vite check out this article
           </h6>
-        </div>
-        <div>
+        </Link>
+        <Link
+          href="https://github.com/Brucedevnairobi/stack_overflow_with_ai"
+          target="blank"
+        >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/crypto-trading.png"
@@ -381,7 +390,7 @@ export default function Home() {
             obsolete. Hot Module Replacement and performance make it an asset
             for the front end. To explore more about Vite check out this article
           </h6>
-        </div>
+        </Link>
       </section>
       <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16 tracking-tighter leading-6">
         Latest <span className="font-bold">Articles</span>
@@ -448,7 +457,10 @@ export default function Home() {
             UIs.
           </h6>
         </div>
-        <div className="">
+        <Link
+          href="https://github.com/Brucedevnairobi/stack_overflow_with_ai"
+          target="blank"
+        >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/invest.png"
@@ -476,7 +488,7 @@ export default function Home() {
             obsolete. Hot Module Replacement and performance make it an asset
             for the front end. To explore more about Vite check out this article
           </h6>
-        </div>
+        </Link>
       </section>
     </div>
   );
