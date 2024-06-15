@@ -106,7 +106,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <h1 className="text-2xl md:text-3xl font-bold text-center pt-60 text-slate-700 leading-6 tracking-tighter">
+      <h1 className="text-2xl md:text-3xl font-bold text-center pt-20 text-slate-700 leading-6 tracking-tighter">
         Trusted by world leading brands
       </h1>
       <div className="flex flex-row w-full pt-8 items-center justify-center gap-x-10 md:gap-x-20">
