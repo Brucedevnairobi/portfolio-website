@@ -23,7 +23,7 @@ export default function Home() {
         <NavBar />
       </nav>
 
-      <div className="flex flex-row pt-4 gap-60">
+      <div className=" pt-4 flex flex-col md:flex-row md:gap-48">
         <main className="mx-12 md:mt-36">
           <h1 className="text-3xl md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />
@@ -64,11 +64,11 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="hidden md:flex flex-col md:translate-y-52">
+        <div className="flex flex-col md:translate-y-52 items-center mt-8">
           <Image
             src="/profile.jpg"
-            width={260}
-            height={260}
+            width={200}
+            height={200}
             alt="Profile Picture"
             className="rounded-3xl shadow-lg"
           />
