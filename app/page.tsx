@@ -64,13 +64,13 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="flex flex-col md:translate-y-52 items-center">
+        <div className="flex flex-col md:translate-y-52 items-center mt-10">
           <Image
             src="/profile.jpg"
             width={250}
             height={250}
             alt="Profile Picture"
-            className="rounded-3xl shadow-lg float-right"
+            className="rounded-3xl shadow-lg float-right mr-12"
           />
           <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter">
             Bruce Simiyu
@@ -106,7 +106,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <h1 className="text-2xl md:text-3xl font-bold text-center pt-20 text-slate-700 leading-6 tracking-tighter">
+      <h1 className="text-2xl md:text-3xl font-bold text-center pt-40 text-slate-700 leading-6 tracking-tighter">
         Trusted by world leading brands
       </h1>
       <div className="flex flex-row w-full pt-8 items-center justify-center gap-x-10 md:gap-x-20">

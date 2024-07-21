@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}  mx-auto w-full`}>
+      <body className={`${inter.className} background-light850_dark100  mx-auto w-full`}>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
