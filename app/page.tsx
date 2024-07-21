@@ -23,7 +23,7 @@ export default function Home() {
         <NavBar />
       </nav>
 
-      <div className=" pt-4 flex flex-col md:flex-row md:gap-48">
+      <div className=" pt-4 flex flex-col md:flex-row md:justify-between">
         <main className="mx-12 md:mt-36">
           <h1 className="text-3xl md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />
@@ -64,13 +64,13 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="flex flex-col md:translate-y-52 items-center mt-8">
+        <div className="flex flex-col md:translate-y-52 items-center">
           <Image
             src="/profile.jpg"
-            width={200}
-            height={200}
+            width={250}
+            height={250}
             alt="Profile Picture"
-            className="rounded-3xl shadow-lg"
+            className="rounded-3xl shadow-lg float-right"
           />
           <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter">
             Bruce Simiyu
@@ -273,10 +273,10 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/chat-with-log.png"
-              width={300}
+              width={436}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -302,10 +302,10 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/aws-amplify.png"
-              width={300}
+              width={436}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl bg-red-500"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -334,10 +334,10 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/invest.png"
-              width={300}
+              width={436}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -366,10 +366,10 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/crypto-trading.png"
-              width={300}
+              width={436}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -403,10 +403,10 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/chat-with-log.png"
-              width={300}
+              width={436}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -432,10 +432,10 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/aws-amplify.png"
-              width={300}
+              width={436}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -464,10 +464,10 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/invest.png"
-              width={300}
+              width={436}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">

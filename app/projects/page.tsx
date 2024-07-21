@@ -1,11 +1,14 @@
 import React from "react";
-import Image from 'next/image'
 import NavBar from "@/components/NavBar";
+import Image from "next/image";
+
 const page = () => {
   return (
     <div className="w-full mx-auto px-4 pb-16">
-       <nav className="mt-10"><NavBar /></nav>
-       <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
+      <nav className="mt-10">
+        <NavBar />
+      </nav>
+      <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
         Latest <span className="font-bold">Projects</span>
       </h1>
       <p className="mx-12 text-xs md:text-sm text-slate-500 leading-6 tracking-tighter">
@@ -16,10 +19,10 @@ const page = () => {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/chat-with-log.png"
-              width={300}
+              width={548}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -45,10 +48,10 @@ const page = () => {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/aws-amplify.png"
-              width={300}
+              width={548}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -74,10 +77,10 @@ const page = () => {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/invest.png"
-              width={300}
+              width={548}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -103,10 +106,10 @@ const page = () => {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/crypto-trading.png"
-              width={300}
+              width={548}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
