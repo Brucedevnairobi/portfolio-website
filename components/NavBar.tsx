@@ -21,7 +21,7 @@ const NavBar = () => {
               </li>
             ))}
           </ul>
-          <section className="ml-auto md:ml-4">
+          <section className="ml-auto md:ml-12">
             <Theme />
           </section>
         </div>
