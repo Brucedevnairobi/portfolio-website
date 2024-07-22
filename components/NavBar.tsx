@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <header>
       <nav className=" text-slate-400 tracking-tighter font-200">
-        <div className="flex items-center justify-center">
+        <div className="flex">
           <ul className="hidden md:flex md:items-center md:justify-center gap-8 mx-auto">
             {NavLinks.map((link, index) => (
               <li key={index}>
@@ -21,7 +21,7 @@ const NavBar = () => {
               </li>
             ))}
           </ul>
-          <section className="gap-4 flex">
+          <section className="ml-auto md:ml-4">
             <Theme />
           </section>
         </div>
