@@ -60,7 +60,7 @@ const page = () => {
                 React(ts)
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
-                EC2
+                Redux
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
                 Tailwind
@@ -68,9 +68,10 @@ const page = () => {
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            Here is a deep-dive breakdown illustration showing why Tailwind CSS
-            is a key developer asset for large projects and visually-stunning
-            UIs.
+            A modern Crowdsourcing City Improvement Platform for Nairobi City.
+             It addresses the need for increased civic engagement and transparent urban planning. 
+             Features include; with easy-to-use voting mechanism,
+             accessibility features for users with disabilities. Check READme.md.
           </h6>
         </div>
         <div>
