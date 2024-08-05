@@ -3,6 +3,15 @@ import React from "react";
 import { NavLinks } from "@/constants";
 import Link from "next/link";
 import Theme from "./Theme";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+
+const MobileNav=()=>{
+  return (
+    <h1>Test</h1>
+
+  );
+};
 
 const NavBar = () => {
   return (
@@ -21,8 +30,19 @@ const NavBar = () => {
               </li>
             ))}
           </ul>
-          <section className="ml-auto md:ml-4">
+          <section className="ml-auto md:ml-4 flex items-center gap-4 pr-8">
+            <Link href="https://github.com/Brucedevnairobi" target="blank">
+              <BsGithub />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/o-bruce-simiyu-2947a0240/"
+              target="blank"
+            >
+              <BsLinkedin />
+            </Link>
+
             <Theme />
+            <MobileNav />
           </section>
         </div>
       </nav>

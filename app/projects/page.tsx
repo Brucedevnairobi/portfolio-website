@@ -68,7 +68,7 @@ const page = () => {
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            A modern Crowdsourcing City Improvement Platform for Nairobi City.
+            A modern Crowdsourced City Improvement Platform for Nairobi City.
              It addresses the need for increased civic engagement and transparent urban planning. 
              Features include; with easy-to-use voting mechanism,
              accessibility features for users with disabilities. Check READme.md.
