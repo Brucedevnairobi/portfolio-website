@@ -70,13 +70,13 @@ export default function Home() {
             width={250}
             height={250}
             alt="Profile Picture"
-            className="rounded-3xl shadow-lg md:float-right mr-12 mx-auto"
+            className="rounded-3xl shadow-lg md:float-right md:mr-12 mx-auto"
           />
           <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter">
             Bruce Simiyu
           </h1>
           <p className="mx-auto text-xs flex text-slate-500 pb-2 leading-6 tracking-tighter">
-            Software Engineer | Technical Writer
+            Frontend Developer | Technical Writer
           </p>
 
           <div className="flex items-center justify-center space-x-2 pt-2 text-slate-600 leading-6 tracking-tighter">
@@ -314,7 +314,7 @@ export default function Home() {
                 React(ts)
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
-                EC2
+                Redux
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
                 Tailwind
@@ -322,9 +322,10 @@ export default function Home() {
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            Here is a deep-dive breakdown illustration showing why Tailwind CSS
-            is a key developer asset for large projects and visually-stunning
-            UIs.
+            A modern Crowdsourced City Improvement Platform for Nairobi City. It
+            addresses the need for increased civic engagement and transparent
+            urban planning. Features include; with easy-to-use voting mechanism,
+            accessibility features for users with disabilities. Check READme.md.
           </h6>
         </div>
         <Link
