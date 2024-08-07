@@ -8,7 +8,7 @@ import { BsGithub } from "react-icons/bs";
 
 const MobileNav=()=>{
   return (
-    <h1>Test</h1>
+    <h1>Nav</h1>
 
   );
 };
@@ -30,7 +30,7 @@ const NavBar = () => {
               </li>
             ))}
           </ul>
-          <section className="ml-auto md:ml-4 flex items-center gap-4 pr-8">
+          <section className="ml-auto md:ml-4 flex items-center gap-4 pr-2">
             <Link href="https://github.com/Brucedevnairobi" target="blank">
               <BsGithub />
             </Link>
@@ -40,9 +40,10 @@ const NavBar = () => {
             >
               <BsLinkedin />
             </Link>
-
+            <section className="flex items-center">
             <Theme />
             <MobileNav />
+            </section>
           </section>
         </div>
       </nav>

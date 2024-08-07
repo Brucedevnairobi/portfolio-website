@@ -70,7 +70,7 @@ export default function Home() {
             width={250}
             height={250}
             alt="Profile Picture"
-            className="rounded-3xl shadow-lg float-right mr-12"
+            className="rounded-3xl shadow-lg md:float-right mr-12 mx-auto"
           />
           <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter">
             Bruce Simiyu
@@ -183,18 +183,18 @@ export default function Home() {
           with a bias towards frontend development and cloud computing,
           including but not limited to;
         </h1>
-        <div className="mx-auto pt-4 ">
-          <section className="flex flex-row gap-x-24">
+        <div className="mx-auto pt-4">
+          <section className="flex flex-row gap-x-16">
             <SiNextdotjs className="text-slate-500 w-12 h-12" />
             <SiTypescript className="text-slate-500 w-12 h-12" />
             <FaReact className="text-slate-500 w-12 h-12" />
           </section>
-          <section className="flex flex-row gap-x-24 pt-4">
+          <section className="flex flex-row gap-x-16 pt-4">
             <SiPostgresql className="text-slate-500 w-12 h-12" />
             <SiPython className="text-slate-500 w-12 h-12" />
             <FaAws className="text-slate-500 w-12 h-12" />
           </section>
-          <section className="flex flex-row gap-x-24 pt-4">
+          <section className="flex flex-row gap-x-16 pt-4">
             <SiJest className="text-slate-500 w-12 h-12" />
             <SiTailwindcss className="text-slate-500 w-12 h-12" />
             <SiRedux className="text-slate-500 w-12 h-12" />

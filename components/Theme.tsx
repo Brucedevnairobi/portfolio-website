@@ -16,7 +16,7 @@ const Theme = () => {
   return (
     <Menubar className="border-none shadow-none">
       <MenubarMenu>
-        <MenubarTrigger className="focus:bg-light-900 data-[state=open]:bg-light-900 dark:focus:bg-dark-200 dark:data-[state=open]:bg-dark-200">
+        <MenubarTrigger>
           {mode === "light" ? (
             <Image
               src="/assets/icons/sun.svg"
