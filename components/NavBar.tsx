@@ -5,11 +5,11 @@ import Link from "next/link";
 import Theme from "./Theme";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import Image from "next/image";
 
-const MobileNav=()=>{
+const MobileNav = () => {
   return (
-    <h1>Nav</h1>
-
+    <Image src="assets/icons/hamburger.svg" alt="Menu" width={25} height={25} />
   );
 };
 
@@ -30,7 +30,7 @@ const NavBar = () => {
               </li>
             ))}
           </ul>
-          <section className="ml-auto md:ml-4 flex items-center gap-4 pr-2">
+          <section className="ml-auto md:ml-4 flex items-center gap-4">
             <Link href="https://github.com/Brucedevnairobi" target="blank">
               <BsGithub />
             </Link>
@@ -40,9 +40,9 @@ const NavBar = () => {
             >
               <BsLinkedin />
             </Link>
-            <section className="flex items-center">
-            <Theme />
-            <MobileNav />
+            <section className="flex items-center pr-4">
+              <Theme />
+              <MobileNav />
             </section>
           </section>
         </div>

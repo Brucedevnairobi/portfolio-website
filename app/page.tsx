@@ -329,7 +329,7 @@ export default function Home() {
           </h6>
         </div>
         <Link
-          href="https://github.com/Brucedevnairobi/portfolio-website"
+          href="https://github.com/Brucedevnairobi/Nikestore"
           target="blank"
         >
           <div className="cursor-pointer rounded-xl shadow-lg">
@@ -344,20 +344,20 @@ export default function Home() {
           <div className="flex justify-end space-x-6 mb-4">
             <div className="flex flex-end space-x-2 mt-4">
               <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
-                TypeScript
+                React
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                 CI/CD
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
-                Python
+                TailwindCSS
               </button>
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            For frontend tooling, Vite can be said to have made create-react-app
-            obsolete. Hot Module Replacement and performance make it an asset
-            for the front end. To explore more about Vite check out this article
+            A modern sneakers eCommerce website landing page. The site features
+            a responsive design, intuitive product browsing and search
+            functionality, and a streamlined checkout process.
           </h6>
         </Link>
         <Link
