@@ -267,7 +267,7 @@ export default function Home() {
       </p>
       <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16  mb-20">
         <Link
-          href="https://github.com/Brucedevnairobi/Nikestore"
+          href="https://github.com/Brucedevnairobi/stack_overflow_with_ai"
           target="blank"
         >
           <div className="cursor-pointer rounded-xl shadow-lg">
@@ -285,7 +285,7 @@ export default function Home() {
                 Next
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
-                TypeScript
+                ShadCN
               </button>
               <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs leading-3 tracking-tighter">
                 Tailwind
@@ -293,9 +293,13 @@ export default function Home() {
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            GitHub Actions, a powerful CI/CD tool, seamlessly integrates with
-            Vite applications, streamlining the development process and
-            enhancing collaboration among teams.
+            Code queries meet AI wizardry: Stack Overflow`s spirit,
+            supercharged by AI. This innovative platform transforms the way
+            developers tackle challenges, offering instant, AI-powered solutions
+            at any hour. By seamlessly blending the comprehensive knowledge base
+            of a traditional coding forum with cutting-edge AI technology, it
+            provides personalized, context-aware answers that evolve with each
+            query.
           </h6>
         </Link>
         <div>
@@ -305,7 +309,7 @@ export default function Home() {
               width={436}
               height={300}
               alt="chatwithlogimage"
-              className="rounded-xl bg-red-500"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
