@@ -293,8 +293,7 @@ export default function Home() {
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            Code queries meet AI wizardry: Stack Overflow`s spirit,
-            supercharged by AI. This innovative platform transforms the way
+            Code queries meet AI wizardry: This innovative platform transforms the way
             developers tackle challenges, offering instant, AI-powered solutions
             at any hour. By seamlessly blending the comprehensive knowledge base
             of a traditional coding forum with cutting-edge AI technology, it

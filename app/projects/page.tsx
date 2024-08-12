@@ -31,17 +31,20 @@ const page = () => {
                 Next
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
-                TypeScript
+                ShadCN
               </button>
               <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs leading-3 tracking-tighter">
-                Tailwind
+                TailwindCSS
               </button>
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            GitHub Actions, a powerful CI/CD tool, seamlessly integrates with
-            Vite applications, streamlining the development process and
-            enhancing collaboration among teams.
+          Code queries meet AI wizardry: This innovative platform transforms the way
+            developers tackle challenges, offering instant, AI-powered solutions
+            at any hour. By seamlessly blending the comprehensive knowledge base
+            of a traditional coding forum with cutting-edge AI technology, it
+            provides personalized, context-aware answers that evolve with each
+            query.
           </h6>
         </div>
         <div>
@@ -87,20 +90,20 @@ const page = () => {
           <div className="flex justify-end space-x-6 mb-4">
             <div className="flex flex-end space-x-2 mt-4">
               <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
-                TypeScript
+                React
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                 CI/CD
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
-                Python
+                TailwindCSS
               </button>
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            For frontend tooling, Vite can be said to have made create-react-app
-            obsolete. Hot Module Replacement and performance make it an asset
-            for the front end. To explore more about Vite check out this article
+          A modern sneakers eCommerce website landing page. The site features
+            a responsive design, intuitive product browsing and search
+            functionality, and a streamlined checkout process.
           </h6>
         </div>
         <div>
