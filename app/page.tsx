@@ -15,6 +15,7 @@ import { SiJest } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { ArrowRight } from "lucide-react";
+import React from "react";
 
 export default function Home() {
   return (
@@ -293,12 +294,12 @@ export default function Home() {
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            Code queries meet AI wizardry: This innovative platform transforms the way
-            developers tackle challenges, offering instant, AI-powered solutions
-            at any hour. By seamlessly blending the comprehensive knowledge base
-            of a traditional coding forum with cutting-edge AI technology, it
-            provides personalized, context-aware answers that evolve with each
-            query.
+            Code queries meet AI wizardry: This innovative platform transforms
+            the way developers tackle challenges, offering instant, AI-powered
+            solutions at any hour. By seamlessly blending the comprehensive
+            knowledge base of a traditional coding forum with cutting-edge AI
+            technology, it provides personalized, context-aware answers that
+            evolve with each query.
           </h6>
         </Link>
         <div>
@@ -402,67 +403,74 @@ export default function Home() {
       <p className="mx-16 text-xs md:text-sm text-slate-500 leading-6 tracking-tighter">
         Learning and writing tech staff. Interact with my blog
       </p>
-      <section className="mx-16 mt-8 gap-2 sm:grid sm:grid-cols-2 md:grid-cols-3 md:gap-16 sm:gap-12 pb-20">
-        <div>
-          <div className="cursor-pointer rounded-xl shadow-lg">
-            <Image
-              src="/chat-with-log.png"
-              width={436}
-              height={300}
-              alt="chatwithlogimage"
-              className="rounded-xl"
-            />
-          </div>
-          <div className="flex justify-end space-x-6 mb-4">
-            <div className=" space-x-2 mx-right mt-4">
-              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
-                Next
-              </button>
-              <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
-                TypeScript
-              </button>
-              <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs leading-3 tracking-tighter">
-                Tailwind
-              </button>
-            </div>
-          </div>
-          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            GitHub Actions, a powerful CI/CD tool, seamlessly integrates with
-            Vite applications, streamlining the development process and
-            enhancing collaboration among teams.
-          </h6>
-        </div>
-        <div>
-          <div className="cursor-pointer rounded-xl shadow-lg">
-            <Image
-              src="/aws-amplify.png"
-              width={436}
-              height={300}
-              alt="chatwithlogimage"
-              className="rounded-xl"
-            />
-          </div>
-          <div className="flex justify-end space-x-6 mb-4">
-            <div className="md:flex md:items-end space-x-2 mt-4">
-              <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
-                React(ts)
-              </button>
-              <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
-                EC2
-              </button>
-              <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
-                Tailwind
-              </button>
-            </div>
-          </div>
-          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            Here is a deep-dive breakdown illustration showing why Tailwind CSS
-            is a key developer asset for large projects and visually-stunning
-            UIs.
-          </h6>
-        </div>
+      <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16  mb-20">
         <Link
-          href="https://github.com/Brucedevnairobi/stack_overflow_with_ai"
+          href="https://javascript.works-hub.com/learn/creating-a-react-project-using-vite-pre-bundler-55de3"
+          target="blank"
+        >
+          <div className="cursor-pointer rounded-xl shadow-lg">
+            <Image
+              src="/crypto-trading.png"
+              width={436}
+              height={300}
+              alt="chatwithlogimage"
+              className="rounded-xl"
+            />
+          </div>
+          <div className="flex justify-end space-x-6 mb-4">
+            <div className="flex flex-end space-x-2 mt-4">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
+                Vite
+              </button>
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
+                React
+              </button>
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter ">
+                HMR
+              </button>
+            </div>
+          </div>
+          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
+            For frontend tooling, Vite can be said to have made create-react-app
+            obsolete. Hot Module Replacement and performance make it an asset
+            for the front end. To explore more about Vite check out this article
+          </h6>
+        </Link>
+        <React.Fragment>
+          <Link
+            href="https://dev.to/brucedevnairobi/build-deploy-and-host-your-vite-app-on-github-pages-with-github-actions-cicd-2g51"
+            target="blank"
+          >
+            <div className="cursor-pointer rounded-xl shadow-lg">
+              <Image
+                src="/aws-amplify.png"
+                width={436}
+                height={300}
+                alt="chatwithlogimage"
+                className="rounded-xl"
+              />
+            </div>
+            <div className="flex justify-end space-x-6 mb-4">
+              <div className="md:flex md:items-end space-x-2 mt-4">
+                <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
+                  React
+                </button>
+                <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
+                  CI/CD
+                </button>
+                <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
+                  Vite
+                </button>
+              </div>
+            </div>
+            <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
+              Build, Deploy, and Host Your Vite App on GitHub Pages with GitHub
+              Actions CI/CD
+            </h6>
+          </Link>
+        </React.Fragment>
+        <Link
+          href="https://dev.to/brucedevnairobi/beginners-guide-to-tailwind-css-and-the-just-in-time-engine-18jf"
           target="blank"
         >
           <div className="cursor-pointer rounded-xl shadow-lg">
@@ -476,21 +484,19 @@ export default function Home() {
           </div>
           <div className="flex justify-end space-x-6 mb-4">
             <div className="flex flex-end space-x-2 mt-4">
-              <button className="bg-slate-300 leading-3 tracking-tighter rounded-3xl p-2 px-4 text-xs">
-                TypeScript
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
+                CSS
               </button>
-              <button className="bg-slate-300 leading-3 tracking-tighter rounded-3xl p-2 px-4 text-xs">
-                CI/CD
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
+                JIT Engine
               </button>
-              <button className="bg-slate-300 rounded-3xl leading-3 tracking-tighter p-2 px-4 text-xs">
-                Python
+              <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
+                TailwindCSS
               </button>
             </div>
           </div>
-          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs md:text-sm mb-4">
-            For frontend tooling, Vite can be said to have made create-react-app
-            obsolete. Hot Module Replacement and performance make it an asset
-            for the front end. To explore more about Vite check out this article
+          <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
+            Beginner`s Guide to TailwindCSS and the Just-In-Time Engine
           </h6>
         </Link>
       </section>
