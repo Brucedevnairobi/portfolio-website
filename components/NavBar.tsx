@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const MobileNav = () => {
   return (
-    <Image src="assets/icons/hamburger.svg" alt="Menu" width={20} height={20} className="lg:hidden"/>
+    <Image src="assets/icons/hamburger.svg" alt="Menu" width={20} height={20} className="md:hidden"/>
   );
 };
 
@@ -31,15 +31,7 @@ const NavBar = () => {
             ))}
           </ul>
           <section className="ml-auto md:ml-4 flex items-center gap-4">
-            <Link href="https://github.com/Brucedevnairobi" target="blank">
-              <BsGithub />
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/o-bruce-simiyu-2947a0240/"
-              target="blank"
-            >
-              <BsLinkedin />
-            </Link>
+          
             <section className="flex items-center pr-4">
               <Theme />
               <MobileNav />
