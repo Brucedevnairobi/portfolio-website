@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
@@ -67,7 +68,7 @@ export default function Home() {
         </main>
         <div className="flex flex-col md:translate-y-52 items-center mt-10">
           <Image
-            src="/profile.jpg"
+            src="/images/profile.jpg"
             width={250}
             height={250}
             alt="Profile Picture"
