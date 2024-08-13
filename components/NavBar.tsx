@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const MobileNav = () => {
   return (
-    <Image src="assets/icons/hamburger.svg" alt="Menu" width={25} height={25} />
+    <Image src="assets/icons/hamburger.svg" alt="Menu" width={20} height={20} className="lg:hidden"/>
   );
 };
 

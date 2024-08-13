@@ -43,7 +43,7 @@ export default function Home() {
           </p>
           <section className="flex flex-row  gap-4 mt-8">
             <section className="flex flex-col">
-              <button className="bg-black rounded-3xl p-2">
+              <button className="bg-slate-900 rounded-3xl p-2">
                 <Link
                   target="blank"
                   href="https://calendly.com/bruce14simiyu"
