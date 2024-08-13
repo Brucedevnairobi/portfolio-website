@@ -68,7 +68,7 @@ export default function Home() {
         </main>
         <div className="flex flex-col md:translate-y-52 items-center mt-10">
           <Image
-            src="/images/profile.jpg"
+            src="/profile.jpg"
             width={250}
             height={250}
             alt="Profile Picture"
