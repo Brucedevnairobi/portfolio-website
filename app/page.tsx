@@ -112,9 +112,9 @@ export default function Home() {
         Trusted by world leading brands
       </h1>
       <div className="flex flex-row w-full pt-8 items-center justify-center gap-x-10 md:gap-x-20">
-        <Image src="/bw.webp" width={100} height={100} alt="bw" />
-        <Image src="/jwf.webp" width={100} height={100} alt="jwf" />
-        <Image src="/ms.webp" width={100} height={100} alt="ms" />
+        <Image src="/assets/images/bw.webp" width={100} height={100} alt="bw" />
+        <Image src="/assets/images/jwf.webp" width={100} height={100} alt="jwf" />
+        <Image src="/assets/images/ms.webp" width={100} height={100} alt="ms" />
       </div>
       <h1 className="text-3xl md:text-6xl text-slate-700 text-center mt-8 font-bold tracking-tighter">
         Developer as a Service
@@ -274,7 +274,7 @@ export default function Home() {
         >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/chat-with-log.png"
+              src="/assets/images/chat-with-log.png"
               width={436}
               height={300}
               alt="chatwithlogimage"
@@ -306,7 +306,7 @@ export default function Home() {
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/aws-amplify.png"
+              src="/assets/images/aws-amplify.png"
               width={436}
               height={300}
               alt="chatwithlogimage"
@@ -371,7 +371,7 @@ export default function Home() {
         >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/crypto-trading.png"
+              src="/assets/images/crypto-trading.png"
               width={436}
               height={300}
               alt="chatwithlogimage"
@@ -411,7 +411,7 @@ export default function Home() {
         >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/crypto-trading.png"
+              src="/assets/images/crypto-trading.png"
               width={436}
               height={300}
               alt="chatwithlogimage"
@@ -444,7 +444,7 @@ export default function Home() {
           >
             <div className="cursor-pointer rounded-xl shadow-lg">
               <Image
-                src="/aws-amplify.png"
+                src="/assets/images/aws-amplify.png"
                 width={436}
                 height={300}
                 alt="chatwithlogimage"
@@ -476,7 +476,7 @@ export default function Home() {
         >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/invest.png"
+              src="/assets/images/invest.png"
               width={436}
               height={300}
               alt="chatwithlogimage"
