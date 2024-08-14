@@ -1,5 +1,5 @@
 "use client";
-
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
@@ -16,7 +16,7 @@ import { SiJest } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { ArrowRight } from "lucide-react";
-import React from "react";
+
 
 export default function Home() {
   return (
@@ -68,7 +68,7 @@ export default function Home() {
         </main>
         <div className="flex flex-col md:translate-y-52 items-center mt-10">
           <Image
-            src="/profile.jpg"
+            src="/assets/images/profile.jpg"
             width={250}
             height={250}
             alt="Profile Picture"
