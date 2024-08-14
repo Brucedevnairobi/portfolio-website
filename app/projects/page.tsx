@@ -109,7 +109,7 @@ const page = () => {
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/assets/images/crypto-trading.png"
+              src="/assets/images/vitereact.png"
               width={548}
               height={300}
               alt="chatwithlogimage"
