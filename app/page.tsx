@@ -339,7 +339,7 @@ export default function Home() {
         >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/invest.png"
+              src="/assets/images/invest.png"
               width={436}
               height={300}
               alt="chatwithlogimage"
@@ -371,7 +371,7 @@ export default function Home() {
         >
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/assets/images/invest.png"
+              src="/assets/images/vitereact.png"
               width={436}
               height={300}
               alt="chatwithlogimage"

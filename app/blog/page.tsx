@@ -15,7 +15,7 @@ const page = () => {
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/chat-with-log.png"
+              src="/assets/images/chat-with-log.png"
               width={300}
               height={300}
               alt="chatwithlogimage"
@@ -44,7 +44,7 @@ const page = () => {
         <div>
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/aws-amplify.png"
+              src="/assets/images/aws-amplify.png"
               width={300}
               height={300}
               alt="chatwithlogimage"
@@ -73,7 +73,7 @@ const page = () => {
         <div className="">
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
-              src="/invest.png"
+              src="/assets/images/invest.png"
               width={300}
               height={300}
               alt="chatwithlogimage"
