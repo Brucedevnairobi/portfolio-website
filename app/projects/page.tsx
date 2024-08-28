@@ -119,20 +119,19 @@ const page = () => {
           <div className="flex justify-end space-x-6 mb-4">
             <div className="flex flex-end space-x-2 mt-4">
               <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
-                TypeScript
+                Next
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
-                CI/CD
+                Zod
               </button>
               <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter ">
-                Python
+                tRPC
               </button>
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            For frontend tooling, Vite can be said to have made create-react-app
-            obsolete. Hot Module Replacement and performance make it an asset
-            for the front end. To explore more about Vite check out this article
+          A Robust Task Management App with CRUD operations for tasks, tasks categorization, proirity levels,
+          due dates and reminders, Data export and backup using formats CSV or JSON
           </h6>
         </div>
       </section>
