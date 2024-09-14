@@ -6,10 +6,33 @@ import Theme from "./Theme";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import Image from "next/image";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 const MobileNav = () => {
   return (
-    <Image src="assets/icons/hamburger.svg" alt="Menu" width={20} height={20} className="md:hidden"/>
+    <React.Fragment>
+      <Sheet>
+        <SheetTrigger asChild>
+          <Image
+            src="assets/icons/hamburger.svg"
+            alt="Menu"
+            width={20}
+            height={20}
+            className="md:hidden"
+          />
+        </SheetTrigger>
+        <SheetContent side="left" className="border-none">
+         
+        </SheetContent>
+      </Sheet>
+    </React.Fragment>
   );
 };
 
@@ -31,7 +54,6 @@ const NavBar = () => {
             ))}
           </ul>
           <section className="ml-auto md:ml-4 flex items-center gap-4">
-          
             <section className="flex items-center pr-4">
               <Theme />
               <MobileNav />
