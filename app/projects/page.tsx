@@ -8,7 +8,7 @@ const page = () => {
       <nav className="mt-10">
         <NavBar />
       </nav>
-      <h1 className="text-4xl md:text-6xl mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
+      <h1 className="text-4xl md:text-6xl mt-22 text-slate-700 mx-12 leading-6 tracking-tighter">
         Latest <span className="font-bold">Projects</span>
       </h1>
       <p className="mx-12 text-xs md:text-sm text-slate-500 leading-6 tracking-tighter">
@@ -19,7 +19,7 @@ const page = () => {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/chat-with-log.png"
-              width={548}
+              width={300}
               height={300}
               alt="chatwithlogimage"
               className="rounded-xl"

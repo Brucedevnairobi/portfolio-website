@@ -275,10 +275,10 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/chat-with-log.png"
-              width={436}
+              width={300}
               height={300}
               alt="chatwithlogimage"
-              className="rounded-xl"
+              className="rounded-xl w-auto h-auto"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
