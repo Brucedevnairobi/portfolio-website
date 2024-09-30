@@ -1,11 +1,13 @@
 import React from "react";
 import NavBar from "@/components/NavBar";
-import Image from 'next/image'
+import Image from "next/image";
 const page = () => {
   return (
     <div>
-       <nav className="mt-10"><NavBar /></nav>
-       <h1 className="text-4xl md:text-6xl pt-32 text-slate-700 pl-16 tracking-tighter leading-6">
+      <nav className="mt-10">
+        <NavBar />
+      </nav>
+      <h1 className="text-4xl md:text-6xl pt-8 text-slate-700 pl-16 tracking-tighter leading-6">
         Latest <span className="font-bold">Articles</span>
       </h1>
       <p className="mx-16 text-xs md:text-sm text-slate-500 leading-6 tracking-tighter">
@@ -16,10 +18,10 @@ const page = () => {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/chat-with-log.png"
-              width={300}
+              width={548}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className=" rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -45,10 +47,10 @@ const page = () => {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/aws-amplify.png"
-              width={300}
+              width={548}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">
@@ -74,10 +76,10 @@ const page = () => {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/invest.png"
-              width={300}
+              width={548}
               height={300}
               alt="chatwithlogimage"
-              className="w-[360px] rounded-xl"
+              className="rounded-xl"
             />
           </div>
           <div className="flex justify-end space-x-6 mb-4">

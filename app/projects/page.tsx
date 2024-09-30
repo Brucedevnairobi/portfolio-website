@@ -8,7 +8,7 @@ const page = () => {
       <nav className="mt-10">
         <NavBar />
       </nav>
-      <h1 className="text-4xl md:text-6xl mt-22 text-slate-700 mx-12 leading-6 tracking-tighter">
+      <h1 className="text-4xl md:text-6xl pt-8 text-slate-700 mx-12 leading-6 tracking-tighter">
         Latest <span className="font-bold">Projects</span>
       </h1>
       <p className="mx-12 text-xs md:text-sm text-slate-500 leading-6 tracking-tighter">
@@ -19,7 +19,7 @@ const page = () => {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/chat-with-log.png"
-              width={300}
+              width={548}
               height={300}
               alt="chatwithlogimage"
               className="rounded-xl"
@@ -130,7 +130,7 @@ const page = () => {
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-          A Robust Task Management App with CRUD operations for tasks, tasks categorization, proirity levels,
+          A Robust Task Management App with CRUD operations for tasks, tasks categorization, priority levels,
           due dates and reminders, Data export and backup using formats CSV or JSON
           </h6>
         </div>

@@ -275,7 +275,7 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/chat-with-log.png"
-              width={300}
+              width={548}
               height={300}
               alt="chatwithlogimage"
               className="rounded-xl w-auto h-auto"
@@ -307,7 +307,7 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/aws-amplify.png"
-              width={436}
+              width={548}
               height={300}
               alt="chatwithlogimage"
               className="rounded-xl"
@@ -340,7 +340,7 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/invest.png"
-              width={436}
+              width={548}
               height={300}
               alt="chatwithlogimage"
               className="rounded-xl"
@@ -372,7 +372,7 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/vitereact.png"
-              width={436}
+              width={548}
               height={300}
               alt="chatwithlogimage"
               className="rounded-xl"
@@ -411,7 +411,7 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/crypto-trading.png"
-              width={436}
+              width={548}
               height={300}
               alt="chatwithlogimage"
               className="rounded-xl"
@@ -444,7 +444,7 @@ export default function Home() {
             <div className="cursor-pointer rounded-xl shadow-lg">
               <Image
                 src="/assets/images/aws-amplify.png"
-                width={436}
+                width={548}
                 height={300}
                 alt="chatwithlogimage"
                 className="rounded-xl"
@@ -476,7 +476,7 @@ export default function Home() {
           <div className="cursor-pointer rounded-xl shadow-lg">
             <Image
               src="/assets/images/invest.png"
-              width={436}
+              width={548}
               height={300}
               alt="chatwithlogimage"
               className="rounded-xl"
