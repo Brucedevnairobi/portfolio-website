@@ -48,7 +48,7 @@ export default function Home() {
                 <Link
                   target="blank"
                   href="https://calendly.com/bruce14simiyu"
-                  className="text-xs leading-6 tracking-tighter text-slate-200"
+                  className="text-sm tracking-tighter text-slate-200 font-bold"
                 >
                   Book a Call
                 </Link>
@@ -58,7 +58,7 @@ export default function Home() {
               <button className="bg-slate-300 rounded-3xl p-2">
                 <Link
                   href="./daas"
-                  className="text-xs leading-6 tracking-tighter"
+                  className="text-sm font-normal leading-6 tracking-tighter"
                 >
                   Subscription-Based Developer
                 </Link>
