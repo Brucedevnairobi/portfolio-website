@@ -58,7 +58,7 @@ export default function Home() {
               <button className="bg-slate-300 rounded-3xl p-2">
                 <Link
                   href="./daas"
-                  className="text-sm font-normal leading-6 tracking-tighter"
+                  className="text-sm font-normal tracking-tighter"
                 >
                   Subscription-Based Developer
                 </Link>
