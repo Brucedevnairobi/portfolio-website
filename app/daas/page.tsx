@@ -8,10 +8,10 @@ const page = () => {
         <NavBar />
       </nav>
       <div className="pl-16 h-screen">
-        <h1 className="text-4xl md:text-6xl tracking-tighter leading-6 font-bold  pt-32 text-slate-700">
+        <h1 className="text-3xl md:text-6xl tracking-tighter leading-12 font-bold  pt-12 text-slate-500">
           Developer as a Service
         </h1>
-        <div className="flex flex-row pr-16">
+        <div className="flex flex-col md:flex-row pr-16">
           <p className="text-lg leading-6 tracking-tighter text-gray-500  my-4 md:w-[800px]">
             Enjoy the versatility of accessing expert developer talent on a
             project basis, without the long-term obligations of permanent

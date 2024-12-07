@@ -10,8 +10,9 @@ const page = () => {
       <h1 className="text-4xl md:text-6xl pt-8 text-slate-700 pl-16 tracking-tighter leading-6">
         Latest <span className="font-bold">Articles</span>
       </h1>
-      <p className="mx-16 text-xs md:text-sm text-slate-500 leading-6 tracking-tighter">
-        Learning and writing tech staff. Interact with my blog
+      <p className="mx-16 text-xs md:text-sm text-slate-500 pt-4 tracking-tighter">
+      Notes to my past, present and future self. I write about things I&apos;ve learned, things I&apos;m working on, 
+      or anything else I want to share. I hope you find something useful here
       </p>
       <section className="mx-16 mt-8 gap-2 sm:grid sm:grid-cols-2 md:grid-cols-3 md:gap-16 sm:gap-12 pb-20">
         <div>

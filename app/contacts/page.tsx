@@ -6,7 +6,7 @@ const page = () => {
       <nav className="mt-10">
         <NavBar />
       </nav>
-      <h1 className="pt-32 mx-12 text-4xl md:text-6xl text-slate-700 leading-6 tracking-tighter">
+      <h1 className="pt-12 mx-12 text-4xl md:text-6xl text-slate-500 leading-12 tracking-tighter">
         Get In Touch <span className="font-bold text-slate-500">Today</span>
       </h1>
       <p className="mx-12 text-slate-500 leading-6 tracking-tighter">

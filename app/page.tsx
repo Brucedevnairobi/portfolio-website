@@ -17,7 +17,6 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { ArrowRight } from "lucide-react";
 
-
 export default function Home() {
   return (
     <div className="relative w-full md:max-w-screen-2xl mx-auto overflow-hidden">
@@ -113,7 +112,12 @@ export default function Home() {
       </h1>
       <div className="flex flex-row w-full pt-8 items-center justify-center gap-x-10 md:gap-x-20">
         <Image src="/assets/images/bw.webp" width={100} height={100} alt="bw" />
-        <Image src="/assets/images/jwf.webp" width={100} height={100} alt="jwf" />
+        <Image
+          src="/assets/images/jwf.webp"
+          width={100}
+          height={100}
+          alt="jwf"
+        />
         <Image src="/assets/images/ms.webp" width={100} height={100} alt="ms" />
       </div>
       <h1 className="text-3xl md:text-6xl text-slate-700 text-center mt-8 font-bold tracking-tighter">
@@ -392,8 +396,9 @@ export default function Home() {
             </div>
           </div>
           <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-            A Robust Task Management App with CRUD operations for tasks, tasks categorization, priority levels,
-             due dates and reminders, Data export and backup using formats CSV or JSON
+            A Robust Task Management App with CRUD operations for tasks, tasks
+            categorization, priority levels, due dates and reminders, Data
+            export and backup using formats CSV or JSON
           </h6>
         </Link>
       </section>

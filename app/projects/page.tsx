@@ -8,10 +8,10 @@ const page = () => {
       <nav className="mt-10">
         <NavBar />
       </nav>
-      <h1 className="text-4xl md:text-6xl pt-8 text-slate-700 mx-12 leading-6 tracking-tighter">
+      <h1 className="text-4xl md:text-6xl pt-4 text-slate-700 mx-12 leading- tracking-tighter">
         Latest <span className="font-bold">Projects</span>
       </h1>
-      <p className="mx-12 text-xs md:text-sm text-slate-500 leading-6 tracking-tighter">
+      <p className="mx-12 text-xs md:text-sm text-slate-500 leading- tracking-tighter">
         I`m always working on something. Here are some of my latest projects.
       </p>
       <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16  mb-20">
