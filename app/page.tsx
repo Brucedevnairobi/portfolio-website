@@ -30,15 +30,13 @@ export default function Home() {
             Hire a <br />
             <span className="font-bold text-slate-700">Software Craftsman</span>
           </h1>
-          <p className="leading-12 tracking-tighter text-sm md:text-md pt-4 text-slate-500">
-            Strategic, multi-disciplinary, creative software developer with a{" "}
-            <br /> strong belief in highly crafted digital experiences, an eye
-            for innovation, <br /> and an obsession for pixel perfection.
-            <br />
+          <p className="leading-12 tracking-tighter text-sm md:text-md pt-4 text-slate-500 md:w-1/2">
+            Strategic, multi-disciplinary, creative software developer with a
+             strong belief in highly crafted digital experiences, an eye
+            for innovation, and an obsession for pixel perfection.
             <br />
             With 3 years experience, I am quite passionate about application
-            performance,
-            <br /> code quality and scalable architectural solutions.
+            performance, code quality and scalable architectural solutions.<br />
             <br /> Forever chasing that elusive zero-bug state.
           </p>
           <section className="flex flex-row  gap-4 mt-8">
@@ -68,19 +66,19 @@ export default function Home() {
         <div className="flex flex-col md:translate-y-52 items-center mt-10">
           <Image
             src="/assets/images/profile.jpg"
-            width={250}
-            height={250}
+            width={180}
+            height={180}
             alt="Profile Picture"
-            className="rounded-3xl shadow-lg md:float-right md:mr-12 mx-auto"
+            className="rounded-full shadow-lg md:float-right md:mr-16 mx-auto"
           />
-          <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter">
+          <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter md:mr-16">
             Bruce Simiyu
           </h1>
-          <p className="mx-auto text-xs flex text-slate-500 pb-2 leading-6 tracking-tighter">
+          <p className="mx-auto text-xs flex text-slate-500 pb-2 leading-6 tracking-tighter md:mr-16">
             Frontend Developer | Technical Writer
           </p>
 
-          <div className="flex items-center justify-center space-x-2 pt-2 text-slate-600 leading-6 tracking-tighter">
+          <div className="flex items-center justify-center space-x-2 pt-2 text-slate-600 leading-6 tracking-tighter md:mr-16">
             <Link
               href="https://www.linkedin.com/in/o-bruce-simiyu-2947a0240/"
               target="blank"
@@ -101,7 +99,7 @@ export default function Home() {
             href="http://"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs flex justify-center items-center mt-2 gap-2 text-slate-400 leading-6 tracking-tighter"
+            className="text-xs flex justify-center items-center mt-2 gap-2 md:mr-16 text-slate-400 leading-6 tracking-tighter"
           >
             Download Resume
           </a>

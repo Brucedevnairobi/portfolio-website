@@ -50,7 +50,7 @@ const MobileNav = () => {
     <React.Fragment>
       <Sheet>
         <SheetTrigger asChild>
-          <Menu className="w-6 h-6 text-gray-400" size={24} />
+          <Menu className="w-6 h-6 md:hidden text-gray-400" size={24}  />
         </SheetTrigger>
         <SheetContent side="left" className="border-none">
           <div className="no-scrollbar flex grow flex-col justify-between overflow-y-auto">
