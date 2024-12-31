@@ -15,7 +15,7 @@ export const NavLinks: NavLink[] =[
     },
     {
         route: '/daas',
-        label: 'Developer as a Service',
+        label: 'Services',
     },
     {
         route: '/projects',
