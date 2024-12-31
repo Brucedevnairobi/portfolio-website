@@ -32,11 +32,12 @@ export default function Home() {
           </h1>
           <p className="leading-12 tracking-tighter text-sm md:text-md pt-4 text-slate-500 md:w-1/2">
             Strategic, multi-disciplinary, creative software developer with a
-             strong belief in highly crafted digital experiences, an eye
-            for innovation, and an obsession for pixel perfection.
+            strong belief in highly crafted digital experiences, an eye for
+            innovation, and an obsession for pixel perfection.
             <br />
             With 3 years experience, I am quite passionate about application
-            performance, code quality and scalable architectural solutions.<br />
+            performance, code quality and scalable architectural solutions.
+            <br />
             <br /> Forever chasing that elusive zero-bug state.
           </p>
           <section className="flex flex-row  gap-4 mt-8">
@@ -122,9 +123,11 @@ export default function Home() {
         Services
       </h1>
       <p className="flex text-slate-500 mt-4 leading-6 tracking-tighter md:mx-60 text-md mx-10 text-center">
-      I`&apos`ve been working as a software engineer for over 3 years. My hands-on experience spans various aspects, 
-      including software architecture, software development, UI/UX design, and product management.
-       For the past 3 years, I've also led developer teams, honing my skills in team management, mentoring, hiring, and interviewing.
+        I`&apos`ve been working as a software engineer for over 3 years. My
+        hands-on experience spans various aspects, including software
+        architecture, software development, UI/UX design, and product
+        management. For the past 3 years, I`&apos`ve also led developer teams, honing
+        my skills in team management, mentoring, hiring, and interviewing.
       </p>
       <h3 className="text-2xl md:text-3xl leading-6 tracking-tighter font-semibold text-slate-700 mt-8 mx-12">
         Seamless <span className="font-bold">Onboarding</span>
