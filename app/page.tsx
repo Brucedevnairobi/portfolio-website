@@ -123,10 +123,10 @@ export default function Home() {
         Services
       </h1>
       <p className="flex text-slate-500 mt-4 leading-6 tracking-tighter md:mx-60 text-md mx-10 text-center">
-        I`&apos`ve been working as a software engineer for over 3 years. My
+        I`ve been working as a software engineer for over 3 years. My
         hands-on experience spans various aspects, including software
         architecture, software development, UI/UX design, and product
-        management. For the past 3 years, I`&apos`ve also led developer teams, honing
+        management. For the past 3 years, I`ve also led developer teams, honing
         my skills in team management, mentoring, hiring, and interviewing.
       </p>
       <h3 className="text-2xl md:text-3xl leading-6 tracking-tighter font-semibold text-slate-700 mt-8 mx-12">

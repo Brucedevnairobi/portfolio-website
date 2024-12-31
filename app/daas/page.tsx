@@ -13,13 +13,12 @@ const page = () => {
         </h1>
         <div className="flex flex-col md:flex-row pr-16">
           <p className="text-lg leading-6 tracking-tighter text-gray-500  my-4 md:w-[800px]">
-            Enjoy the versatility of accessing expert developer talent on a
-            project basis, without the long-term obligations of permanent
-            hiring. My Subscription-Based Developer offering provides scalable
-            and adaptable resources tailored to the dynamic requirements of your
-            project. <br /> Subscription-Based Development offers a
-            cost-effective solution for your project needs, providing you with
-            the expertise you need, when you need it.
+            I`ve been working as a software engineer for over 3 years. My
+            hands-on experience spans various aspects, including software
+            architecture, software development, UI/UX design, and product
+            management. For the past 3 years, I`ve also led developer teams,
+            honing my skills in team management, mentoring, hiring, and
+            interviewing.
           </p>
           <Image
             src="/assets/images/daas.png"
