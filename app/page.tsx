@@ -119,19 +119,12 @@ export default function Home() {
         <Image src="/assets/images/ms.webp" width={100} height={100} alt="ms" />
       </div>
       <h1 className="text-3xl md:text-6xl text-slate-700 text-center mt-8 font-bold tracking-tighter">
-        Developer as a Service
+        Services
       </h1>
       <p className="flex text-slate-500 mt-4 leading-6 tracking-tighter md:mx-60 text-md mx-10 text-center">
-        As a Subscription-Based Developer, I offer businesses the versatility of
-        accessing my wide-ranging expertise across multiple technology stacks
-        and domains on a project basis. This allows you to leverage top
-        developer talent without the long-term obligations of permanent hiring.
-        My DaaS solution provides a scalable and adaptable resource tailored
-        specifically to the dynamic requirements of your project. Whether you
-        need full-stack development, specialized skills like frontend
-        development, cloud, or securing an entire cross-functional team, I can
-        deliver the right skills at the right time while aligning costs with
-        your evolving needs.
+      I`&apos`ve been working as a software engineer for over 3 years. My hands-on experience spans various aspects, 
+      including software architecture, software development, UI/UX design, and product management.
+       For the past 3 years, I've also led developer teams, honing my skills in team management, mentoring, hiring, and interviewing.
       </p>
       <h3 className="text-2xl md:text-3xl leading-6 tracking-tighter font-semibold text-slate-700 mt-8 mx-12">
         Seamless <span className="font-bold">Onboarding</span>
