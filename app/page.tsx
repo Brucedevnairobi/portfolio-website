@@ -31,7 +31,8 @@ export default function Home() {
             <span className="font-bold text-slate-700">Software Craftsman</span>
           </h1>
           <p className="leading-12 tracking-tighter text-sm md:text-md pt-4 text-slate-500 md:w-1/2">
-            Strategic, multi-disciplinary, creative software developer with a
+            Hi, I am Bruce Simiyu, a frontend developer living in Nairobi, Kenya. <br />
+            Strategic, multi-disciplinary, creative with a
             strong belief in highly crafted digital experiences, an eye for
             innovation, and an obsession for pixel perfection.
             <br />
