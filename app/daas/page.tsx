@@ -19,6 +19,10 @@ const page = () => {
             management. For the past 3 years, I`ve also led developer teams,
             honing my skills in team management, mentoring, hiring, and
             interviewing.
+            <br />
+            I have implemented MVPs in several startups, gaining extensive experience
+             in planning, leading, and executing product development.
+              Schedule an introductory call to see how I can help you.
           </p>
           <Image
             src="/assets/images/daas.png"
