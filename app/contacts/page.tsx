@@ -10,11 +10,11 @@ const page = () => {
         Get In Touch <span className="font-bold text-slate-500">Today</span>
       </h1>
       <p className="mx-12 text-slate-500 leading-6 tracking-tighter">
-        Shoot me a message via
+        Shoot me a message via 
         <a href="https://mail.google.com/mail" target="blank">
-          mail
+          mail 
         </a>
-        or find through my socials ...
+        or find me through my socials ...
       </p>
     </div>
   );

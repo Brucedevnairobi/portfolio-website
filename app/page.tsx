@@ -25,7 +25,7 @@ export default function Home() {
       </nav>
 
       <div className=" pt-4 flex flex-col md:flex-row md:justify-between">
-        <main className="mx-12 md:mt-36">
+        <main className="mx-12 md:mt-20">
           <h1 className="text-3xl md:text-6xl tracking-tighter text-slate-500">
             Hire a <br />
             <span className="font-bold text-slate-700">Software Craftsman</span>
