@@ -31,13 +31,13 @@ export default function Home() {
             <span className="font-bold text-slate-700">Software Craftsman</span>
           </h1>
           <p className="leading-12 tracking-tighter text-sm md:text-md pt-4 text-slate-500 md:w-1/2">
-            Hi, I am Bruce Simiyu, a frontend developer living in Nairobi, Kenya. <br />
+            Hi, I`m Bruce Simiyu, a web frontend engineer living in Nairobi, Kenya. <br />
             Strategic, multi-disciplinary, creative with a
             strong belief in highly crafted digital experiences, an eye for
             innovation, and an obsession for pixel perfection.
             <br />
-            With 3 years experience, I am quite passionate about application
-            performance, code quality and scalable architectural solutions.
+            With over 3 years of experience, I am quite passionate about application
+            performance, code quality, and scalable architectural solutions.
             <br />
             <br /> Forever chasing that elusive zero-bug state.
           </p>
