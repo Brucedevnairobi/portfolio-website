@@ -16,6 +16,11 @@ const page = () => {
         </a>
         or find me through my socials ...
       </p>
+      <ul>
+      <li>Email: bruce14simiyu@gmail.com</li>
+      <li>Phone: +254736368320</li>
+      <li>VAT ID: DE347053744</li>
+      </ul>
     </div>
   );
 };
