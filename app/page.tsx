@@ -31,13 +31,15 @@ export default function Home() {
             <span className="font-bold text-slate-700">Software Craftsman</span>
           </h1>
           <p className="leading-12 tracking-tighter text-sm md:text-md pt-4 text-slate-500 md:w-1/2">
-            Hi, I`m Bruce Simiyu, a web frontend engineer living in Nairobi, Kenya. <br />
-            Strategic, multi-disciplinary, creative with a
-            strong belief in highly crafted digital experiences, an eye for
-            innovation, and an obsession for pixel perfection.
+            Hi, I`m Bruce Simiyu, a web frontend engineer living in Nairobi,
+            Kenya. <br />
+            Strategic, multi-disciplinary, creative with a strong belief in
+            highly crafted digital experiences, an eye for innovation, and an
+            obsession for pixel perfection.
             <br />
-            With over 3 years of experience, I am quite passionate about application
-            performance, code quality, and scalable architectural solutions.
+            With over 3 years of experience, I am quite passionate about
+            application performance, code quality, and scalable architectural
+            solutions.
             <br />
             <br /> Forever chasing that elusive zero-bug state.
           </p>
@@ -131,7 +133,8 @@ export default function Home() {
         management, mentoring, hiring, and interviewing.
       </p>
       <h3 className="text-2xl md:text-3xl leading-6 tracking-tighter font-semibold text-slate-700 mt-8 mx-12">
-        Seamless <span className="font-bold">Onboarding</span>
+        {/*Seamless <span className="font-bold">Onboarding</span>*/}Here is what
+        I Bring To the Table
       </h3>
       <p className="text-slate-500 mx-12 leading-6 tracking-tighter text-xs md:text-sm mb-2">
         I’ve streamlined the onboarding process to make it as easy as possible
@@ -140,7 +143,7 @@ export default function Home() {
       <section className="items-center flex-col md:flex-row flex">
         <div className="w-80 h-36 border-[1px] border-slate-900 hover:cursor-pointer rounded-2xl p-4 mb-4 shadow-lg mx-auto">
           <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
-            Select a Plan
+            Frontend Development
           </h3>
           <p className="text-sm text-slate-600 leading-6 tracking-tighter">
             Not sure which plan is right for you? Book a call and I’ll help you
@@ -149,7 +152,7 @@ export default function Home() {
         </div>
         <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto mb-4">
           <h3 className="text-xl tracking-tighter leading-6 font-bold text-slate-700">
-            Onboarding Email
+            API Development
           </h3>
           <p className="text-sm tracking-tighter leading-6 text-slate-600">
             You will receive a welcome email with all the details you need to
@@ -159,7 +162,7 @@ export default function Home() {
         </div>
         <div className="w-80 h-36 border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto mb-4">
           <h3 className="text-xl font-bold text-slate-700 tracking-tighter leading-6">
-            Start Development
+            Technical Writing
           </h3>
           <p className="text-sm tracking-tighter leading-6 text-slate-600">
             After our chat, I’ll dive into your project. Expect regular updates
@@ -202,11 +205,11 @@ export default function Home() {
           </section>
         </div>
       </section>
-      <h1 className="text-3xl md:text-6xl mt-32 leading-6 tracking-tighter text-slate-700 mx-12">
-        What People Are <span className="font-bold">Saying</span>
+      <h1 className="text-2xl md:text-6xl mt-32 leading-6 tracking-tighter text-slate-700 mx-12">
+        Hackathons
       </h1>
       <p className="text-slate-500 text-xs leading-6 tracking-tighter md:text-sm mx-12">
-        My clients say- If I do it, then its done well
+        Tag me to a hackathon and if we come up with something great, I will graciously put it here.
       </p>
       <section className=" my-4 mx-12 flex flex-col md:flex-row md:gap-4 gap-2">
         <div className="border-[1px] md:w-1/3 border-slate-400 cursor-pointer rounded-xl p-4 shadow-lg bg-white">
