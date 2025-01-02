@@ -10,16 +10,16 @@ const page = () => {
         Get In Touch <span className="font-bold text-slate-500">Today</span>
       </h1>
       <p className="mx-12 text-slate-500 leading-6 tracking-tighter">
-        Shoot me a message via 
+        Shoot me a message via
         <a href="https://mail.google.com/mail" target="blank">
-          mail 
+          mail
         </a>
         or find me through my socials ...
       </p>
-      <ul>
-      <li>Email: bruce14simiyu@gmail.com</li>
-      <li>Phone: +254736368320</li>
-      <li>VAT ID: DE347053744</li>
+      <ul className="mx-12 leading-6 tracking-tighter">
+        <li><span className="text-slate-600 font-medium">Email:</span> bruce14simiyu@gmail.com</li>
+        <li><span className="text-slate-600 font-medium">Phone:</span> +254736368320</li>
+        <li><span className="text-slate-600 font-medium">VAT ID:</span> DE347053744</li>
       </ul>
     </div>
   );
