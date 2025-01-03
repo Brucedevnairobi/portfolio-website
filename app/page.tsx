@@ -165,8 +165,7 @@ export default function Home() {
             Technical Writing
           </h3>
           <p className="text-sm tracking-tighter leading-6 text-slate-600">
-            After our chat, I’ll dive into your project. Expect regular updates
-            and opportunities to give your input—your feedback is crucial!
+            
           </p>
         </div>
       </section>
