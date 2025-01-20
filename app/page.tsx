@@ -163,87 +163,86 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-80 md:mt-24">
-      <h1 className=" tracking-tighter text-[18px] text-center pt-14 md:pt-4 text-slate-700">
-        Services
-      </h1>
-      <h1 className="text-[28px] font-light text-slate-700 text-center mt-[-16px] leading-12 tracking-tighter">
-        what I bring to the table
-      </h1>
-      <div className="h-[2px] w-[60px] bg-slate-700 mx-auto"></div>
-      <div className="h-[1px] w-[98px] mt-[5px] bg-slate-700 mx-auto"></div>
-      <div className=" relative flex flex-col md:flex-col pt-4">
-        <section className="mx-12 gap-2 items-center flex-col md:flex-row flex">
-          <div className="w-full md:w-1/3 border-[1px] border-slate-900 hover:cursor-pointer rounded-sm p-2 mb-4 shadow-lg mx-auto">
-            <AiOutlineTool className="h-10 w-10 text-slate-700" />
-            <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
-              Frontend Development
-            </h3>
-            <ul className="text-slate-500">
-              <li className="text-[12px] ">
-                Proficiency in JS, TS, Reactjs, Next, Nodejs,
-                and Expressjs
-              </li>
-              <li className="text-[12px]">
-                Expertise in modern CSS technologies like TailwindCSS, MUI, ShadCN
-              </li>
-              <li className="text-[12px]">
-                Experience with SQL(PostgreSQL) & NoSQL(MongoDB)
-                databases
-              </li>
-              <li className="text-[12px]">
-                Problem solving skills & deep gist of Algorithms and Data
-                structures
-              </li>
-              <li className="text-[12px]">
-                Performance optimization; via lazy loading and code splitting
-              </li>
-            </ul>
-            <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
-          </div>
-          <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
-            <AiTwotoneApi className="h-10 w-10 text-slate-700" />
-            <h3 className="text-xl tracking-tighter leading-6 font-bold text-slate-700">
-              API Development
-            </h3>
+        <h1 className=" tracking-tighter text-[18px] text-center pt-14 md:pt-4 text-slate-700">
+          Services
+        </h1>
+        <h1 className="text-[28px] font-light text-slate-700 text-center mt-[-16px] leading-12 tracking-tighter">
+          what I bring to the table
+        </h1>
+        <div className="h-[2px] w-[60px] bg-slate-700 mx-auto"></div>
+        <div className="h-[1px] w-[98px] mt-[5px] bg-slate-700 mx-auto"></div>
+        <div className=" relative flex flex-col md:flex-col pt-4">
+          <section className="mx-12 gap-2 items-center flex-col md:flex-row flex">
+            <div className="w-full md:w-1/3 border-[1px] border-slate-900 hover:cursor-pointer rounded-sm p-2 mb-4 shadow-lg mx-auto">
+              <AiOutlineTool className="h-10 w-10 text-slate-700" />
+              <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
+                Frontend Development
+              </h3>
+              <ul className="text-slate-500">
+                <li className="text-[12px] ">
+                  Proficiency in JS, TS, Reactjs, Next, Nodejs, and Expressjs
+                </li>
+                <li className="text-[12px]">
+                  Expertise in modern CSS technologies like TailwindCSS, MUI,
+                  ShadCN
+                </li>
+                <li className="text-[12px]">
+                  Experience with SQL(PostgreSQL) & NoSQL(MongoDB) databases
+                </li>
+                <li className="text-[12px]">
+                  Problem solving skills & deep gist of Algorithms and Data
+                  structures
+                </li>
+                <li className="text-[12px]">
+                  Performance optimization; via lazy loading and code splitting
+                </li>
+              </ul>
+              <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
+            </div>
+            <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
+              <AiTwotoneApi className="h-10 w-10 text-slate-700" />
+              <h3 className="text-xl tracking-tighter leading-6 font-bold text-slate-700">
+                API Development
+              </h3>
 
-            <ul className="text-slate-500">
-              <li className="text-[12px] ">
-               Experience in creating well-documented, versioned REST APIs
-              </li>
-              <li className="text-[12px]">
-                Comprehensive API documentation using Swagger OpenAPI
-              </li>
-              <li className="text-[12px]">
-                Thorough API testing using Postman
-              </li>
-            </ul>
-            <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
-          </div>
-          <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
-            <BiSolidQuoteAltLeft className="h-10 w-10 text-slate-700" />
-            <h3 className="text-xl font-bold text-slate-700 tracking-tighter leading-6">
-              Technical Writing
-            </h3>
-            <ul className="text-slate-500">
-              <li className="text-[12px] ">
-                Proficiency in JS, TS, Reactjs, Next, Nodejs, and Expressjs
-              </li>
-              <li className="text-[12px]">
-                Expertise in modern frontend technologies like TailwindCSS and
-                state management with Zustand
-              </li>
-              <li className="text-[12px]">
-                Experience with both SQL(PostgreSQL) and NoSQL(MongoDB)
-                Databases
-              </li>
-              <li className="text-[12px]">
-                Strong problem solving skills and a deep understanding of Data
-                structures and algorithms
-              </li>
-            </ul>
-            <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
-          </div>
-        </section>
+              <ul className="text-slate-500">
+                <li className="text-[12px] ">
+                  Experience in creating well-documented, versioned REST APIs
+                </li>
+                <li className="text-[12px]">
+                  Comprehensive API documentation using Swagger OpenAPI
+                </li>
+                <li className="text-[12px]">
+                  Thorough API testing using Postman
+                </li>
+              </ul>
+              <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
+            </div>
+            <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
+              <BiSolidQuoteAltLeft className="h-10 w-10 text-slate-700" />
+              <h3 className="text-xl font-bold text-slate-700 tracking-tighter leading-6">
+                Technical Writing
+              </h3>
+              <ul className="text-slate-500">
+                <li className="text-[12px] ">
+                  Proficiency in JS, TS, Reactjs, Next, Nodejs, and Expressjs
+                </li>
+                <li className="text-[12px]">
+                  Expertise in modern frontend technologies like TailwindCSS and
+                  state management with Zustand
+                </li>
+                <li className="text-[12px]">
+                  Experience with both SQL(PostgreSQL) and NoSQL(MongoDB)
+                  Databases
+                </li>
+                <li className="text-[12px]">
+                  Strong problem solving skills and a deep understanding of Data
+                  structures and algorithms
+                </li>
+              </ul>
+              <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
+            </div>
+          </section>
         </div>
 
         <h1 className="text-[36px] mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
