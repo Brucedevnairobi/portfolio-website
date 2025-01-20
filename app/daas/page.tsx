@@ -24,8 +24,10 @@ const page = () => {
             <br />
             With a strong focus on client-side web development and a knack for creating efficient modern user-centric websites, 
             Here is what I bring to the table:
-            {/*Schedule an introductory call to see how I can help you.*/}
           </p>
+          <div className="">
+
+          </div>
           <Image
             src="/assets/images/daas.png"
             width={441}
