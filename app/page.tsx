@@ -180,21 +180,21 @@ export default function Home() {
               </h3>
               <ul className="text-slate-500">
                 <li className="text-[12px] ">
-                  Proficiency in JS, TS, Reactjs, Next, Nodejs, and Expressjs
+                  Proficiency in JS, TS, Reactjs, and Next
                 </li>
                 <li className="text-[12px]">
-                  Expertise in modern CSS technologies like TailwindCSS, MUI,
+                  Expert in modern CSS tools like TailwindCSS, MUI,
                   ShadCN
                 </li>
                 <li className="text-[12px]">
-                  Experience with SQL(PostgreSQL) & NoSQL(MongoDB) databases
+                  SQL(PostgreSQL) & NoSQL(MongoDB) databases
                 </li>
                 <li className="text-[12px]">
-                  Problem solving skills & deep gist of Algorithms and Data
+                  Deep gist of Algorithms and Data
                   structures
                 </li>
                 <li className="text-[12px]">
-                  Performance optimization; via lazy loading and code splitting
+                  Performance optimization; lazy loading, code splitting
                 </li>
               </ul>
               <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
