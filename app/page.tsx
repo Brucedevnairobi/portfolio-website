@@ -19,6 +19,7 @@ import { ArrowRight } from "lucide-react";
 import { AiOutlineTool } from "react-icons/ai";
 import { AiTwotoneApi } from "react-icons/ai";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
+import { SiReactquery } from "react-icons/si";
 
 export default function Home() {
   return (
@@ -29,15 +30,15 @@ export default function Home() {
       <div className=" pt-4 flex flex-col md:flex-row md:justify-between">
         <main className="mx-12 md:mt-20">
           <h1 className="text-slate-500">
-            <span className="leading-12 tracking-tighter text-[16px] pt-4 text-slate-500">
+            <span className="leading-6 tracking-tighter text-[16px] text-slate-500">
               Hire a
             </span>{" "}
             <br />
-            <span className="text-3xl md:text-6xl tracking-tighter font-bold text-slate-700">
+            <span className="text-[26px] tracking-tighter font-bold text-slate-700">
               Software Craftsman
             </span>
           </h1>
-          <p className="leading-12 tracking-tighter text-[16px] pt-4 text-slate-500 md:w-1/2">
+          <p className="leading-12 tracking-tighter text-[16px] text-slate-500 md:w-1/2">
             Hi, I`m Bruce Simiyu, a web frontend engineer living in Nairobi,
             Kenya. <br />
             Strategic, multi-disciplinary, creative with a strong belief in
@@ -64,7 +65,7 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="flex flex-col md:translate-y-52 items-center mt-10">
+        <div className="flex flex-col md:translate-y-52 mx-auto mt-10">
           <Image
             src="/assets/images/profile.jpg"
             width={180}
@@ -75,7 +76,7 @@ export default function Home() {
           <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter md:mr-16">
             Bruce Simiyu
           </h1>
-          <p className="mx-auto text-xs flex text-slate-500 pb-2 leading-6 tracking-tighter md:mr-18">
+          <p className="mx-auto text-xs flex text-slate-500 pb-2 leading-6 tracking-tighter md:mr-10">
             Frontend Developer | Technical Writer
           </p>
 
@@ -106,25 +107,25 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="h-screen mt-48">
-        <h1 className=" tracking-tighter text-[18px] text-center pt-4 pb-2 text-slate-700">
+      <div className="h-screen mt-16">
+        <h1 className=" tracking-tighter text-[18px] text-center md:pt-28 pb-2 text-slate-700">
           About me
         </h1>
-        <h1 className="text-[28px] font-light text-slate-700 text-center mt-[-16px] leading-12 tracking-tighter">
+        <h1 className="text-[24px] font-light text-slate-700 text-center mt-[-16px] leading-12 tracking-tighter">
           The man behind the code
         </h1>
         <div className="h-[2px] w-[60px] bg-slate-700 mx-auto"></div>
-        <div className="h-[1px] w-[98px] mt-[5px] bg-slate-700 mx-auto"></div>
+        <div className="h-[1px] w-[98px] mt-[6px] bg-slate-700 mx-auto"></div>
         <div className=" relative flex flex-col md:flex-row">
           <Image
             src="/assets/images/grok2.jpg"
             width={240}
-            height={320}
+            height={240}
             alt="Profile Picture"
             className="rounded-md shadow-lg md:float-left md:ml-16 mx-auto mt-12"
           />
-          <div className="flex flex-col md:w-1/2 absolute md:ml-[480px] ">
-            <h1 className="text-[36px] font-extrabold text-slate-700">
+          <div className="mx-12 flex flex-col md:w-1/2 justify-center md:mx-auto">
+            <h1 className="text-[36px] font-bold text-slate-700">
               Bruce Simiyu
             </h1>
             <p className="text-[16px] italic text-slate-500 mt-[-12px] ">
@@ -153,6 +154,7 @@ export default function Home() {
               <SiNextdotjs className="text-slate-500 w-10 h-10" />
               <SiTypescript className="text-slate-500 w-10 h-10" />
               <FaReact className="text-slate-500 w-10 h-10" />
+              <SiReactquery className="text-slate-500 w-10 h-10" />
               <SiJest className="text-slate-500 w-10 h-10" />
               <SiTailwindcss className="text-slate-500 w-10 h-10" />
               <SiRedux className="text-slate-500 w-10 h-10" />
@@ -160,7 +162,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <h1 className=" tracking-tighter text-[18px] text-center pt-4 pb-2 text-slate-700">
+      <div className="mt-80 md:mt-24">
+      <h1 className=" tracking-tighter text-[18px] text-center pt-14 md:pt-4 text-slate-700">
         Services
       </h1>
       <h1 className="text-[28px] font-light text-slate-700 text-center mt-[-16px] leading-12 tracking-tighter">
@@ -170,63 +173,58 @@ export default function Home() {
       <div className="h-[1px] w-[98px] mt-[5px] bg-slate-700 mx-auto"></div>
       <div className=" relative flex flex-col md:flex-col pt-4">
         <section className="mx-12 gap-2 items-center flex-col md:flex-row flex">
-          <div className="border-[1px] border-slate-900 hover:cursor-pointer rounded-2xl p-4 mb-4 shadow-lg mx-auto">
+          <div className="w-full md:w-1/3 border-[1px] border-slate-900 hover:cursor-pointer rounded-sm p-2 mb-4 shadow-lg mx-auto">
             <AiOutlineTool className="h-10 w-10 text-slate-700" />
             <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
               Frontend Development
             </h3>
-            <ul>
+            <ul className="text-slate-500">
               <li className="text-[12px] ">
-                Proficiency in JavaScript, TypeScript, Reactjs, Next, Nodejs,
+                Proficiency in JS, TS, Reactjs, Next, Nodejs,
                 and Expressjs
               </li>
               <li className="text-[12px]">
-                Expertise in modern frontend technologies like TailwindCSS and
-                state management with Zustand
+                Expertise in modern CSS technologies like TailwindCSS, MUI, ShadCN
               </li>
               <li className="text-[12px]">
-                Experience with both SQL(PostgreSQL) and NoSQL(MongoDB)
-                Databases
+                Experience with SQL(PostgreSQL) & NoSQL(MongoDB)
+                databases
               </li>
               <li className="text-[12px]">
-                Strong problem solving skills and a deep understanding of Data
-                structures and algorithms
+                Problem solving skills & deep gist of Algorithms and Data
+                structures
+              </li>
+              <li className="text-[12px]">
+                Performance optimization; via lazy loading and code splitting
               </li>
             </ul>
             <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
           </div>
-          <div className="border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto mb-4">
+          <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
             <AiTwotoneApi className="h-10 w-10 text-slate-700" />
             <h3 className="text-xl tracking-tighter leading-6 font-bold text-slate-700">
               API Development
             </h3>
 
-            <ul>
+            <ul className="text-slate-500">
               <li className="text-[12px] ">
-                Proficiency in JavaScript, TypeScript, Reactjs, Next, Nodejs,
-                and Expressjs
+               Experience in creating well-documented, versioned REST APIs
               </li>
               <li className="text-[12px]">
-                Expertise in modern frontend technologies like TailwindCSS and
-                state management with Zustand
+                Comprehensive API documentation using Swagger OpenAPI
               </li>
               <li className="text-[12px]">
-                Experience with both SQL(PostgreSQL) and NoSQL(MongoDB)
-                Databases
-              </li>
-              <li className="text-[12px]">
-                Strong problem solving skills and a deep understanding of Data
-                structures and algorithms
+                Thorough API testing using Postman
               </li>
             </ul>
             <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
           </div>
-          <div className=" border-[1px] hover:cursor-pointer border-slate-900 rounded-xl p-4 shadow-lg mx-auto mb-4">
+          <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
             <BiSolidQuoteAltLeft className="h-10 w-10 text-slate-700" />
             <h3 className="text-xl font-bold text-slate-700 tracking-tighter leading-6">
               Technical Writing
             </h3>
-            <ul>
+            <ul className="text-slate-500">
               <li className="text-[12px] ">
                 Proficiency in JS, TS, Reactjs, Next, Nodejs, and Expressjs
               </li>
@@ -246,6 +244,7 @@ export default function Home() {
             <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
           </div>
         </section>
+        </div>
 
         <h1 className="text-[36px] mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
           Latest <span className="font-bold">Projects</span>
