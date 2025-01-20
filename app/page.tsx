@@ -183,18 +183,16 @@ export default function Home() {
                   Proficiency in JS, TS, Reactjs, and Next
                 </li>
                 <li className="text-[12px]">
-                  Expert in modern CSS tools like TailwindCSS, MUI,
-                  ShadCN
+                  Expert in modern CSS tools like MUI, ShadCN
                 </li>
                 <li className="text-[12px]">
                   SQL(PostgreSQL) & NoSQL(MongoDB) databases
                 </li>
                 <li className="text-[12px]">
-                  Deep gist of Algorithms and Data
-                  structures
+                  Deep gist of Algorithms and Data structures
                 </li>
                 <li className="text-[12px]">
-                  Performance optimization; lazy loading, code splitting
+                  Lazy loading, code splitting for performance
                 </li>
               </ul>
               <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
@@ -207,10 +205,10 @@ export default function Home() {
 
               <ul className="text-slate-500">
                 <li className="text-[12px] ">
-                  Experience in creating well-documented, versioned REST APIs
+                  Creating well-documented, versioned REST APIs
                 </li>
                 <li className="text-[12px]">
-                  Comprehensive API documentation using Swagger OpenAPI
+                  API documentation using Swagger OpenAPI
                 </li>
                 <li className="text-[12px]">
                   Thorough API testing using Postman
@@ -225,19 +223,19 @@ export default function Home() {
               </h3>
               <ul className="text-slate-500">
                 <li className="text-[12px] ">
-                  Proficiency in JS, TS, Reactjs, Next, Nodejs, and Expressjs
+                  Proficiency in JS, TS, Reactjs, and Next
                 </li>
                 <li className="text-[12px]">
-                  Expertise in modern frontend technologies like TailwindCSS and
-                  state management with Zustand
+                  Expert in modern CSS tools like MUI, ShadCN
                 </li>
                 <li className="text-[12px]">
-                  Experience with both SQL(PostgreSQL) and NoSQL(MongoDB)
-                  Databases
+                  SQL(PostgreSQL) & NoSQL(MongoDB) databases
                 </li>
                 <li className="text-[12px]">
-                  Strong problem solving skills and a deep understanding of Data
-                  structures and algorithms
+                  Deep gist of Algorithms and Data structures
+                </li>
+                <li className="text-[12px]">
+                  Lazy loading, code splitting for performance
                 </li>
               </ul>
               <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
