@@ -20,6 +20,8 @@ import { AiOutlineTool } from "react-icons/ai";
 import { AiTwotoneApi } from "react-icons/ai";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { SiReactquery } from "react-icons/si";
+import { TfiLink } from "react-icons/tfi";
+import { DiGithubBadge } from "react-icons/di";
 
 export default function Home() {
   return (
@@ -179,7 +181,7 @@ export default function Home() {
                 Frontend Development
               </h3>
               <ul className="text-slate-500">
-                <li className="text-[12px] ">
+                <li className="text-[12px]">
                   Proficiency in JS, TS, Reactjs, and Next
                 </li>
                 <li className="text-[12px]">
@@ -263,17 +265,23 @@ export default function Home() {
                 className="rounded-xl w-auto h-auto"
               />
             </div>
-            <div className="flex justify-end space-x-6 mb-4">
-              <div className=" space-x-2 mx-right mt-4">
-                <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
-                  Next
-                </button>
-                <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
-                  ShadCN
-                </button>
-                <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs leading-3 tracking-tighter">
-                  Tailwind
-                </button>
+            <div className="flex flex-col mb-4">
+              <div className="flex flex-row space-x-16 mt-4">
+                <div className="flex flex-row items-center gap-2">
+                  <TfiLink className="text-slate-500 flex h-6 w-6" />
+                  <DiGithubBadge className="text-slate-500 flex h-8 w-8" />
+                </div>
+                <section className="space-x-2">
+                  <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
+                    Next
+                  </button>
+                  <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
+                    ShadCN
+                  </button>
+                  <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs leading-3 tracking-tighter">
+                    Tailwind
+                  </button>
+                </section>
               </div>
             </div>
             <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
@@ -295,7 +303,11 @@ export default function Home() {
                 className="rounded-xl"
               />
             </div>
-            <div className="flex justify-end space-x-6 mb-4">
+            <div className="flex flex-row space-x-16 mb-4">
+              <div className="mt-4 flex flex-row items-center gap-2">
+                <TfiLink className="text-slate-500 flex h-6 w-6" />
+                <DiGithubBadge className="text-slate-500 flex h-8 w-8" />
+              </div>
               <div className="md:flex md:items-end space-x-2 mt-4">
                 <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
                   React(ts)
@@ -329,8 +341,15 @@ export default function Home() {
                 className="rounded-xl"
               />
             </div>
-            <div className="flex justify-end space-x-6 mb-4">
-              <div className="flex flex-end space-x-2 mt-4">
+            <div className="flex flex-row space-x-16 mb-4">
+              <div className="flex flex-row items-center gap-2">
+                <TfiLink className="mt-4 text-slate-500 flex h-6 w-6" />
+                <DiGithubBadge
+                  href="https://github.com/Brucedevnairobi/Nikestore"
+                  className="mt-4 text-slate-500 flex h-8 w-8"
+                />
+              </div>
+              <div className="flex float-right space-x-2 mt-4">
                 <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                   React
                 </button>
@@ -361,7 +380,11 @@ export default function Home() {
                 className="rounded-xl"
               />
             </div>
-            <div className="flex justify-end space-x-6 mb-4">
+            <div className="flex gap-16 mb-4">
+              <div className="mt-4 flex flex-row items-center gap-2">
+                <TfiLink className="text-slate-500 flex h-6 w-6" />
+                <DiGithubBadge className="text-slate-500 flex h-8 w-8" />
+              </div>
               <div className="flex flex-end space-x-2 mt-4">
                 <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                   Next

@@ -1,6 +1,8 @@
 import React from "react";
 import NavBar from "@/components/NavBar";
 import Image from "next/image";
+import { BiSolidQuoteAltLeft } from "react-icons/bi";
+import { AiOutlineTool, AiTwotoneApi } from "react-icons/ai";
 const page = () => {
   return (
     <div>
@@ -22,12 +24,10 @@ const page = () => {
             <br />I have implemented MVPs in several startups, gaining extensive
             experience in planning, leading, and executing product development.
             <br />
-            With a strong focus on client-side web development and a knack for creating efficient modern user-centric websites, 
-            Here is what I bring to the table:
+            With a strong focus on client-side web development and a knack for
+            creating efficient modern user-centric websites, Here is what I
+            bring to the table:
           </p>
-          <div className="">
-
-          </div>
           <Image
             src="/assets/images/daas.png"
             width={441}
@@ -36,6 +36,75 @@ const page = () => {
             className=" rounded-xl"
           />
         </div>
+        <section className="mx-12 gap-2 items-center flex-col md:flex-row flex pt-8">
+          <div className="w-full md:w-1/3 border-[1px] border-slate-900 hover:cursor-pointer rounded-sm p-2 mb-4 shadow-lg mx-auto">
+            <AiOutlineTool className="h-10 w-10 text-slate-700" />
+            <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
+              Frontend Development
+            </h3>
+            <ul className="text-slate-500">
+              <li className="text-[12px] ">
+                Proficiency in JS, TS, Reactjs, and Next
+              </li>
+              <li className="text-[12px]">
+                Expert in modern CSS tools like MUI, ShadCN
+              </li>
+              <li className="text-[12px]">
+                SQL(PostgreSQL) & NoSQL(MongoDB) databases
+              </li>
+              <li className="text-[12px]">
+                Deep gist of Algorithms and Data structures
+              </li>
+              <li className="text-[12px]">
+                Lazy loading, code splitting for performance
+              </li>
+            </ul>
+            <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
+          </div>
+          <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
+            <AiTwotoneApi className="h-10 w-10 text-slate-700" />
+            <h3 className="text-xl tracking-tighter leading-6 font-bold text-slate-700">
+              API Development
+            </h3>
+
+            <ul className="text-slate-500">
+              <li className="text-[12px] ">
+                Creating well-documented, versioned REST APIs
+              </li>
+              <li className="text-[12px]">
+                API documentation using Swagger OpenAPI
+              </li>
+              <li className="text-[12px]">
+                Thorough API testing using Postman
+              </li>
+            </ul>
+            <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
+          </div>
+          <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
+            <BiSolidQuoteAltLeft className="h-10 w-10 text-slate-700" />
+            <h3 className="text-xl font-bold text-slate-700 tracking-tighter leading-6">
+              Technical Writing
+            </h3>
+            <ul className="text-slate-500">
+              <li className="text-[12px] ">
+                Proficiency in JS, TS, Reactjs, and Next
+              </li>
+              <li className="text-[12px]">
+                Expert in modern CSS tools like MUI, ShadCN
+              </li>
+              <li className="text-[12px]">
+                SQL(PostgreSQL) & NoSQL(MongoDB) databases
+              </li>
+              <li className="text-[12px]">
+                Deep gist of Algorithms and Data structures
+              </li>
+              <li className="text-[12px]">
+                Lazy loading, code splitting for performance
+              </li>
+            </ul>
+            <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
+          </div>
+        </section>
       </div>
     </div>
   );
