@@ -192,7 +192,7 @@ export default function Home() {
                   Deep gist of Algorithms and Data structures
                 </li>
                 <li className="text-[12px]">
-                  Lazy loading, code splitting for performance
+                Performance tuning with Lazy loading, code splitting
                 </li>
                 <li className="text-[12px]">Web security; XSS, CORS, CSRF</li>
                 <li className="text-[12px]">
