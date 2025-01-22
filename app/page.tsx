@@ -100,7 +100,7 @@ export default function Home() {
             </Link>
           </div>
           <a
-            href="https://bit.ly/4hjWRpG"
+            href="https://"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm flex justify-center items-center mt-2 gap-2 md:mr-16 text-slate-400 leading-6 tracking-tighter"
