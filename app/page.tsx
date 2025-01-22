@@ -100,7 +100,7 @@ export default function Home() {
             </Link>
           </div>
           <a
-            href="https://docs.google.com/document/d/1tpEiOyXql9S2oIHFQ7l8WEmi-CD6kyVbExHy_fPWwqg/view?usp=sharing"
+            href="https://bit.ly/4hjWRpG"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs flex justify-center items-center mt-2 gap-2 md:mr-16 text-slate-400 leading-6 tracking-tighter"
@@ -188,13 +188,19 @@ export default function Home() {
                   Expert in modern CSS tools like MUI, ShadCN
                 </li>
                 <li className="text-[12px]">
-                  SQL(PostgreSQL) & NoSQL(MongoDB) databases
+                  State management using Redux
                 </li>
                 <li className="text-[12px]">
                   Deep gist of Algorithms and Data structures
                 </li>
                 <li className="text-[12px]">
                   Lazy loading, code splitting for performance
+                </li>
+                <li className="text-[12px]">
+                  Web security; XSS, CORS, CSRF
+                </li>
+                <li className="text-[12px]">
+                  Unit, integration, and end-to-end testing
                 </li>
               </ul>
               <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
@@ -214,6 +220,9 @@ export default function Home() {
                 </li>
                 <li className="text-[12px]">
                   Thorough API testing using Postman
+                </li>
+                <li className="text-[12px]">
+                  API Integration using (REST, GraphQL, WebSockets)
                 </li>
               </ul>
               <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
