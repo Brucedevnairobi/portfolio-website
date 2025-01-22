@@ -59,7 +59,7 @@ export default function Home() {
                 <Link
                   target="blank"
                   href="https://calendly.com/bruce14simiyu"
-                  className="text-sm tracking-tighter text-slate-200 font-bold"
+                  className="text-sm tracking-tighter text-slate-200 font-medium flex text-center"
                 >
                   Book a Call
                 </Link>
@@ -78,11 +78,11 @@ export default function Home() {
           <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter md:mr-16">
             Bruce Simiyu
           </h1>
-          <p className="mx-auto text-xs flex text-slate-500 pb-2 leading-6 tracking-tighter md:mr-10">
+          <p className="mx-auto text-[12px] flex text-slate-500 pb-2 leading-6 tracking-tighter md:mr-10">
             Frontend Developer | Technical Writer
           </p>
 
-          <div className="flex items-center justify-center space-x-2 pt-2 text-slate-600 leading-6 tracking-tighter md:mr-16">
+          <div className="flex items-center justify-center space-x-8 pt-2 text-slate-600 leading-6 tracking-tighter md:mr-16">
             <Link
               href="https://www.linkedin.com/in/o-bruce-simiyu-2947a0240/"
               target="blank"
@@ -103,7 +103,7 @@ export default function Home() {
             href="https://bit.ly/4hjWRpG"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs flex justify-center items-center mt-2 gap-2 md:mr-16 text-slate-400 leading-6 tracking-tighter"
+            className="text-sm flex justify-center items-center mt-2 gap-2 md:mr-16 text-slate-400 leading-6 tracking-tighter"
           >
             Download CV
           </a>
@@ -124,7 +124,7 @@ export default function Home() {
             width={240}
             height={240}
             alt="Profile Picture"
-            className="rounded-md shadow-lg md:float-left md:ml-16 mx-auto mt-12"
+            className="max-w-[240px] object-cover rounded-md shadow-lg md:float-left md:ml-16 mx-auto mt-12"
           />
           <div className="mx-12 flex flex-col md:w-1/2 justify-center md:mx-auto">
             <h1 className="text-[36px] font-bold text-slate-700">
@@ -165,7 +165,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-80 md:mt-24">
-        <h1 className=" tracking-tighter text-[18px] text-center pt-14 md:pt-4 text-slate-700">
+        <h1 className=" tracking-tighter text-[18px] text-center pt-28 md:pt-4 text-slate-700">
           Services
         </h1>
         <h1 className="text-[28px] font-light text-slate-700 text-center mt-[-16px] leading-12 tracking-tighter">
@@ -187,18 +187,14 @@ export default function Home() {
                 <li className="text-[12px]">
                   Expert in modern CSS tools like MUI, ShadCN
                 </li>
-                <li className="text-[12px]">
-                  State management using Redux
-                </li>
+                <li className="text-[12px]">State management using Redux</li>
                 <li className="text-[12px]">
                   Deep gist of Algorithms and Data structures
                 </li>
                 <li className="text-[12px]">
                   Lazy loading, code splitting for performance
                 </li>
-                <li className="text-[12px]">
-                  Web security; XSS, CORS, CSRF
-                </li>
+                <li className="text-[12px]">Web security; XSS, CORS, CSRF</li>
                 <li className="text-[12px]">
                   Unit, integration, and end-to-end testing
                 </li>
@@ -233,20 +229,17 @@ export default function Home() {
                 Technical Writing
               </h3>
               <ul className="text-slate-500 mt-4">
-                <li className="text-[12px] ">
-                  Proficiency in JS, TS, Reactjs, and Next
+                <li className="text-[12px]">
+                  Developing interactive documentation with embedded code
+                  samples, API playgrounds, and real-time API response examples
                 </li>
                 <li className="text-[12px]">
-                  Expert in modern CSS tools like MUI, ShadCN
+                  Document new features while ensuring technical accuracy and
+                  completeness
                 </li>
                 <li className="text-[12px]">
-                  SQL(PostgreSQL) & NoSQL(MongoDB) databases
-                </li>
-                <li className="text-[12px]">
-                  Deep gist of Algorithms and Data structures
-                </li>
-                <li className="text-[12px]">
-                  Lazy loading, code splitting for performance
+                  Creating localization-ready documentation that supports global
+                  developer communities
                 </li>
               </ul>
               <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
@@ -280,7 +273,7 @@ export default function Home() {
                   <TfiLink className="text-slate-500 flex h-6 w-6" />
                   <DiGithubBadge className="text-slate-500 flex h-8 w-8" />
                 </div>
-                <section className="space-x-2">
+                <section className="space-x-2 mx-12">
                   <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
                     Next
                   </button>
@@ -350,7 +343,7 @@ export default function Home() {
                 className="rounded-xl"
               />
             </div>
-            <div className="flex flex-row space-x-16 mb-4">
+            <div className="flex flex-row space-x-6 mb-4">
               <div className="flex flex-row items-center gap-2">
                 <TfiLink className="mt-4 text-slate-500 flex h-6 w-6" />
                 <DiGithubBadge
@@ -358,7 +351,7 @@ export default function Home() {
                   className="mt-4 text-slate-500 flex h-8 w-8"
                 />
               </div>
-              <div className="flex float-right space-x-2 mt-4">
+              <div className="flex flex-row space-x-2 mt-4">
                 <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
                   React
                 </button>
