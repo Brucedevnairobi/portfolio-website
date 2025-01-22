@@ -175,12 +175,12 @@ export default function Home() {
         <div className="h-[1px] w-[98px] mt-[5px] bg-slate-700 mx-auto"></div>
         <div className=" relative flex flex-col md:flex-col pt-4">
           <section className="mx-12 gap-2 items-center flex-col md:flex-row flex">
-            <div className="w-full md:w-1/3 border-[1px] border-slate-900 hover:cursor-pointer rounded-sm p-2 mb-4 shadow-lg mx-auto">
+            <div className="w-full md:w-1/3 hover:border-[1px] border-slate-900 hover:rounded-md p-2 mb-4 shadow-lg mx-auto">
               <AiOutlineTool className="h-10 w-10 text-slate-700" />
               <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
                 Frontend Development
               </h3>
-              <ul className="text-slate-500">
+              <ul className="text-slate-500 mt-4">
                 <li className="text-[12px]">
                   Proficiency in JS, TS, Reactjs, and Next
                 </li>
@@ -199,18 +199,18 @@ export default function Home() {
               </ul>
               <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
             </div>
-            <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
+            <div className="w-full md:w-1/3 hover:border-[1px] border-slate-900 hover:rounded-md p-2 shadow-lg mx-auto mb-4">
               <AiTwotoneApi className="h-10 w-10 text-slate-700" />
               <h3 className="text-xl tracking-tighter leading-6 font-bold text-slate-700">
                 API Development
               </h3>
 
-              <ul className="text-slate-500">
+              <ul className="text-slate-500 mt-4">
                 <li className="text-[12px] ">
                   Creating well-documented, versioned REST APIs
                 </li>
                 <li className="text-[12px]">
-                  API documentation using Swagger OpenAPI
+                  API documentation using Swagger, OpenAPI
                 </li>
                 <li className="text-[12px]">
                   Thorough API testing using Postman
@@ -218,12 +218,12 @@ export default function Home() {
               </ul>
               <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
             </div>
-            <div className="w-full md:w-1/3 border-[1px] hover:cursor-pointer border-slate-900 rounded-sm p-2 shadow-lg mx-auto mb-4">
+            <div className="w-full md:w-1/3 hover:border-[1px] border-slate-900 hover:rounded-md p-2 shadow-lg mx-auto mb-4">
               <BiSolidQuoteAltLeft className="h-10 w-10 text-slate-700" />
               <h3 className="text-xl font-bold text-slate-700 tracking-tighter leading-6">
                 Technical Writing
               </h3>
-              <ul className="text-slate-500">
+              <ul className="text-slate-500 mt-4">
                 <li className="text-[12px] ">
                   Proficiency in JS, TS, Reactjs, and Next
                 </li>
@@ -415,7 +415,7 @@ export default function Home() {
             href="https://javascript.works-hub.com/learn/creating-a-react-project-using-vite-pre-bundler-55de3"
             target="blank"
           >
-            <div className="cursor-pointer rounded-xl shadow-lg">
+            <div className="rounded-xl shadow-lg">
               <Image
                 src="/assets/images/crypto-trading.png"
                 width={548}
@@ -441,7 +441,10 @@ export default function Home() {
               For frontend tooling, Vite can be said to have made
               create-react-app obsolete. Hot Module Replacement and performance
               make it an asset for the front end. To explore more about Vite
-              check out this article
+              check out this article.{" "}
+              <span className="text-orange-600 float-right cursor-pointer">
+                Read more...
+              </span>
             </h6>
           </Link>
           <React.Fragment>
@@ -449,7 +452,7 @@ export default function Home() {
               href="https://dev.to/brucedevnairobi/build-deploy-and-host-your-vite-app-on-github-pages-with-github-actions-cicd-2g51"
               target="blank"
             >
-              <div className="cursor-pointer rounded-xl shadow-lg">
+              <div className=" rounded-xl shadow-lg">
                 <Image
                   src="/assets/images/aws-amplify.png"
                   width={548}
@@ -473,7 +476,10 @@ export default function Home() {
               </div>
               <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
                 Build, Deploy, and Host Your Vite App on GitHub Pages with
-                GitHub Actions CI/CD
+                GitHub Actions CI/CD.{" "}
+                <span className="cursor-pointer text-orange-600 float-right">
+                  Read more...
+                </span>
               </h6>
             </Link>
           </React.Fragment>
@@ -481,7 +487,7 @@ export default function Home() {
             href="https://dev.to/brucedevnairobi/beginners-guide-to-tailwind-css-and-the-just-in-time-engine-18jf"
             target="blank"
           >
-            <div className="cursor-pointer rounded-xl shadow-lg">
+            <div className="rounded-xl shadow-lg">
               <Image
                 src="/assets/images/invest.png"
                 width={548}
@@ -504,7 +510,10 @@ export default function Home() {
               </div>
             </div>
             <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
-              Beginner`s Guide to TailwindCSS and the Just-In-Time Engine
+              Beginner`s Guide to TailwindCSS and the Just-In-Time Engine.{" "}
+              <span className="cursor-pointer text-orange-600 float-right">
+                Read more...
+              </span>
             </h6>
           </Link>
         </section>
