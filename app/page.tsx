@@ -79,7 +79,7 @@ export default function Home() {
             Bruce Simiyu
           </h1>
           <p className="mx-auto text-[12px] flex text-slate-500 pb-2 leading-6 tracking-tighter md:mr-10">
-            Frontend Developer | Technical Writer
+            Frontend Developer
           </p>
 
           <div className="flex items-center justify-center space-x-8 pt-2 text-slate-600 leading-6 tracking-tighter md:mr-16">
@@ -134,23 +134,24 @@ export default function Home() {
               Software Engineer
             </p>
             <p className="text-slate-500 mt-2 leading-6 tracking-tighter">
-              Hello! You can call me <span className="font-bold">Bruce.</span> I
-              am a Software Engineer who works with the React ecosystem and
-              writes to teach people how to rebuild and redefine fundamental
-              concepts through mental models.
+              I am a frontend developer interested in film making, content
+              creation, and vlogging based in Nairobi. I enjoy visualizing
+              problems and writing code to solve them.
               <br />
-              <br /> I was born in 2000 in Nairobi, Kenya. When the pandemic hit
-              5 years ago, my university was closed for a few months, and I
-              started to learn web development, especially front-end
-              development, out of curiosity and boredom.
+              <br /> I came across computer kind of stuff at home and have spent
+              years as a gamer, cinematographer, editor, and writer. Taken
+              programming more seriously after joining college, working as a
+              freelance developer, while pursuing a diploma in Applied
+              Statistics objectively to utilize modern statistical techniques in
+              software development.
               <br />
-              <br /> As part of my learning journey, I started writing blog
-              articles as a way to solidify my knowledge. When I posted them
-              here as documentation, I discovered that many people found them
-              valuable. Hopefully, it can help you too.
+              <br /> I arrange symbols in a way that provoke certain responses
+              in computers, computer programs, and occasionally humans. Building
+              and experimenting in a little lab - and now writing tech blogs
               <br />
-              <br /> My experience spans from a variety of technologies, here
-              are my current favorite stack:
+              <br /> Apart from this, I am always enhancing my core skill. You
+              will always find me tinkering with new tech, currently learning
+              Three.js and SVG micro-animations using Framer.
             </p>
             <section className="flex flex-row gap-x-4 pt-4">
               <SiNextdotjs className="text-slate-500 w-10 h-10" />
@@ -247,8 +248,8 @@ export default function Home() {
           </section>
         </div>
 
-        <h1 className="text-[36px] mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
-          Latest <span className="font-bold">Projects</span>
+        <h1 className="text-[26px] mt-32 text-slate-700 mx-12 leading-6 tracking-tighter">
+          Featured <span className="font-bold">Projects</span>
         </h1>
         <p className="mx-12 mt-2 text-md text-slate-500 leading-6 tracking-tighter">
           I`m always working on something. Here are some of my latest projects.
@@ -406,7 +407,7 @@ export default function Home() {
             </h6>
           </Link>
         </section>
-        <h1 className="text-[36px] pt-10 text-slate-700 pl-16 tracking-tighter leading-6">
+        <h1 className="text-[26px] pt-10 text-slate-700 pl-16 tracking-tighter leading-6">
           Featured <span className="font-bold">Articles</span>
         </h1>
         <p className="mx-16 mt-2 text-md text-slate-500 leading-6 tracking-tighter">
