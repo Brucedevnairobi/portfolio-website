@@ -6,7 +6,7 @@ import NavBar from "@/components/NavBar";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { SiTypescript } from "react-icons/si";
+import { SiGo, SiTypescript } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiPostgresql } from "react-icons/si";
@@ -41,7 +41,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="leading-12 tracking-tighter text-[16px] text-slate-500 md:w-1/2">
-            Hi, I`m Bruce Simiyu, a web frontend engineer living in Nairobi,
+            Hi, I`m Bruce Simiyu, a software engineer living in Nairobi,
             Kenya. <br />
             Strategic, multi-disciplinary, creative with a strong belief in
             highly crafted digital experiences, an eye for innovation, and an
@@ -78,8 +78,8 @@ export default function Home() {
           <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter md:mr-16">
             Bruce Simiyu
           </h1>
-          <p className="mx-auto text-[12px] flex text-slate-500 pb-2 leading-6 tracking-tighter md:mr-10">
-            Frontend Developer
+          <p className="text-center bg-red-800 text-[12px] flex text-slate-500 pb-2 leading-6 tracking-tighter md:mr-16">
+            Software Engineer
           </p>
 
           <div className="flex items-center justify-center space-x-8 pt-2 text-slate-600 leading-6 tracking-tighter md:mr-16">
@@ -134,24 +134,26 @@ export default function Home() {
               Software Engineer
             </p>
             <p className="text-slate-500 mt-2 leading-6 tracking-tighter">
-              I am a frontend developer interested in film making, content
-              creation, and vlogging based in Nairobi. I enjoy visualizing
-              problems and writing code to solve them.
+              I am a skilled software engineer with added expertise in AWS cloud,
+               and UI/UX based in Nairobi. I enjoy
+              visualizing problems and writing code to solve them.
               <br />
-              <br /> I came across computer kind of stuff at home and have spent
-              years as a gamer, cinematographer, editor, and writer. Taken
+              <br />Taken
               programming more seriously after joining college, working as a
-              freelance developer, while pursuing a diploma in Applied
+              freelance technical writer, while pursuing Applied
               Statistics objectively to utilize modern statistical techniques in
               software development.
               <br />
               <br /> I arrange symbols in a way that provoke certain responses
-              in computers, computer programs, and occasionally humans. Building
-              and experimenting in a little lab - and now writing tech blogs
+              in computers, computer programs, and occasionally humans. I'm best 
+              conversant with JavaScript, TypeScript, React, and Next for frontend, Go,
+               C# and the .NET framework for backend. I also leverage AWS for cloud deployment.
+                Building
+              and experimenting in a little lab - and still writing tech blogs
               <br />
               <br /> Apart from this, I am always enhancing my core skill. You
-              will always find me tinkering with new tech, currently learning
-              Three.js and SVG micro-animations using Framer.
+              will always find me tinkering with new tech, currently expanding my capabilities in
+              C# and the .NET framework.
             </p>
             <section className="flex flex-row gap-x-4 pt-4">
               <SiNextdotjs className="text-slate-500 w-10 h-10" />

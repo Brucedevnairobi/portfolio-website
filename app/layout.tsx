@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/context/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bruce Simiyu | Frontend developer",
+  title: "Bruce Simiyu | Making the web great again",
   description:
     "A web developer who crafts high-quality websites with user-friendly interfaces that are responsive and maintain them. I offer affordable solutions based on web requirements and your budget. Let's boost your vision across the internet",
 };
