@@ -43,8 +43,7 @@ export default function Home() {
           <p className="leading-12 tracking-tighter text-[16px] text-slate-500 md:w-1/2">
             Hi, I`m Bruce Simiyu, a software engineer living in Nairobi,
             Kenya. <br />
-            Strategic, multi-disciplinary, creative with a strong belief in
-            highly crafted digital experiences, an eye for innovation, and an
+            Strategic, multi-disciplinary, creative with a strong belief in polished software experiences, an eye for innovation, and an
             obsession for pixel perfection.
             <br />
             With over 3 years of experience, I am quite passionate about
@@ -134,9 +133,8 @@ export default function Home() {
               Software Engineer
             </p>
             <p className="text-slate-500 mt-2 leading-6 tracking-tighter">
-              I am a skilled software engineer with added expertise in AWS cloud,
-               and UI/UX based in Nairobi. I enjoy
-              visualizing problems and writing code to solve them.
+            Building polished software experiences with magical, unique and delightful details, for the web.
+             I aim to create beautiful and functional software that is both intuitive and enjoyable for users.
               <br />
               <br />Taken
               programming more seriously after joining college, working as a
@@ -146,8 +144,8 @@ export default function Home() {
               <br />
               <br /> I arrange symbols in a way that provoke certain responses
               in computers, computer programs, and occasionally humans. I'm best 
-              conversant with JavaScript, TypeScript, React, and Next for frontend, Go,
-               C# and the .NET framework for backend. I also leverage AWS for cloud deployment.
+              conversant with JavaScript, TypeScript, React, and Next for frontend, messing alot with Go,
+              and learning C# and the .NET framework for backend. I also leverage AWS for cloud deployment.
                 Building
               and experimenting in a little lab - and still writing tech blogs
               <br />
@@ -167,7 +165,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-80 md:mt-24">
+      <div className="mt-80 md:mt-26">
         <h1 className=" tracking-tighter text-[18px] text-center pt-28 md:pt-4 text-slate-700">
           Services
         </h1>
