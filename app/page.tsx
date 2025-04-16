@@ -143,8 +143,8 @@ export default function Home() {
               software development.
               <br />
               <br /> I arrange symbols in a way that provoke certain responses
-              in computers, computer programs, and occasionally humans. I'm best 
-              conversant with JavaScript, TypeScript, React, and Next for frontend, messing alot with Go,
+              in computers, computer programs, and occasionally humans. I`&apos;`m best 
+              conversant with JavaScript, TypeScript, React, and Next for frontend, messing a lot with Go,
               and learning C# and the .NET framework for backend. I also leverage AWS for cloud deployment.
                 Building
               and experimenting in a little lab - and still writing tech blogs
