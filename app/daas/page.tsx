@@ -44,19 +44,19 @@ const page = () => {
             </h3>
             <ul className="text-slate-500">
               <li className="text-[12px] ">
-                Proficiency in JS, TS, Reactjs, and Next
+               - Proficiency in JS, TS, Reactjs, and Next
               </li>
               <li className="text-[12px]">
-                Expert in modern CSS tools like MUI, ShadCN
+               - Expert in modern CSS tools like MUI, ShadCN
               </li>
               <li className="text-[12px]">
-                SQL(PostgreSQL) & NoSQL(MongoDB) databases
+              -  SQL(PostgreSQL) & NoSQL(MongoDB) databases
               </li>
               <li className="text-[12px]">
-                Deep gist of Algorithms and Data structures
+             -   Deep gist of Algorithms and Data structures
               </li>
               <li className="text-[12px]">
-                Lazy loading, code splitting for performance
+              -  Lazy loading, code splitting for performance concerns
               </li>
             </ul>
             <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
@@ -69,13 +69,13 @@ const page = () => {
 
             <ul className="text-slate-500">
               <li className="text-[12px] ">
-                Creating well-documented, versioned REST APIs
+              -  Creating well-documented, versioned REST APIs
               </li>
               <li className="text-[12px]">
-                API documentation using Swagger OpenAPI
+               - API documentation using Swagger OpenAPI
               </li>
               <li className="text-[12px]">
-                Thorough API testing using Postman
+               - Thorough API testing using Postman
               </li>
             </ul>
             <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
@@ -87,19 +87,19 @@ const page = () => {
             </h3>
             <ul className="text-slate-500">
               <li className="text-[12px] ">
-                Proficiency in JS, TS, Reactjs, and Next
+               - Proficiency in JS, TS, Reactjs, and Next
               </li>
               <li className="text-[12px]">
-                Expert in modern CSS tools like MUI, ShadCN
+               - Expert in modern CSS tools like MUI, ShadCN
               </li>
               <li className="text-[12px]">
-                SQL(PostgreSQL) & NoSQL(MongoDB) databases
+               - SQL(PostgreSQL) & NoSQL(MongoDB) databases
               </li>
               <li className="text-[12px]">
-                Deep gist of Algorithms and Data structures
+               - Deep gist of Algorithms and Data structures
               </li>
               <li className="text-[12px]">
-                Lazy loading, code splitting for performance
+               - Lazy loading, code splitting for performance
               </li>
             </ul>
             <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>

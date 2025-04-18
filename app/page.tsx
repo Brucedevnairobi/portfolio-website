@@ -41,9 +41,10 @@ export default function Home() {
             </span>
           </h1>
           <p className="leading-12 tracking-tighter text-[16px] text-slate-500 md:w-1/2">
-            Hi, I`m Bruce Simiyu, a software engineer living in Nairobi,
-            Kenya. <br />
-            Strategic, multi-disciplinary, creative with a strong belief in polished software experiences, an eye for innovation, and an
+            Hi, I`m Bruce Simiyu, a software engineer living in Nairobi, Kenya.{" "}
+            <br />
+            Strategic, multi-disciplinary, creative with a strong belief in
+            polished software experiences, an eye for innovation, and an
             obsession for pixel perfection.
             <br />
             With over 3 years of experience, I am quite passionate about
@@ -77,7 +78,7 @@ export default function Home() {
           <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter md:mr-16">
             Bruce Simiyu
           </h1>
-          <p className="text-center bg-red-800 text-[12px] flex text-slate-500 pb-2 leading-6 tracking-tighter md:mr-16">
+          <p className="flex justify-center text-[12px] text-slate-500 pb-2 leading-6 tracking-tighter md:mr-16">
             Software Engineer
           </p>
 
@@ -99,7 +100,7 @@ export default function Home() {
             </Link>
           </div>
           <a
-            href="https://"
+            href="https://docs.google.com/document/d/1tpEiOyXql9S2oIHFQ7l8WEmi-CD6kyVbExHy_fPWwqg/edit?pli=1&tab=t.0"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm flex justify-center items-center mt-2 gap-2 md:mr-16 text-slate-400 leading-6 tracking-tighter"
@@ -133,25 +134,28 @@ export default function Home() {
               Software Engineer
             </p>
             <p className="text-slate-500 mt-2 leading-6 tracking-tighter">
-            Building polished software experiences with magical, unique and delightful details, for the web.
-             I aim to create beautiful and functional software that is both intuitive and enjoyable for users.
+              Building polished software experiences with magical, unique and
+              delightful details, for the web. I aim to create beautiful and
+              functional software that is both intuitive and enjoyable for
+              users.
               <br />
-              <br />Taken
-              programming more seriously after joining college, working as a
-              freelance technical writer, while pursuing Applied
-              Statistics objectively to utilize modern statistical techniques in
-              software development.
+              <br />
+              Taken programming more seriously after joining college, working as
+              a freelance technical writer, while pursuing Applied Statistics
+              objectively to utilize modern statistical techniques in software
+              development.
               <br />
               <br /> I arrange symbols in a way that provoke certain responses
-              in computers, computer programs, and occasionally humans. I`&apos;`m best 
-              conversant with JavaScript, TypeScript, React, and Next for frontend, messing a lot with Go,
-              and learning C# and the .NET framework for backend. I also leverage AWS for cloud deployment.
-                Building
-              and experimenting in a little lab - and still writing tech blogs
+              in computers, computer programs, and occasionally humans.
+              I`&apos;`m best conversant with JavaScript, TypeScript, React, and
+              Next for frontend, messing a lot with Go, and learning C# and the
+              .NET framework for backend. I also leverage AWS for cloud
+              deployment. Building and experimenting in a little lab - and still
+              writing tech blogs
               <br />
               <br /> Apart from this, I am always enhancing my core skill. You
-              will always find me tinkering with new tech, currently expanding my capabilities in
-              C# and the .NET framework.
+              will always find me tinkering with new tech, currently expanding
+              my capabilities in C# and the .NET framework.
             </p>
             <section className="flex flex-row gap-x-4 pt-4">
               <SiNextdotjs className="text-slate-500 w-10 h-10" />
@@ -182,22 +186,27 @@ export default function Home() {
                 Frontend Development
               </h3>
               <ul className="text-slate-500 mt-4">
-                <li className="text-[12px]">
-                  Proficiency in JS, TS, Reactjs, and Next
+                <li className="text-[14px]">
+                  - Proficiency in JS, TS, Reactjs, and Next
                 </li>
-                <li className="text-[12px]">
-                  Expert in modern CSS tools like MUI, ShadCN
+                <li className="text-[14px]">
+                  - Expert in modern CSS tools like MUI, ShadCN
                 </li>
-                <li className="text-[12px]">State management using Redux</li>
-                <li className="text-[12px]">
-                  Deep gist of Algorithms and Data structures
+                <li className="text-[14px]">
+                  - State management using Redux, Jotai
                 </li>
-                <li className="text-[12px]">
-                  Performance tuning with Lazy loading, code splitting
+                <li className="text-[14px]">
+                  - Deep gist of Algorithms and Data structures
                 </li>
-                <li className="text-[12px]">Web security; XSS, CORS, CSRF</li>
-                <li className="text-[12px]">
-                  Unit, integration, and end-to-end testing
+                <li className="text-[14px]">
+                  - Performance tuning with Lazy loading, code splitting
+                </li>
+                <li className="text-[14px]">
+                  {" "}
+                  - Web security; XSS, CORS, CSRF
+                </li>
+                <li className="text-[14px]">
+                  - Unit, integration, and end-to-end testing
                 </li>
               </ul>
               <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
@@ -209,17 +218,17 @@ export default function Home() {
               </h3>
 
               <ul className="text-slate-500 mt-4">
-                <li className="text-[12px] ">
-                  Creating well-documented, versioned REST APIs
+                <li className="text-[14px] ">
+                  - Creating well-documented, versioned REST APIs
                 </li>
-                <li className="text-[12px]">
-                  API documentation using Swagger, OpenAPI
+                <li className="text-[14px]">
+                  - API documentation using Swagger, OpenAPI
                 </li>
-                <li className="text-[12px]">
-                  Thorough API testing using Postman
+                <li className="text-[14px]">
+                  - Thorough API testing using Postman, cURL
                 </li>
-                <li className="text-[12px]">
-                  API Integration using (REST, GraphQL, WebSockets)
+                <li className="text-[14px]">
+                  - API Integration using (REST, GraphQL, WebSockets)
                 </li>
               </ul>
               <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
@@ -230,17 +239,17 @@ export default function Home() {
                 Technical Writing
               </h3>
               <ul className="text-slate-500 mt-4">
-                <li className="text-[12px]">
-                  Developing interactive documentation with embedded code
+                <li className="text-[14px]">
+                  - Developing interactive documentation with embedded code
                   samples, API playgrounds, and real-time API response examples
                 </li>
-                <li className="text-[12px]">
-                  Document new features while ensuring technical accuracy and
+                <li className="text-[14px]">
+                  - Document new features while ensuring technical accuracy and
                   completeness
                 </li>
-                <li className="text-[12px]">
-                  Creating localization-ready documentation that supports global
-                  developer communities
+                <li className="text-[14px]">
+                  - Creating localization-ready documentation that supports
+                  global developer communities
                 </li>
               </ul>
               <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
@@ -254,7 +263,7 @@ export default function Home() {
         <p className="mx-12 mt-2 text-md text-slate-500 leading-6 tracking-tighter">
           I`m always working on something. Here are some of my latest projects.
         </p>
-        <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16  mb-20">
+        <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16">
           <Link
             href="https://github.com/Brucedevnairobi/stack_overflow_with_ai"
             target="blank"
@@ -407,13 +416,16 @@ export default function Home() {
             </h6>
           </Link>
         </section>
-        <h1 className="text-[26px] pt-10 text-slate-700 pl-16 tracking-tighter leading-6">
+        <button className="text-orange-900 float-right mx-12">
+          See More
+        </button>
+        <h1 className="text-[26px] mt-20 text-slate-700 pl-16 tracking-tighter leading-6">
           Featured <span className="font-bold">Articles</span>
         </h1>
         <p className="mx-16 mt-2 text-md text-slate-500 leading-6 tracking-tighter">
           Learning and writing tech staff. Interact with my blog
         </p>
-        <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16  mb-20">
+        <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16">
           <Link
             href="https://javascript.works-hub.com/learn/creating-a-react-project-using-vite-pre-bundler-55de3"
             target="blank"
@@ -520,6 +532,10 @@ export default function Home() {
             </h6>
           </Link>
         </section>
+        <button className="text-orange-900 float-right mb-20 mx-12">
+          {" "}
+          Visit Blog{" "}
+        </button>
       </div>
     </div>
   );
