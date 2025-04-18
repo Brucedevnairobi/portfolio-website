@@ -416,7 +416,7 @@ export default function Home() {
             </h6>
           </Link>
         </section>
-        <button className="text-slate-900 border-blue-500 border-[1px] px-4 rounded-md text-sm py-2 float-right mx-12">
+        <button className="text-slate-900 border-blue-500 border-[1px] px-4 rounded-2xl text-sm py-2 float-right mx-12">
           See More
         </button>
         <h1 className="text-[26px] mt-20 text-slate-700 pl-16 tracking-tighter leading-6">
@@ -532,7 +532,7 @@ export default function Home() {
             </h6>
           </Link>
         </section>
-        <button className="text-slate-900 border-blue-500 border-[1px] px-4 rounded-md text-sm py-2 float-right mx-12 mb-12">Visit Blog
+        <button className="text-slate-900 border-blue-500 border-[1px] px-4 rounded-2xl text-sm py-2 float-right mx-12 mb-12">Visit Blog
         </button>
       </div>
     </div>
