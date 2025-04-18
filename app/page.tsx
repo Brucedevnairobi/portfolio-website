@@ -41,7 +41,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="leading-12 tracking-tighter text-[16px] text-slate-500 md:w-1/2">
-            Hi, I`m Bruce Simiyu, a software engineer living in Nairobi, Kenya.{" "}
+            Hi, I&apos;m Bruce Simiyu, a software engineer living in Nairobi, Kenya.{" "}
             <br />
             Strategic, multi-disciplinary, creative with a strong belief in
             polished software experiences, an eye for innovation, and an
@@ -147,7 +147,7 @@ export default function Home() {
               <br />
               <br /> I arrange symbols in a way that provoke certain responses
               in computers, computer programs, and occasionally humans.
-              I`&apos;`m best conversant with JavaScript, TypeScript, React, and
+              I&apos;m best conversant with JavaScript, TypeScript, React, and
               Next for frontend, messing a lot with Go, and learning C# and the
               .NET framework for backend. I also leverage AWS for cloud
               deployment. Building and experimenting in a little lab - and still
