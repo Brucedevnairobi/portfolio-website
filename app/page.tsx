@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -47,7 +48,7 @@ export default function Home() {
             polished software experiences, an eye for innovation, and an
             obsession for pixel perfection.
             <br />
-            With over 3 years of experience, I am quite passionate about
+            With over 3 years of experience, I take joy in 
             application performance, code quality, and scalable architectural
             solutions.
             <br />
@@ -55,11 +56,11 @@ export default function Home() {
           </p>
           <section className="flex flex-row  gap-4 mt-8">
             <section className="flex flex-col">
-              <button className="bg-slate-900 rounded-3xl p-2 px-4">
+              <button className="bg-slate-300 rounded-3xl p-2 px-4">
                 <Link
                   target="blank"
                   href="https://calendly.com/bruce14simiyu"
-                  className="text-sm tracking-tighter text-slate-200 font-medium flex text-center"
+                  className="text-sm tracking-tighter text-slate-700 flex text-center"
                 >
                   Book a Call
                 </Link>
@@ -113,11 +114,11 @@ export default function Home() {
         <h1 className=" tracking-tighter text-[18px] text-center md:pt-28 pb-2 text-slate-700">
           About me
         </h1>
-        <h1 className="text-[24px] font-light text-slate-700 text-center mt-[-16px] leading-12 tracking-tighter">
+        <h1 className="text-[24px] font-light text-slate-500 text-center mt-[-16px] leading-12 tracking-tighter">
           The man behind the code
         </h1>
         <div className="h-[2px] w-[60px] bg-slate-700 mx-auto"></div>
-        <div className="h-[1px] w-[98px] mt-[6px] bg-slate-700 mx-auto"></div>
+        <div className="h-[1px] w-[98px] mt-[6px] bg-slate-400 mx-auto"></div>
         <div className=" relative flex flex-col md:flex-row">
           <Image
             src="/assets/images/grok2.jpg"
@@ -130,9 +131,6 @@ export default function Home() {
             <h1 className="text-[36px] font-bold text-slate-700">
               Bruce Simiyu
             </h1>
-            <p className="text-[16px] italic text-slate-500 mt-[-12px] ">
-              Software Engineer
-            </p>
             <p className="text-slate-500 mt-2 leading-6 tracking-tighter">
               Building polished software experiences with magical, unique and
               delightful details, for the web. I aim to create beautiful and
@@ -169,19 +167,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-80 md:mt-26">
+      <div className="mt-12 md:mt-32 ">
         <h1 className=" tracking-tighter text-[18px] text-center pt-28 md:pt-4 text-slate-700">
           Services
         </h1>
-        <h1 className="text-[28px] font-light text-slate-700 text-center mt-[-16px] leading-12 tracking-tighter">
+        <h1 className="text-[28px] font-light text-slate-400 text-center mt-[-16px] leading-12 tracking-tighter">
           what I bring to the table
         </h1>
         <div className="h-[2px] w-[60px] bg-slate-700 mx-auto"></div>
-        <div className="h-[1px] w-[98px] mt-[5px] bg-slate-700 mx-auto"></div>
+        <div className="h-[1px] w-[98px] mt-[5px] bg-slate-400 mx-auto"></div>
         <div className=" relative flex flex-col md:flex-col pt-4">
           <section className="mx-12 gap-2 items-center flex-col md:flex-row flex">
-            <div className="w-full md:w-1/3 hover:border-[1px] border-slate-900 hover:rounded-md p-2 mb-4 shadow-lg mx-auto">
-              <AiOutlineTool className="h-10 w-10 text-slate-700" />
+            <div className="w-full md:w-1/3 hover:border-[1px] border-slate-300 hover:rounded-md p-2 mb-4 shadow-lg mx-auto">
+              <AiOutlineTool className="h-10 w-10 text-slate-300" />
               <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
                 Frontend Development
               </h3>
@@ -211,8 +209,8 @@ export default function Home() {
               </ul>
               <p className="text-sm text-slate-600 leading-6 tracking-tighter"></p>
             </div>
-            <div className="w-full md:w-1/3 hover:border-[1px] border-slate-900 hover:rounded-md p-2 shadow-lg mx-auto mb-4">
-              <AiTwotoneApi className="h-10 w-10 text-slate-700" />
+            <div className="w-full md:w-1/3 hover:border-[1px] border-slate-300 hover:rounded-md p-2 shadow-lg mx-auto mb-4">
+              <AiTwotoneApi className="h-10 w-10 text-slate-300" />
               <h3 className="text-xl tracking-tighter leading-6 font-bold text-slate-700">
                 API Development
               </h3>
@@ -233,8 +231,8 @@ export default function Home() {
               </ul>
               <p className="text-sm tracking-tighter leading-6 text-slate-600"></p>
             </div>
-            <div className="w-full md:w-1/3 hover:border-[1px] border-slate-900 hover:rounded-md p-2 shadow-lg mx-auto mb-4">
-              <BiSolidQuoteAltLeft className="h-10 w-10 text-slate-700" />
+            <div className="w-full md:w-1/3 hover:border-[1px] border-slate-300 hover:rounded-md p-2 shadow-lg mx-auto mb-4">
+              <BiSolidQuoteAltLeft className="h-10 w-10 text-slate-300" />
               <h3 className="text-xl font-bold text-slate-700 tracking-tighter leading-6">
                 Technical Writing
               </h3>
@@ -416,9 +414,8 @@ export default function Home() {
             </h6>
           </Link>
         </section>
-        <button className="text-slate-900 border-blue-500 border-[1px] px-4 rounded-2xl text-sm py-2 float-right mx-12">
-          See More
-        </button>
+        <Link href="/projects"> <span className="text-slate-900 dark:text-slate-300 border-blue-500 border-[1px] px-4 rounded-2xl text-sm py-2 float-right mx-12 mb-12">See More...</span>
+        </Link> 
         <h1 className="text-[26px] mt-20 text-slate-700 pl-16 tracking-tighter leading-6">
           Featured <span className="font-bold">Articles</span>
         </h1>
@@ -532,9 +529,10 @@ export default function Home() {
             </h6>
           </Link>
         </section>
-        <button className="text-slate-900 border-blue-500 border-[1px] px-4 rounded-2xl text-sm py-2 float-right mx-12 mb-12">Visit Blog
-        </button>
+        <Link href="/blog"> <span className="text-slate-900 dark:text-slate-300 border-blue-500 border-[1px] px-4 rounded-2xl text-sm py-2 float-right mx-12 mb-12">Visit Blog</span>
+        </Link> 
       </div>
     </div>
+    
   );
 }
