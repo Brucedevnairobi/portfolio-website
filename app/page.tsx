@@ -101,7 +101,7 @@ export default function Home() {
             </Link>
           </div>
           <a
-            href="https://docs.google.com/document/d/1tpEiOyXql9S2oIHFQ7l8WEmi-CD6kyVbExHy_fPWwqg/edit?pli=1&tab=t.0"
+            href="https://bit.ly/4kB8eeu"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm flex justify-center items-center mt-2 gap-2 md:mr-16 text-slate-400 leading-6 tracking-tighter"
