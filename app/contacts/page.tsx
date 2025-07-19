@@ -26,7 +26,7 @@ const page = () => {
       <ul className="italic text-black dark:text-slate-400 mx-12 leading-6 tracking-tighter mt-16">
         <li><span className="text-slate-600 font-medium ">Email:</span> bruce14simiyu@gmail.com</li>
         <li><span className="text-slate-600 font-medium ">Phone:</span> (+254)736-368-320</li>
-        <li><span className="text-slate-600 font-medium ">Address:</span> 663-00219 Nairobi, Kenya</li>
+        <li><span className="text-slate-600 font-medium ">Address:</span> 663-00219 Riverside Drive Nairobi, Kenya</li>
       </ul>
       <div className="flex items-center justify-center space-x-16 text-[24px] pt-24 text-slate-600 leading-6 tracking-tighter">
             <Link
