@@ -10,11 +10,11 @@ const page = () => {
         <NavBar />
       </nav>
       <div className="pl-16 h-screen">
-        <h1 className="text-3xl md:text-6xl tracking-tighter leading-12 font-bold  pt-12 text-slate-500">
+        <h1 className="text-3xl md:text-6xl tracking-tighter leading-6 font-bold  pt-12 text-slate-500">
           Services
         </h1>
         <div className="flex flex-col md:flex-row pr-16">
-          <p className=" leading-8 tracking-tighter text-gray-500  my-4 md:w-[800px]">
+          <p className=" leading-6 tracking-tighter text-gray-500  my-4 md:w-[800px]">
             I`ve been working as a software engineer for over 3 years. My
             hands-on experience spans various aspects, including software
             architecture, software development, UI/UX design, and product
@@ -36,9 +36,9 @@ const page = () => {
             className=" rounded-xl"
           />
         </div>
-        <section className="mx-12 gap-2 items-center flex-col md:flex-row flex pt-8">
+        <section className="mx-12 gap-2 items-center flex-col md:flex-row flex pt-8 pb-20">
           <div className="w-full md:w-1/3 border-[1px] border-slate-900 hover:cursor-pointer rounded-sm p-2 mb-4 shadow-lg mx-auto">
-            <AiOutlineTool className="h-10 w-10 text-slate-700" />
+            <AiOutlineTool className="h-10 w-10 text-slate-700 " />
             <h3 className="text-xl font-bold text-slate-700 leading-6 tracking-tighter">
               Frontend Development
             </h3>

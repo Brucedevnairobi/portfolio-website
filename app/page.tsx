@@ -138,7 +138,7 @@ export default function Home() {
               users.
               <br />
               <br />
-              Taken programming more seriously after joining college, working as
+              Taken programming more seriously after joining campus, working as
               a freelance technical writer, while pursuing Applied Statistics
               objectively to utilize modern statistical techniques in software
               development.
