@@ -278,8 +278,8 @@ export default function Home() {
             <div className="flex flex-col mb-4">
               <div className="flex flex-row space-x-16 mt-4">
                 <div className="flex flex-row items-center gap-2">
-                  <TfiLink className="text-slate-500 flex h-6 w-6" />
-                  <DiGithubBadge className="text-slate-500 flex h-8 w-8" />
+                  <TfiLink className="hidden md:flex text-slate-500 flex h-6 w-6" />
+                  <DiGithubBadge className="hidden md:flex text-slate-500 flex h-8 w-8" />
                 </div>
                 <section className="space-x-2 mx-12">
                   <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
@@ -315,8 +315,8 @@ export default function Home() {
             </div>
             <div className="flex flex-row space-x-16 mb-4">
               <div className="mt-4 flex flex-row items-center gap-2">
-                <TfiLink className="text-slate-500 flex h-6 w-6" />
-                <DiGithubBadge className="text-slate-500 flex h-8 w-8" />
+                <TfiLink className="hidden md:flex text-slate-500 flex h-6 w-6" />
+                <DiGithubBadge className="hidden md:flex text-slate-500 flex h-8 w-8" />
               </div>
               <div className="md:flex md:items-end space-x-2 mt-4">
                 <button className="bg-slate-300 rounded-3xl p-2 text-xs leading-3 tracking-tighter">
@@ -353,10 +353,10 @@ export default function Home() {
             </div>
             <div className="flex flex-row space-x-6 mb-4">
               <div className="flex flex-row items-center gap-2">
-                <TfiLink className="mt-4 text-slate-500 flex h-6 w-6" />
+                <TfiLink className="hidden md:flex mt-4 text-slate-500 flex h-6 w-6" />
                 <DiGithubBadge
                   href="https://github.com/Brucedevnairobi/Nikestore"
-                  className="mt-4 text-slate-500 flex h-8 w-8"
+                  className="hidden md:flex mt-4 text-slate-500 flex h-8 w-8"
                 />
               </div>
               <div className="flex flex-row space-x-2 mt-4">
@@ -392,8 +392,8 @@ export default function Home() {
             </div>
             <div className="flex gap-16 mb-4">
               <div className="mt-4 flex flex-row items-center gap-2">
-                <TfiLink className="text-slate-500 flex h-6 w-6" />
-                <DiGithubBadge className="text-slate-500 flex h-8 w-8" />
+                <TfiLink className="hidden md:flex mt-4 text-slate-500 flex h-6 w-6" />
+                <DiGithubBadge className="hidden md:flex mt-4 text-slate-500 flex h-8 w-8" />
               </div>
               <div className="flex flex-end space-x-2 mt-4">
                 <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
