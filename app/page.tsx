@@ -392,8 +392,8 @@ export default function Home() {
             </div>
             <div className="flex gap-16 mb-4">
               <div className="mt-4 flex flex-row items-center gap-2">
-                <TfiLink className="hidden md:flex mt-4 text-slate-500 flex h-6 w-6" />
-                <DiGithubBadge className="hidden md:flex mt-4 text-slate-500 flex h-8 w-8" />
+                <TfiLink className="hidden md:flex text-slate-500 flex h-6 w-6" />
+                <DiGithubBadge className="hidden md:flex  text-slate-500 flex h-8 w-8" />
               </div>
               <div className="flex flex-end space-x-2 mt-4">
                 <button className="bg-slate-300 rounded-3xl p-2 px-4 text-xs leading-3 tracking-tighter">
