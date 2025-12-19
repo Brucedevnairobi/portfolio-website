@@ -3,9 +3,6 @@ import React from "react";
 import { NavLinks } from "@/constants";
 import Link from "next/link";
 import Theme from "./Theme";
-import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
-import Image from "next/image";
 import { Menu } from "lucide-react";
 import {
   Sheet,

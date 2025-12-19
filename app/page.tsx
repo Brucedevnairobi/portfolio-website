@@ -7,12 +7,9 @@ import NavBar from "@/components/NavBar";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { SiGo, SiTypescript } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { SiPostgresql } from "react-icons/si";
-import { SiPython } from "react-icons/si";
-import { FaAws } from "react-icons/fa6";
 import { SiJest } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
@@ -114,21 +111,17 @@ export default function Home() {
         <h1 className=" tracking-tighter text-[18px] text-center md:pt-28 pb-2 text-slate-700">
           About me
         </h1>
-        <h1 className="text-[24px] font-light text-slate-500 text-center mt-[-16px] leading-12 tracking-tighter">
-          The man behind the code
-        </h1>
-        <div className="h-[2px] w-[60px] bg-slate-700 mx-auto"></div>
-        <div className="h-[1px] w-[98px] mt-[6px] bg-slate-400 mx-auto"></div>
+        
         <div className=" relative flex flex-col md:flex-row">
           <Image
             src="/assets/images/grok2.jpg"
-            width={240}
-            height={240}
+            width={400}
+            height = {200}
             alt="Profile Picture"
             className="max-w-[240px] object-cover rounded-md shadow-lg md:float-left md:ml-16 mx-auto mt-12"
           />
           <div className="mx-12 flex flex-col md:w-1/2 justify-center md:mx-auto">
-            <h1 className="text-[36px] font-bold text-slate-700">
+            <h1 className="text-[26px] tracking-tighter font-bold text-slate-700">
               Bruce Simiyu
             </h1>
             <p className="text-slate-500 mt-2 leading-6 tracking-tighter">
@@ -171,11 +164,7 @@ export default function Home() {
         <h1 className=" tracking-tighter text-[18px] text-center pt-28 md:pt-4 text-slate-700">
           Services
         </h1>
-        <h1 className="text-[28px] font-light text-slate-400 text-center mt-[-16px] leading-12 tracking-tighter">
-          what I bring to the table
-        </h1>
-        <div className="h-[2px] w-[60px] bg-slate-700 mx-auto"></div>
-        <div className="h-[1px] w-[98px] mt-[5px] bg-slate-400 mx-auto"></div>
+        
         <div className=" relative flex flex-col md:flex-col pt-4">
           <section className="mx-12 gap-2 items-center flex-col md:flex-row flex">
             <div className="w-full md:w-1/3 hover:border-[1px] border-slate-300 hover:rounded-md p-2 mb-4 shadow-lg mx-auto">
