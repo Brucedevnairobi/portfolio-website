@@ -39,16 +39,16 @@ export default function Home() {
             </span>
           </h1>
           <p className="leading-12 tracking-tighter text-[16px] text-slate-500 md:w-1/2">
-            Hi, I&apos;m Bruce Simiyu, a software engineer living in Nairobi, Kenya.{" "}
+            Hi, I&apos;m Bruce Simiyu, a Nairobi-based software engineer on a mission to
+             build thoughtful, high-performance web experiences that solve real
+              problems and delight users.<br />
+            With over three years of hands-on experience,
+             I blend strategic thinking and craftsmanship to create software that’s not<br />
+              just functional — but meaningful.<br />
+               I’m driven by a belief that great software should feel intuitive, beautiful, and a joy to use.{" "}
             <br />
-            Strategic, multi-disciplinary, creative with a strong belief in
-            polished software experiences, an eye for innovation, and an
-            obsession for pixel perfection.
-            <br />
-            With over 3 years of experience, I take joy in 
-            application performance, code quality, and scalable architectural
-            solutions.
-            <br />
+            
+    
             <br /> Forever chasing that elusive zero-bug state.
           </p>
           <section className="flex flex-row  gap-4 mt-8">
@@ -125,38 +125,21 @@ export default function Home() {
               Bruce Simiyu
             </h1>
             <p className="text-slate-500 mt-2 leading-6 tracking-tighter">
-              Building polished software experiences with magical, unique and
-              delightful details, for the web. I aim to create beautiful and
-              functional software that is both intuitive and enjoyable for
-              users.
+              I’m a software engineer with a passion for turning complex challenges into elegant digital solutions.
+               What started as curiosity in code during university grew into a deep love for crafting polished
+                web experiences — from sleek user interfaces to scalable backend services.
               <br />
               <br />
-              Taken programming more seriously after joining campus, working as
-              a freelance technical writer, while pursuing Applied Statistics
-              objectively to utilize modern statistical techniques in software
-              development.
+              My journey hasn’t been just about learning frameworks and languages — it’s about figuring out how technology 
+              can elevate human experiences. Whether I’m optimizing application performance or refining a UI animation,
+               my focus is on clarity, craftsmanship, and pure usability.
               <br />
-              <br /> I arrange symbols in a way that provoke certain responses
-              in computers, computer programs, and occasionally humans.
-              I&apos;m best conversant with JavaScript, TypeScript, React, and
-              Next for frontend, messing a lot with Go, and learning C# and the
-              .NET framework for backend. I also leverage AWS for cloud
-              deployment. Building and experimenting in a little lab - and still
+              <br /> I&lsquo;m most comfortable working with JavaScript/TypeScript, React, and Next.js,
+               and I enjoy exploring backend systems with Go and the .NET ecosystem.
+              To accelerate my workflow, I integrate AI tooling like Cursor and GitHub Copilot for intelligent code completion, v0 by Vercel for rapid UI prototyping, and AI agents to streamline research, code generation, documentation, and testing. Building and experimenting in a little lab - and still
               writing tech blogs
               <br />
-              <br /> Apart from this, I am always enhancing my core skill. You
-              will always find me tinkering with new tech, currently expanding
-              my capabilities in C# and the .NET framework.
             </p>
-            <section className="flex flex-row gap-x-4 pt-4">
-              <SiNextdotjs className="text-slate-500 w-10 h-10" />
-              <SiTypescript className="text-slate-500 w-10 h-10" />
-              <FaReact className="text-slate-500 w-10 h-10" />
-              <SiReactquery className="text-slate-500 w-10 h-10" />
-              <SiJest className="text-slate-500 w-10 h-10" />
-              <SiTailwindcss className="text-slate-500 w-10 h-10" />
-              <SiRedux className="text-slate-500 w-10 h-10" />
-            </section>
           </div>
         </div>
       </div>
