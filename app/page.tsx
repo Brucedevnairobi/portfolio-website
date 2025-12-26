@@ -136,7 +136,9 @@ export default function Home() {
               <br />
               <br /> I&lsquo;m most comfortable working with JavaScript/TypeScript, React, and Next.js,
                and I enjoy exploring backend systems with Go and the .NET ecosystem.
-              To accelerate my workflow, I integrate AI tooling like Cursor and GitHub Copilot for intelligent code completion, v0 by Vercel for rapid UI prototyping, and AI agents to streamline research, code generation, documentation, and testing. Building and experimenting in a little lab - and still
+              To accelerate my workflow, I integrate AI tooling like Cursor and GitHub Copilot for intelligent code completion,
+               v0 by Vercel for rapid UI prototyping, and AI agents to streamline research, code generation, documentation, and testing.<br />
+                Building and experimenting in a<span className="">little lab</span> - and still
               writing tech blogs
               <br />
             </p>
