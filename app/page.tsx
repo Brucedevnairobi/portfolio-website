@@ -57,22 +57,22 @@ export default function Home() {
             </section>
           </section>
         </main>
-        <div className="flex flex-col md:translate-y-52 mx-auto mt-10">
+        <div className="flex flex-col items-center md:mx-auto md:translate-y-40  mt-10 md:mr-16 ">
           <Image
             src="/assets/images/profile.jpg"
             width={180}
             height={180}
             alt="Profile Picture"
-            className="rounded-full shadow-lg md:float-right md:mr-16 mx-auto"
+            className="rounded-full shadow-lg mx-auto"
           />
-          <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter md:mr-16">
+          <h1 className="text-center text-sm font-bold pt-4 text-slate-700 leading-6 tracking-tighter">
             Bruce Simiyu
           </h1>
-          <p className="flex justify-center text-[12px] text-slate-500 pb-2 leading-6 tracking-tighter md:mr-16">
+          <p className="flex justify-center text-[12px] text-slate-500 pb-2 leading-6 tracking-tighter">
             Software Engineer
           </p>
 
-          <div className="flex items-center justify-center space-x-8 pt-2 text-slate-600 leading-6 tracking-tighter md:mr-16">
+          <div className="flex items-center justify-center space-x-8 pt-2 text-slate-600 leading-6 tracking-tighter">
             <Link
               href="https://www.linkedin.com/in/o-bruce-simiyu-2947a0240/"
               target="blank"
@@ -93,7 +93,7 @@ export default function Home() {
             href="https://docs.google.com/document/d/1_82TEnCwxIAjny-qdEe2vAF57oNdOKP3XMGBgk_HPMc/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm flex justify-center items-center mt-2 gap-2 md:mr-16 text-slate-400 leading-6 tracking-tighter"
+            className="text-sm flex justify-center items-center mt-2 gap-2 text-slate-400 leading-6 tracking-tighter"
           >
             Download CV
           </a>
@@ -137,7 +137,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-96 md:mt-32 ">
+      <div className="mt-32 md:mt-32 ">
         <h1 className=" tracking-tighter text-[18px] text-center pt-28 md:pt-4 text-slate-700">
           Services
         </h1>
