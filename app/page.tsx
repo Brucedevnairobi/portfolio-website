@@ -7,17 +7,9 @@ import NavBar from "@/components/NavBar";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { SiTypescript } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { SiJest } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiRedux } from "react-icons/si";
-import { ArrowRight } from "lucide-react";
 import { AiOutlineTool } from "react-icons/ai";
 import { AiTwotoneApi } from "react-icons/ai";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
-import { SiReactquery } from "react-icons/si";
 import { TfiLink } from "react-icons/tfi";
 import { DiGithubBadge } from "react-icons/di";
 
@@ -98,7 +90,7 @@ export default function Home() {
             </Link>
           </div>
           <a
-            href="https://bit.ly/4kB8eeu"
+            href="https://docs.google.com/document/d/1_82TEnCwxIAjny-qdEe2vAF57oNdOKP3XMGBgk_HPMc/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm flex justify-center items-center mt-2 gap-2 md:mr-16 text-slate-400 leading-6 tracking-tighter"
