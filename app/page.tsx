@@ -130,7 +130,7 @@ export default function Home() {
                and I enjoy exploring backend systems with Go and the .NET ecosystem.
               To accelerate my workflow, I integrate AI tooling like Cursor and GitHub Copilot for intelligent code completion,
                v0 by Vercel for rapid UI prototyping, and AI agents to streamline research, code generation, documentation, and testing.<br />
-                Building and experimenting in a<span className="">little lab</span> - and still
+                Building and experimenting in a <span className="">little lab</span> - and still
               writing tech blogs
               <br />
             </p>
