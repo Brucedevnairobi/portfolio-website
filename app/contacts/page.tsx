@@ -46,7 +46,7 @@ const page = () => {
         </div>
         <hr className="text-black dark:text-white mt-2 md:mt-8" />
         <h1 className="text-center text-xs italic text-slate-700 dark:text-slate-400 mt-2">Software and temples are much the same- first we build then we pray</h1>
-        <h1 className="text-center text-xs italic text-slate-700 dark:text-slate-400">@2025</h1>
+        <h1 className="text-center text-xs italic text-slate-700 dark:text-slate-400">@2026</h1>
     </div>
   );
 };
