@@ -90,7 +90,7 @@ export default function Home() {
             </Link>
           </div>
           <a
-            href="https://docs.google.com/document/d/1_82TEnCwxIAjny-qdEe2vAF57oNdOKP3XMGBgk_HPMc/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1_82TEnCwxIAjny-qdEe2vAF57oNdOKP3XMGBgk_HPMc/edit?tab=t.0"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm flex justify-center items-center mt-2 gap-2 text-slate-400 leading-6 tracking-tighter"
@@ -137,7 +137,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-32 md:mt-3  ">
+      <div className="pt-32 md:pt-4">
         <h1 className=" tracking-tighter text-[18px] text-center pt- md:pt-4 text-slate-700">
           Services
         </h1>
