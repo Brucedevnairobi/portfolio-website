@@ -138,7 +138,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-blue-900 max-h-screen">
-        <h1 className=" tracking-tighter text-[18px] text-center pt-10 md:pt-40 text-slate-700">
+        <h1 className=" tracking-tighter text-[18px] text-center pt-40 md:pt-10 text-slate-700">
           Services
         </h1>
         
