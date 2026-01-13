@@ -99,7 +99,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="max-h-screen mt-16 bg-red-400">
+      <div className="mt-16">
         <h1 className=" tracking-tighter text-[18px] text-center md:pt-28 pb-2 text-slate-700">
           About me
         </h1>
@@ -137,7 +137,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-blue-900 max-h-screen">
+      <div className="">
         <h1 className=" tracking-tighter text-[18px] text-center sm:pt-40 text-slate-700">
           Services
         </h1>
