@@ -137,12 +137,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="">
-        <h1 className=" tracking-tighter text-[18px] text-center sm:pt-40 text-slate-700">
+      <div className="mt-40">
+        <h1 className=" tracking-tighter text-[18px] text-center text-slate-700">
           Services
         </h1>
         
-        <div className=" relative flex flex-col md:flex-col pt-4">
+        <div className=" relative flex flex-col md:flex-col pt-8">
           <section className="mx-12 gap-2 items-center flex-col md:flex-row flex">
             <div className="w-full md:w-1/3 hover:border-[1px] border-slate-300 hover:rounded-md p-2 mb-4 shadow-lg mx-auto">
               <AiOutlineTool className="h-10 w-10 text-slate-300" />
