@@ -137,7 +137,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-40">
+      <div className="mt-16 md:mt-40">
         <h1 className=" tracking-tighter text-[18px] text-center text-slate-700">
           Services
         </h1>
