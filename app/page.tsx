@@ -130,7 +130,7 @@ export default function Home() {
                and I enjoy exploring backend systems with Go and the .NET ecosystem.
               To accelerate my workflow, I integrate AI tooling like Cursor and GitHub Copilot for intelligent code completion,
                v0 by Vercel for rapid UI prototyping, and AI agents to streamline research, code generation, documentation, and testing.<br />
-                Building and experimenting in a <span className="">little lab</span> - and still
+                Building <span className="underline"><a href="https://safeswapexchange.vercel.app" target="_blank">Safeswap</a></span>, experimenting in a <span className="">little lab</span> - and still
               writing tech blogs
               <br />
             </p>
@@ -229,6 +229,44 @@ export default function Home() {
         </p>
         <section className="mx-12 mt-8 gap-12 sm:grid grid-cols-2 md:grid-cols-3 md:gap-16">
           <Link
+            href="https://github.com/Brucedevnairobi/stack_overflow_with_ai"
+            target="blank"
+          >
+            <div className="cursor-pointer rounded-xl shadow-lg">
+              <Image
+                src="/assets/images/escrow.png"
+                width={548}
+                height={300}
+                alt="escrowimage"
+                className="rounded-xl w-auto h-auto"
+              />
+            </div>
+            <div className="flex flex-col mb-4">
+              <div className="flex flex-row space-x-16 mt-4">
+                <div className="flex flex-row items-center gap-2">
+                  <TfiLink className="hidden md:flex text-slate-500 flex h-6 w-6" />
+                  <DiGithubBadge className="hidden md:flex text-slate-500 flex h-8 w-8" />
+                </div>
+                <section className="space-x-2 mx-12">
+                  <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
+                    Next
+                  </button>
+                  <button className="bg-slate-300 rounded-3xl p-2 text-slate-900 text-xs leading-3 tracking-tighter">
+                    TypeScript
+                  </button>
+                  <button className="bg-slate-300 rounded-3xl text-slate-900 p-2 text-xs leading-3 tracking-tighter">
+                    Tailwind
+                  </button>
+                </section>
+              </div>
+            </div>
+            <h6 className="text-slate-500 leading-4 tracking-tighter text-xs mb-4 md:text-sm">
+              A secure, open-source escrow platform built with Next.js that enables safe peer-to-peer 
+              transactions with real-time payment processing, KYC verification, dispute resolution,
+               and comprehensive user protection.
+            </h6>
+          </Link>
+           <Link
             href="https://github.com/Brucedevnairobi/stack_overflow_with_ai"
             target="blank"
           >
